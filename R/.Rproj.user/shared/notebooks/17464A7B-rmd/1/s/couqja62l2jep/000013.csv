@@ -1,0 +1,8 @@
+"0",""
+"0",""
+"0","gompertz_df_m %>%"
+"0","  ggplot() +"
+"0","  geom_line(aes(x = time, y = cdf, col = legend)) +"
+"0","  geom_line(aes(x= time, y= gompertz_total)) +"
+"0","  theme_bw() +"
+"0","  labs(title = ""Male CDF of deaths by time using Total in play as denominator"")"

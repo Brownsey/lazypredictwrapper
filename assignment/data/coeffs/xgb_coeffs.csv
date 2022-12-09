@@ -1,0 +1,20 @@
+,name,coefficients
+18,categorical_low__Joint?_Y,0.0
+16,categorical_low__Smoker_Y,0.0
+10,categorical_low__Product_Decreasing accelerated,0.034115106
+0,numeric__Person1 Age,0.044140916
+15,categorical_low__Smoker_N,0.04474293
+1,numeric__Term,0.046302475
+7,categorical_low__Channel_Direct,0.047505464
+6,categorical_low__Channel_CTM,0.048014134
+12,categorical_low__Product_Level,0.04905935
+9,categorical_low__Product_Decreasing,0.049567364
+13,categorical_low__Product_Level accelerated,0.054183863
+11,categorical_low__Product_Decreasing with CI,0.05430442
+17,categorical_low__Joint?_N,0.05642858
+8,categorical_low__Channel_MSM,0.057036974
+14,categorical_low__Product_Level with CI,0.061899714
+5,numeric__ND (Months since last CCJ),0.07834408
+2,numeric__TotalPremium,0.07847066
+3,numeric__JF (Score),0.09360207
+4,numeric__EF (No. of people not same surname at current address),0.1022819

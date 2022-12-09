@@ -1,0 +1,4 @@
+"0","#Load the data data"
+"0","data = readxl::read_xlsx(""data/MockDataSet2.xlsx"")"
+"2","New names:"
+"0","head(data)"

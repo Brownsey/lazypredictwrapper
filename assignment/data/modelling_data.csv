@@ -1,0 +1,2745 @@
+Channel,Product,Smoker,Joint?,Person1 Age,Term,TotalPremium,Sale,JF (Score),EF (No. of people not same surname at current address),ND (Months since last CCJ)
+CTM,Level,Y,Y,38.0,20,36.22,N,477,-999997.0,
+CTM,Level accelerated,Y,N,47.0,10,29.36,N,562,3.0,-999997.0
+Direct,Decreasing with CI,N,Y,47.0,10,20.0,N,472,4.0,12.0
+MSM,Level with CI,Y,N,37.0,5,20.0,N,472,4.0,12.0
+Direct,Level with CI,N,Y,35.0,20,22.41,N,563,2.0,-999997.0
+CTM,Decreasing with CI,N,N,59.0,30,18.03,N,563,2.0,-999997.0
+CTM,Decreasing with CI,Y,N,47.0,30,19.69,N,563,2.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,34.0,30,14.66,N,563,2.0,-999997.0
+MSM,Decreasing with CI,Y,N,43.0,10,28.82,N,560,5.0,-999997.0
+CTM,Decreasing with CI,Y,N,34.0,20,28.82,N,560,5.0,-999997.0
+MSM,Level with CI,Y,Y,49.0,40,43.15,N,565,6.0,-999997.0
+MSM,Decreasing with CI,Y,Y,42.0,20,11.05,Y,558,6.0,-999997.0
+CTM,Level with CI,Y,Y,44.0,30,8.22,Y,558,6.0,-999997.0
+Direct,Decreasing,N,N,45.0,30,8.22,Y,558,6.0,-999997.0
+CTM,Level with CI,Y,Y,45.0,5,8.0,Y,558,6.0,-999997.0
+CTM,Level with CI,Y,N,36.0,20,8.22,Y,558,6.0,-999997.0
+CTM,Decreasing with CI,Y,N,62.0,20,68.55,N,569,12.0,-999997.0
+MSM,Decreasing with CI,Y,N,44.0,20,56.96,N,569,12.0,-999997.0
+Direct,Decreasing,Y,N,50.0,30,79.48,N,569,12.0,-999997.0
+CTM,Decreasing with CI,N,N,46.0,10,35.67,N,569,12.0,-999997.0
+Direct,Decreasing,Y,N,48.0,10,24.08,N,569,12.0,-999997.0
+MSM,Level,N,Y,52.0,10,10.27,N,558,3.0,-999997.0
+CTM,Level with CI,Y,N,64.0,30,8.38,N,558,3.0,-999997.0
+CTM,Decreasing,N,N,55.0,30,8.35,N,523,13.0,-999997.0
+Direct,Decreasing with CI,N,N,33.0,15,22.41,N,563,2.0,-999997.0
+Direct,Decreasing with CI,N,Y,44.0,5,18.03,N,563,2.0,-999997.0
+Direct,Level,Y,Y,35.0,20,18.03,N,563,2.0,-999997.0
+CTM,Level,N,N,43.0,30,19.69,N,563,2.0,-999997.0
+CTM,Level,Y,N,37.0,20,14.66,N,563,2.0,-999997.0
+Direct,Decreasing,Y,N,59.0,20,14.66,N,563,2.0,-999997.0
+CTM,Level,Y,Y,35.0,20,14.66,N,563,2.0,-999997.0
+CTM,Decreasing accelerated,N,N,52.0,5,28.8,N,516,-999997.0,
+CTM,Decreasing with CI,Y,Y,45.0,5,28.8,N,516,-999997.0,
+CTM,Decreasing with CI,N,Y,45.0,20,28.8,N,516,-999997.0,
+Direct,Level with CI,Y,N,29.0,20,23.36,N,471,-999997.0,
+Direct,Decreasing,N,N,38.0,5,23.36,N,471,-999997.0,
+Direct,Level,N,N,49.0,20,23.36,N,471,-999997.0,
+Direct,Decreasing,N,Y,60.0,30,20.16,N,471,-999997.0,
+Direct,Level,Y,N,52.0,20,65.88,N,9999,,
+CTM,Decreasing with CI,Y,Y,47.0,20,65.88,N,9999,,
+Direct,Decreasing,Y,N,58.0,30,12.0,N,573,10.0,-999997.0
+Direct,Level,N,N,44.0,20,31.76,Y,580,3.0,-999997.0
+CTM,Level,Y,Y,41.0,20,46.24,Y,580,3.0,-999997.0
+Direct,Decreasing accelerated,N,N,41.0,30,31.76,Y,580,3.0,-999997.0
+MSM,Level,N,Y,39.0,20,16.53,Y,580,3.0,-999997.0
+CTM,Decreasing,Y,N,45.0,10,26.76,N,9999,,
+Direct,Level with CI,Y,Y,40.0,40,11.15,N,9999,,
+Direct,Level accelerated,Y,Y,33.0,40,26.76,N,9999,,
+CTM,Level,N,N,40.0,15,10.27,N,558,3.0,-999997.0
+CTM,Level with CI,Y,N,59.0,30,8.38,N,558,3.0,-999997.0
+CTM,Level,Y,N,42.0,40,13.07,N,563,9.0,-999997.0
+MSM,Decreasing,N,Y,38.0,20,13.07,N,563,9.0,-999997.0
+CTM,Decreasing with CI,Y,Y,56.0,30,29.36,N,562,3.0,-999997.0
+CTM,Level,Y,Y,43.0,30,33.29,N,572,16.0,-999997.0
+CTM,Decreasing,Y,Y,46.0,20,220.49,N,546,8.0,-999997.0
+Direct,Level,N,Y,41.0,40,100.0,N,546,8.0,-999997.0
+MSM,Level,N,N,52.0,20,100.0,N,546,8.0,-999997.0
+MSM,Level with CI,Y,Y,50.0,40,117.19,N,546,8.0,-999997.0
+CTM,Level with CI,N,N,45.0,20,28.98,N,567,8.0,-999997.0
+CTM,Level,Y,Y,35.0,5,25.74,N,567,8.0,-999997.0
+CTM,Decreasing with CI,Y,N,48.0,20,20.46,N,567,8.0,-999997.0
+Direct,Decreasing,Y,Y,39.0,10,25.74,N,567,8.0,-999997.0
+MSM,Decreasing with CI,N,Y,45.0,20,20.46,N,567,8.0,-999997.0
+Direct,Level with CI,Y,N,34.0,20,25.74,N,567,8.0,-999997.0
+CTM,Level with CI,N,Y,49.0,20,25.02,N,567,8.0,-999997.0
+CTM,Decreasing with CI,Y,N,40.0,30,25.02,N,567,8.0,-999997.0
+Direct,Level with CI,N,N,46.0,5,27.28,N,567,8.0,-999997.0
+CTM,Decreasing with CI,N,N,26.0,30,34.98,N,567,8.0,-999997.0
+Direct,Decreasing,N,N,24.0,30,28.98,N,567,8.0,-999997.0
+MSM,Level,N,N,39.0,20,220.49,N,546,8.0,-999997.0
+CTM,Level,N,N,38.0,20,100.0,N,546,8.0,-999997.0
+MSM,Level with CI,Y,N,52.0,10,100.0,N,546,8.0,-999997.0
+CTM,Decreasing,Y,N,44.0,20,117.19,N,546,8.0,-999997.0
+Direct,Level,N,N,27.0,5,5.32,N,537,10.0,-999997.0
+CTM,Decreasing with CI,N,Y,50.0,5,6.5,N,537,10.0,-999997.0
+CTM,Decreasing,Y,Y,36.0,30,6.5,N,537,10.0,-999997.0
+CTM,Level,Y,N,50.0,20,24.93,N,9999,,
+CTM,Decreasing accelerated,N,N,35.0,15,24.93,N,9999,,
+Direct,Level with CI,N,Y,42.0,5,13.82,N,471,-999997.0,
+Direct,Level with CI,N,Y,48.0,30,28.98,N,567,8.0,-999997.0
+Direct,Decreasing with CI,Y,Y,41.0,5,25.74,N,567,8.0,-999997.0
+MSM,Decreasing with CI,Y,Y,46.0,30,20.46,N,567,8.0,-999997.0
+CTM,Level,N,Y,62.0,20,25.74,N,567,8.0,-999997.0
+MSM,Level with CI,Y,N,33.0,20,20.46,N,567,8.0,-999997.0
+CTM,Level,Y,Y,43.0,20,25.74,N,567,8.0,-999997.0
+CTM,Decreasing with CI,N,N,38.0,20,25.02,N,567,8.0,-999997.0
+CTM,Level,Y,N,59.0,25,27.28,N,567,8.0,-999997.0
+Direct,Level with CI,N,Y,37.0,35,34.98,N,567,8.0,-999997.0
+CTM,Level,Y,N,39.0,30,28.98,N,567,8.0,-999997.0
+CTM,Decreasing,Y,N,49.0,20,19.65,Y,580,3.0,-999997.0
+Direct,Decreasing,N,N,44.0,10,16.53,Y,580,3.0,-999997.0
+CTM,Level,N,N,41.0,40,33.29,N,575,2.0,-999997.0
+Direct,Decreasing,N,Y,34.0,5,19.07,N,9999,,
+CTM,Decreasing,N,Y,44.0,25,10.88,N,9999,,
+CTM,Decreasing with CI,Y,N,45.0,30,29.76,Y,568,13.0,-999997.0
+Direct,Level,Y,Y,36.0,20,29.76,Y,568,13.0,-999997.0
+CTM,Decreasing with CI,Y,Y,62.0,10,36.47,Y,568,13.0,-999997.0
+CTM,Decreasing accelerated,N,N,42.0,20,10.68,Y,568,13.0,-999997.0
+CTM,Level,Y,N,34.0,30,10.68,Y,568,13.0,-999997.0
+CTM,Level,N,N,41.0,5,24.41,Y,9999,,
+CTM,Level,Y,Y,44.0,10,24.41,Y,9999,,
+Direct,Decreasing accelerated,Y,N,59.0,30,24.41,Y,9999,,
+MSM,Level with CI,Y,Y,49.0,25,24.41,Y,9999,,
+CTM,Level,Y,N,58.0,5,18.67,Y,9999,,
+MSM,Level,N,Y,39.0,20,18.67,Y,9999,,
+CTM,Level,Y,N,45.0,20,33.22,N,490,-999997.0,
+CTM,Level,N,Y,50.0,30,30.84,N,490,-999997.0,
+CTM,Level,N,Y,32.0,20,32.59,N,490,-999997.0,
+Direct,Decreasing with CI,Y,N,41.0,20,32.4,N,490,-999997.0,
+Direct,Level,N,N,44.0,40,30.0,N,490,-999997.0,
+CTM,Level,N,Y,39.0,20,32.59,N,490,-999997.0,
+CTM,Decreasing,N,Y,58.0,20,32.59,N,490,-999997.0,
+Direct,Decreasing,N,N,44.0,10,32.28,N,490,-999997.0,
+Direct,Level,Y,N,58.0,30,32.28,N,490,-999997.0,
+CTM,Decreasing accelerated,Y,N,47.0,25,39.19,N,490,-999997.0,
+CTM,Level,N,Y,39.0,20,37.87,N,490,-999997.0,
+MSM,Level,N,N,59.0,20,36.34,N,490,-999997.0,
+CTM,Level,N,N,41.0,30,36.22,N,490,-999997.0,
+CTM,Decreasing,N,N,43.0,20,36.03,N,490,-999997.0,
+CTM,Decreasing,Y,Y,34.0,20,35.72,N,490,-999997.0,
+Direct,Level with CI,Y,N,47.0,20,34.46,N,490,-999997.0,
+Direct,Level,Y,Y,48.0,20,32.91,N,490,-999997.0,
+CTM,Level accelerated,N,Y,32.0,30,37.24,N,490,-999997.0,
+CTM,Decreasing with CI,N,N,51.0,10,32.59,N,490,-999997.0,
+CTM,Level with CI,Y,Y,35.0,20,35.0,N,490,-999997.0,
+Direct,Level,N,Y,44.0,40,27.0,N,490,-999997.0,
+Direct,Decreasing,Y,Y,43.0,20,19.97,N,490,-999997.0,
+Direct,Level accelerated,N,Y,43.0,10,77.95,Y,588,4.0,-999997.0
+MSM,Level with CI,Y,N,50.0,35,34.28,Y,588,4.0,-999997.0
+CTM,Decreasing,Y,N,46.0,30,12.03,Y,588,4.0,-999997.0
+MSM,Level,Y,Y,64.0,20,12.03,Y,588,4.0,-999997.0
+CTM,Decreasing with CI,Y,Y,39.0,20,12.03,Y,588,4.0,-999997.0
+Direct,Level,Y,Y,32.0,20,14.37,Y,588,4.0,-999997.0
+MSM,Level,N,Y,21.0,30,18.24,Y,588,4.0,-999997.0
+CTM,Level,N,Y,39.0,20,20.15,N,573,10.0,-999997.0
+CTM,Decreasing,Y,Y,45.0,35,10.0,N,559,8.0,-999997.0
+CTM,Level with CI,Y,Y,45.0,10,10.0,N,559,8.0,-999997.0
+MSM,Level with CI,Y,N,50.0,20,52.99,N,559,8.0,-999997.0
+CTM,Level,Y,N,37.0,5,20.01,N,559,8.0,-999997.0
+MSM,Decreasing with CI,N,Y,39.0,10,17.72,Y,558,8.0,-999997.0
+Direct,Level,Y,N,34.0,20,17.3,Y,558,8.0,-999997.0
+CTM,Level with CI,N,Y,53.0,15,17.3,Y,558,8.0,-999997.0
+CTM,Decreasing accelerated,N,Y,50.0,20,13.97,Y,558,8.0,-999997.0
+CTM,Level with CI,N,N,49.0,10,17.72,Y,558,8.0,-999997.0
+Direct,Level,N,N,41.0,20,17.72,Y,558,8.0,-999997.0
+CTM,Decreasing with CI,Y,N,52.0,20,19.41,Y,558,8.0,-999997.0
+Direct,Decreasing with CI,N,N,44.0,25,24.42,Y,558,8.0,-999997.0
+MSM,Level with CI,Y,N,36.0,10,39.11,N,575,2.0,-999997.0
+CTM,Level,Y,Y,44.0,10,37.53,N,575,2.0,-999997.0
+CTM,Level,N,Y,39.0,30,15.0,N,572,3.0,-999997.0
+CTM,Level,Y,N,59.0,15,15.0,N,572,3.0,-999997.0
+CTM,Decreasing,N,N,50.0,30,15.0,N,572,3.0,-999997.0
+CTM,Level accelerated,Y,Y,52.0,30,53.41,N,9999,,
+Direct,Decreasing accelerated,Y,N,43.0,10,37.4,N,9999,,
+Direct,Level,N,N,50.0,25,28.16,N,9999,,
+Direct,Level,N,Y,35.0,20,35.14,N,567,8.0,-999997.0
+CTM,Decreasing,N,N,48.0,10,35.14,N,567,8.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,45.0,30,36.4,N,490,-999997.0,
+Direct,Decreasing accelerated,Y,N,48.0,30,33.09,N,513,-999997.0,
+CTM,Level,Y,N,39.0,10,35.14,N,567,8.0,-999997.0
+Direct,Decreasing with CI,N,N,43.0,20,35.14,N,567,8.0,-999997.0
+CTM,Level accelerated,Y,Y,47.0,15,35.92,Y,562,13.0,-999997.0
+Direct,Decreasing,Y,N,57.0,30,76.31,Y,562,13.0,-999997.0
+CTM,Decreasing with CI,N,N,51.0,5,76.31,Y,562,13.0,-999997.0
+CTM,Level,Y,N,49.0,15,19.49,N,9999,,
+CTM,Decreasing with CI,N,N,47.0,20,19.49,N,9999,,
+Direct,Level,N,N,33.0,30,74.84,N,565,6.0,-999997.0
+CTM,Decreasing with CI,Y,N,51.0,30,15.9,Y,9999,,
+Direct,Level,N,Y,54.0,25,15.9,Y,9999,,
+MSM,Level accelerated,Y,N,48.0,5,15.9,Y,9999,,
+MSM,Decreasing,Y,N,32.0,30,7.12,Y,566,7.0,-999997.0
+CTM,Decreasing accelerated,N,N,45.0,20,7.12,Y,566,7.0,-999997.0
+Direct,Level,Y,N,45.0,30,7.12,Y,566,7.0,-999997.0
+MSM,Level with CI,Y,N,37.0,30,10.0,Y,528,5.0,-999997.0
+MSM,Decreasing,N,N,51.0,20,10.0,Y,528,5.0,-999997.0
+CTM,Level,Y,N,52.0,30,10.0,Y,528,5.0,-999997.0
+CTM,Level,Y,Y,44.0,30,10.0,Y,528,5.0,-999997.0
+MSM,Decreasing,Y,Y,46.0,30,5.19,N,534,4.0,-999997.0
+MSM,Level with CI,Y,Y,39.0,30,5.19,N,534,4.0,-999997.0
+Direct,Level,N,Y,55.0,10,5.19,N,534,4.0,-999997.0
+CTM,Level,N,Y,42.0,5,5.02,N,534,4.0,-999997.0
+CTM,Level,Y,N,56.0,20,5.19,N,534,4.0,-999997.0
+CTM,Decreasing with CI,Y,N,45.0,20,15.17,N,554,0.0,-999997.0
+Direct,Decreasing with CI,N,Y,44.0,5,15.17,N,554,0.0,-999997.0
+Direct,Level,N,Y,26.0,30,23.95,Y,546,16.0,-999997.0
+Direct,Level with CI,Y,N,34.0,10,29.05,N,553,5.0,-999997.0
+CTM,Level,Y,N,32.0,35,25.56,N,553,5.0,-999997.0
+CTM,Level,N,Y,39.0,10,23.1,N,548,8.0,-999997.0
+Direct,Level,Y,N,46.0,5,25.64,N,513,-999997.0,
+CTM,Decreasing,N,Y,52.0,30,25.64,N,513,-999997.0,
+MSM,Level,N,Y,26.0,30,23.72,N,513,-999997.0,
+MSM,Decreasing,Y,N,45.0,30,23.72,N,513,-999997.0,
+CTM,Level with CI,N,Y,44.0,30,258.24,N,9999,,
+CTM,Level with CI,Y,N,42.0,20,71.5,N,9999,,
+Direct,Decreasing,Y,N,34.0,40,71.5,N,9999,,
+Direct,Decreasing with CI,N,N,34.0,5,85.69,N,9999,,
+MSM,Level,Y,N,54.0,15,35.72,N,545,11.0,-999997.0
+CTM,Decreasing,Y,Y,30.0,20,35.72,N,545,11.0,-999997.0
+MSM,Level accelerated,Y,Y,42.0,20,35.72,N,545,11.0,-999997.0
+CTM,Decreasing with CI,N,N,48.0,30,35.72,N,545,11.0,-999997.0
+Direct,Decreasing,Y,N,44.0,20,18.78,N,567,8.0,-999997.0
+CTM,Decreasing with CI,N,Y,46.0,15,14.43,N,542,7.0,-999997.0
+MSM,Decreasing with CI,N,N,54.0,20,14.43,N,542,7.0,-999997.0
+CTM,Level,N,Y,48.0,30,66.0,N,561,3.0,-999997.0
+CTM,Level with CI,Y,N,50.0,30,43.95,N,561,3.0,-999997.0
+Direct,Level,Y,N,45.0,20,48.57,N,561,3.0,-999997.0
+CTM,Level with CI,N,N,40.0,20,41.41,N,561,3.0,-999997.0
+Direct,Level,N,Y,22.0,35,35.27,N,561,3.0,-999997.0
+Direct,Decreasing,Y,Y,44.0,10,35.27,N,561,3.0,-999997.0
+CTM,Level,N,N,36.0,15,34.94,N,577,4.0,-999997.0
+CTM,Decreasing,Y,N,53.0,20,34.94,N,577,4.0,-999997.0
+CTM,Level,N,N,39.0,25,16.96,N,565,10.0,-999997.0
+Direct,Level,N,N,50.0,30,16.96,N,565,10.0,-999997.0
+Direct,Level accelerated,Y,Y,31.0,30,16.96,N,565,10.0,-999997.0
+MSM,Level,Y,Y,44.0,10,27.12,N,9999,,
+CTM,Level,N,Y,47.0,20,12.27,N,541,21.0,-999997.0
+Direct,Decreasing,Y,Y,36.0,5,12.27,N,541,21.0,-999997.0
+Direct,Level accelerated,Y,N,50.0,20,10.98,N,541,21.0,-999997.0
+CTM,Decreasing,N,N,47.0,35,12.39,N,541,21.0,-999997.0
+Direct,Level with CI,Y,Y,44.0,30,10.7,N,541,21.0,-999997.0
+CTM,Level,Y,N,54.0,10,10.7,N,541,21.0,-999997.0
+CTM,Decreasing with CI,Y,Y,52.0,20,27.12,N,9999,,
+CTM,Level,N,Y,38.0,10,14.75,N,564,8.0,-999997.0
+Direct,Decreasing with CI,Y,N,39.0,20,14.75,N,564,8.0,-999997.0
+MSM,Decreasing with CI,Y,N,38.0,5,24.2,N,568,3.0,-999997.0
+MSM,Level,Y,Y,46.0,5,24.2,N,568,3.0,-999997.0
+Direct,Level,Y,N,44.0,20,24.2,N,568,3.0,-999997.0
+Direct,Level with CI,Y,N,52.0,5,68.38,N,571,4.0,-999997.0
+CTM,Level with CI,N,N,41.0,10,35.27,N,561,3.0,-999997.0
+CTM,Decreasing accelerated,Y,N,32.0,10,23.68,N,561,3.0,-999997.0
+CTM,Level accelerated,N,N,29.0,20,43.26,N,561,3.0,-999997.0
+MSM,Decreasing,N,Y,39.0,25,36.15,N,561,3.0,-999997.0
+CTM,Level,N,Y,64.0,10,43.26,N,561,3.0,-999997.0
+CTM,Level with CI,N,Y,32.0,20,33.64,N,561,3.0,-999997.0
+CTM,Level accelerated,N,N,58.0,20,34.27,N,561,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,34.0,20,43.95,N,561,3.0,-999997.0
+CTM,Level,Y,Y,36.0,10,44.49,N,549,7.0,-999997.0
+MSM,Decreasing with CI,N,N,21.0,15,13.62,Y,542,8.0,-999997.0
+Direct,Level,Y,Y,52.0,30,12.54,Y,542,8.0,-999997.0
+Direct,Level,Y,N,42.0,20,12.54,Y,542,8.0,-999997.0
+CTM,Level with CI,Y,N,40.0,20,33.09,N,513,-999997.0,
+CTM,Decreasing,Y,N,46.0,20,18.78,N,567,8.0,-999997.0
+Direct,Level with CI,N,N,44.0,15,25.64,N,513,-999997.0,
+Direct,Level,N,N,35.0,5,25.64,N,513,-999997.0,
+MSM,Level with CI,Y,N,47.0,30,23.72,N,513,-999997.0,
+Direct,Decreasing,Y,N,46.0,30,23.72,N,513,-999997.0,
+CTM,Level,N,N,47.0,30,9.19,N,565,6.0,-999997.0
+CTM,Level accelerated,N,N,47.0,30,10.7,N,541,21.0,-999997.0
+Direct,Decreasing,N,Y,44.0,20,143.99,N,9999,,
+Direct,Level,N,N,47.0,20,5.0,N,538,0.0,-999997.0
+Direct,Level,N,Y,46.0,20,5.0,N,538,0.0,-999997.0
+MSM,Decreasing accelerated,Y,Y,33.0,25,35.82,N,575,12.0,-999997.0
+MSM,Level accelerated,Y,N,44.0,15,33.09,N,575,12.0,-999997.0
+Direct,Level,N,Y,52.0,20,18.54,N,9999,,
+CTM,Level with CI,Y,Y,64.0,10,10.73,N,528,7.0,-999997.0
+MSM,Level,Y,N,51.0,30,23.71,N,577,5.0,-999997.0
+CTM,Decreasing with CI,N,Y,51.0,30,54.57,N,577,5.0,-999997.0
+MSM,Level,Y,N,38.0,20,61.76,N,577,5.0,-999997.0
+MSM,Decreasing with CI,Y,Y,44.0,5,97.72,N,577,5.0,-999997.0
+CTM,Level with CI,Y,Y,63.0,35,80.24,N,569,12.0,-999997.0
+CTM,Level,N,N,51.0,25,80.24,N,569,12.0,-999997.0
+Direct,Level with CI,Y,Y,32.0,20,103.25,N,569,12.0,-999997.0
+CTM,Level accelerated,Y,Y,44.0,20,80.24,N,569,12.0,-999997.0
+MSM,Level with CI,Y,Y,49.0,30,221.95,N,9999,,
+CTM,Level,N,N,44.0,10,22.03,N,558,5.0,-999997.0
+Direct,Level with CI,N,N,58.0,40,22.03,N,558,5.0,-999997.0
+Direct,Decreasing,N,N,55.0,5,22.03,N,558,5.0,-999997.0
+Direct,Level with CI,Y,Y,24.0,20,18.68,N,558,5.0,-999997.0
+CTM,Level with CI,N,Y,35.0,20,22.03,N,558,5.0,-999997.0
+CTM,Decreasing,N,N,30.0,10,12.55,N,576,7.0,-999997.0
+CTM,Level with CI,Y,N,50.0,30,21.93,N,576,7.0,-999997.0
+Direct,Decreasing,Y,N,32.0,20,18.23,N,539,5.0,-999997.0
+CTM,Level,Y,N,50.0,10,47.78,N,545,6.0,-999997.0
+Direct,Level,Y,N,52.0,30,47.78,N,545,6.0,-999997.0
+MSM,Level,N,N,49.0,40,47.78,N,545,6.0,-999997.0
+MSM,Decreasing accelerated,N,N,55.0,30,59.78,N,560,5.0,-999997.0
+CTM,Decreasing with CI,N,N,32.0,20,69.1,N,560,5.0,-999997.0
+CTM,Decreasing,Y,N,46.0,10,59.78,N,560,5.0,-999997.0
+Direct,Level,N,N,48.0,30,44.3,N,560,5.0,-999997.0
+Direct,Level with CI,Y,N,47.0,30,44.3,N,560,5.0,-999997.0
+Direct,Decreasing,Y,N,45.0,30,44.64,N,577,5.0,-999997.0
+CTM,Decreasing,Y,N,46.0,30,148.08,N,577,5.0,-999997.0
+Direct,Level with CI,Y,N,40.0,20,7.28,N,563,7.0,-999997.0
+CTM,Level with CI,Y,N,38.0,10,7.28,N,563,7.0,-999997.0
+CTM,Level,Y,N,32.0,5,7.1,N,563,7.0,-999997.0
+Direct,Level with CI,N,Y,38.0,20,7.1,N,563,7.0,-999997.0
+CTM,Level accelerated,N,Y,47.0,30,21.1,N,539,5.0,-999997.0
+CTM,Level with CI,Y,Y,60.0,20,30.74,N,590,2.0,-999997.0
+CTM,Level accelerated,N,Y,40.0,30,21.99,N,590,2.0,-999997.0
+Direct,Level with CI,N,N,41.0,20,23.08,N,562,11.0,-999997.0
+CTM,Level with CI,N,Y,33.0,20,23.08,N,562,11.0,-999997.0
+CTM,Decreasing,Y,N,47.0,15,25.89,N,562,11.0,-999997.0
+CTM,Level,Y,N,35.0,20,26.04,N,562,11.0,-999997.0
+MSM,Level,Y,Y,32.0,10,4.62,Y,553,2.0,-999997.0
+CTM,Decreasing,N,N,44.0,10,4.92,Y,553,2.0,-999997.0
+CTM,Level,Y,Y,59.0,40,4.62,Y,553,2.0,-999997.0
+Direct,Level with CI,Y,Y,40.0,30,51.08,N,560,5.0,-999997.0
+Direct,Decreasing with CI,Y,Y,41.0,15,15.05,Y,531,9.0,-999997.0
+CTM,Decreasing,N,N,35.0,10,15.05,Y,531,9.0,-999997.0
+CTM,Level accelerated,Y,N,46.0,10,15.05,Y,531,9.0,-999997.0
+CTM,Level with CI,N,N,36.0,30,15.05,Y,531,9.0,-999997.0
+MSM,Level with CI,Y,Y,62.0,30,83.07,N,518,-999997.0,
+Direct,Decreasing with CI,N,N,48.0,20,18.23,N,539,5.0,-999997.0
+CTM,Level,Y,N,52.0,10,21.1,N,539,5.0,-999997.0
+CTM,Decreasing with CI,Y,Y,54.0,5,27.65,N,547,3.0,-999997.0
+CTM,Level,Y,Y,48.0,25,27.65,N,547,3.0,-999997.0
+CTM,Level,N,N,53.0,5,126.28,N,540,8.0,-999997.0
+CTM,Level,N,N,31.0,30,22.44,N,558,4.0,-999997.0
+CTM,Level with CI,N,Y,46.0,30,22.44,N,558,4.0,-999997.0
+MSM,Level with CI,N,Y,46.0,35,58.64,N,560,5.0,-999997.0
+MSM,Level accelerated,Y,N,40.0,5,22.59,N,566,9.0,-999997.0
+CTM,Decreasing,Y,N,58.0,30,22.59,N,566,9.0,-999997.0
+Direct,Level,N,Y,47.0,5,20.73,N,494,7.0,46.0
+CTM,Decreasing,Y,Y,46.0,20,20.73,N,494,7.0,46.0
+CTM,Level,N,Y,50.0,20,17.41,N,555,12.0,-999997.0
+MSM,Decreasing with CI,Y,N,46.0,20,47.33,N,554,5.0,-999997.0
+CTM,Level,Y,N,44.0,30,40.0,N,554,5.0,-999997.0
+Direct,Level with CI,N,Y,55.0,30,12.97,N,541,21.0,-999997.0
+Direct,Level,N,N,32.0,10,21.6,N,541,21.0,-999997.0
+MSM,Level with CI,N,N,44.0,5,16.04,N,541,21.0,-999997.0
+CTM,Decreasing,Y,N,48.0,30,4.72,N,9999,,
+CTM,Level accelerated,Y,Y,39.0,25,8.97,N,9999,,
+CTM,Decreasing,N,Y,44.0,20,10.11,N,9999,,
+CTM,Decreasing accelerated,Y,Y,62.0,20,5.82,N,9999,,
+CTM,Decreasing,N,N,64.0,30,5.27,N,9999,,
+CTM,Decreasing with CI,Y,N,39.0,15,8.03,N,9999,,
+MSM,Level,N,Y,47.0,30,7.79,N,9999,,
+Direct,Decreasing,Y,N,44.0,30,11.47,N,9999,,
+MSM,Level,N,N,46.0,5,13.19,N,9999,,
+Direct,Level,N,Y,34.0,10,14.94,N,9999,,
+MSM,Level,N,N,36.0,20,5.19,N,9999,,
+CTM,Level with CI,Y,Y,33.0,20,5.79,N,9999,,
+MSM,Decreasing with CI,N,Y,50.0,30,4.93,N,9999,,
+Direct,Decreasing with CI,N,N,46.0,20,4.37,N,9999,,
+Direct,Decreasing with CI,N,N,45.0,5,4.84,N,9999,,
+Direct,Decreasing with CI,Y,N,35.0,35,5.4,N,9999,,
+CTM,Level,Y,N,44.0,40,6.15,N,9999,,
+MSM,Decreasing,Y,Y,64.0,30,6.93,N,9999,,
+CTM,Level with CI,Y,Y,47.0,10,6.51,N,9999,,
+Direct,Decreasing with CI,Y,N,32.0,10,16.3,N,9999,,
+CTM,Level accelerated,N,N,47.0,30,16.63,N,543,2.0,-999997.0
+Direct,Level,Y,Y,46.0,20,16.63,N,543,2.0,-999997.0
+Direct,Decreasing with CI,N,N,51.0,20,12.3,N,543,2.0,-999997.0
+CTM,Level,Y,Y,26.0,5,114.94,N,572,6.0,-999997.0
+CTM,Level with CI,Y,N,44.0,20,72.92,N,572,6.0,-999997.0
+CTM,Decreasing,Y,Y,45.0,20,81.4,N,572,6.0,-999997.0
+Direct,Decreasing with CI,N,N,38.0,30,27.84,N,572,6.0,-999997.0
+MSM,Level with CI,N,Y,44.0,30,33.78,N,572,6.0,-999997.0
+Direct,Level accelerated,Y,N,44.0,10,38.02,N,572,6.0,-999997.0
+CTM,Decreasing with CI,N,N,50.0,30,30.39,N,572,6.0,-999997.0
+CTM,Level,N,N,42.0,10,29.54,N,572,6.0,-999997.0
+Direct,Level accelerated,N,Y,26.0,10,13.61,N,9999,,
+CTM,Level with CI,Y,Y,34.0,5,13.61,N,9999,,
+CTM,Level,Y,N,44.0,30,39.17,N,560,5.0,-999997.0
+MSM,Level,Y,Y,47.0,20,58.64,N,560,5.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,44.0,20,58.64,N,560,5.0,-999997.0
+CTM,Level accelerated,Y,N,31.0,30,27.44,N,9999,,
+CTM,Level with CI,N,N,49.0,10,27.44,N,9999,,
+MSM,Decreasing,Y,Y,59.0,5,27.44,N,9999,,
+CTM,Level,Y,Y,33.0,10,61.82,N,9999,,
+CTM,Level with CI,Y,Y,42.0,25,61.82,N,9999,,
+Direct,Level,N,N,46.0,30,61.82,N,9999,,
+Direct,Decreasing,Y,Y,54.0,30,13.07,N,537,7.0,-999997.0
+CTM,Decreasing with CI,N,N,39.0,30,14.3,N,537,7.0,-999997.0
+CTM,Decreasing,Y,N,43.0,30,15.53,N,537,7.0,-999997.0
+Direct,Decreasing with CI,Y,N,48.0,40,15.53,N,537,7.0,-999997.0
+CTM,Level,Y,Y,43.0,40,18.43,N,9999,,
+CTM,Level with CI,Y,N,46.0,25,20.88,N,9999,,
+CTM,Level with CI,N,Y,55.0,5,4.02,N,9999,,
+CTM,Level,Y,N,44.0,20,4.43,N,9999,,
+CTM,Level with CI,Y,Y,55.0,10,12.17,N,9999,,
+Direct,Level,N,N,39.0,15,40.55,N,9999,,
+CTM,Decreasing,N,Y,41.0,5,16.46,N,9999,,
+CTM,Level accelerated,Y,Y,38.0,10,18.48,N,9999,,
+CTM,Level with CI,Y,N,44.0,5,21.02,N,9999,,
+Direct,Decreasing with CI,N,Y,43.0,30,29.64,N,9999,,
+CTM,Level,Y,Y,41.0,30,33.54,N,9999,,
+Direct,Decreasing with CI,N,N,43.0,30,38.33,N,9999,,
+Direct,Decreasing with CI,Y,N,42.0,35,16.19,N,9999,,
+CTM,Level with CI,Y,N,46.0,15,18.92,N,9999,,
+CTM,Level,Y,Y,45.0,20,21.77,N,9999,,
+Direct,Level,Y,N,37.0,30,5.39,N,9999,,
+Direct,Level with CI,Y,Y,44.0,30,6.07,N,9999,,
+CTM,Level with CI,Y,N,38.0,25,13.36,Y,558,1.0,-999997.0
+CTM,Decreasing,Y,N,35.0,30,13.36,Y,558,1.0,-999997.0
+MSM,Level with CI,N,Y,29.0,20,13.36,Y,558,1.0,-999997.0
+Direct,Level,N,N,46.0,25,9.06,N,549,4.0,-999997.0
+Direct,Level,N,Y,54.0,20,9.06,N,549,4.0,-999997.0
+Direct,Level with CI,N,Y,39.0,25,46.44,N,565,10.0,-999997.0
+CTM,Decreasing accelerated,Y,N,49.0,15,41.3,N,563,35.0,-999997.0
+CTM,Decreasing with CI,Y,N,53.0,10,41.3,N,563,35.0,-999997.0
+CTM,Level with CI,Y,N,58.0,30,16.63,N,543,2.0,-999997.0
+MSM,Decreasing accelerated,Y,N,43.0,20,16.63,N,543,2.0,-999997.0
+CTM,Level with CI,N,Y,45.0,30,13.36,Y,558,1.0,-999997.0
+Direct,Level,Y,Y,44.0,20,27.48,N,9999,,
+MSM,Level with CI,N,N,58.0,20,6.86,N,9999,,
+MSM,Level accelerated,Y,N,47.0,30,8.09,N,9999,,
+CTM,Level with CI,Y,N,42.0,30,9.29,N,9999,,
+MSM,Level with CI,N,N,39.0,30,10.59,N,9999,,
+MSM,Level with CI,N,N,50.0,25,24.14,N,9999,,
+Direct,Level,N,N,40.0,30,28.06,N,9999,,
+MSM,Decreasing accelerated,N,N,59.0,20,32.68,N,9999,,
+CTM,Decreasing,Y,N,61.0,20,4.04,N,9999,,
+MSM,Decreasing accelerated,Y,N,46.0,30,4.47,N,9999,,
+Direct,Level,N,N,32.0,10,5.0,N,9999,,
+Direct,Level with CI,N,N,32.0,20,46.79,N,9999,,
+CTM,Decreasing with CI,Y,Y,40.0,30,86.16,N,9999,,
+Direct,Decreasing with CI,Y,N,41.0,10,96.69,N,9999,,
+CTM,Decreasing,Y,N,56.0,20,111.88,N,9999,,
+MSM,Decreasing accelerated,N,N,36.0,35,13.43,N,9999,,
+CTM,Level with CI,N,N,43.0,20,15.31,N,9999,,
+CTM,Level,N,N,51.0,30,19.65,N,9999,,
+Direct,Level with CI,N,N,45.0,30,21.84,N,9999,,
+CTM,Decreasing accelerated,Y,N,40.0,10,52.85,N,9999,,
+CTM,Decreasing with CI,Y,N,41.0,20,60.05,N,9999,,
+Direct,Level with CI,Y,N,41.0,30,68.61,N,9999,,
+CTM,Level with CI,Y,N,49.0,20,127.19,N,9999,,
+MSM,Level,Y,Y,49.0,20,25.08,N,9999,,
+MSM,Decreasing with CI,Y,N,54.0,10,36.28,N,9999,,
+CTM,Level accelerated,Y,N,37.0,30,34.4,N,9999,,
+CTM,Level,N,Y,54.0,30,38.51,N,9999,,
+CTM,Level with CI,Y,N,44.0,10,44.47,N,9999,,
+CTM,Level with CI,Y,Y,32.0,20,81.33,N,9999,,
+Direct,Level,Y,Y,34.0,30,91.45,N,9999,,
+CTM,Level,Y,Y,51.0,20,105.94,N,9999,,
+Direct,Level with CI,N,Y,32.0,30,9.06,N,9999,,
+CTM,Level,Y,N,35.0,20,9.76,N,9999,,
+Direct,Level with CI,Y,Y,44.0,30,10.92,N,9999,,
+Direct,Decreasing with CI,N,N,53.0,25,48.34,N,585,6.0,-999997.0
+CTM,Decreasing,Y,N,50.0,30,25.07,N,9999,,
+CTM,Level accelerated,N,Y,35.0,30,11.63,N,9999,,
+CTM,Level with CI,Y,Y,56.0,30,11.63,N,9999,,
+CTM,Level,Y,Y,47.0,40,12.3,N,543,2.0,-999997.0
+Direct,Decreasing,Y,Y,46.0,15,52.03,N,531,5.0,-999997.0
+Direct,Level,N,N,44.0,30,30.0,N,531,5.0,-999997.0
+Direct,Level,N,Y,46.0,10,25.14,N,546,0.0,-999997.0
+CTM,Decreasing accelerated,N,N,57.0,30,25.14,N,546,0.0,-999997.0
+Direct,Decreasing accelerated,Y,N,48.0,20,54.53,Y,544,4.0,-999997.0
+MSM,Level with CI,Y,Y,62.0,20,54.53,Y,544,4.0,-999997.0
+CTM,Level,N,N,55.0,25,54.53,Y,544,4.0,-999997.0
+MSM,Decreasing,N,N,52.0,20,30.95,N,556,7.0,-999997.0
+CTM,Level with CI,N,N,47.0,30,30.89,N,556,7.0,-999997.0
+CTM,Level,Y,Y,35.0,10,24.99,N,556,7.0,-999997.0
+CTM,Level,Y,N,24.0,10,24.99,N,556,7.0,-999997.0
+Direct,Level,Y,N,34.0,10,30.89,N,556,7.0,-999997.0
+CTM,Decreasing with CI,Y,N,33.0,20,144.95,N,9999,,
+Direct,Level,N,Y,39.0,5,165.94,N,9999,,
+CTM,Level with CI,N,Y,35.0,20,15.69,N,9999,,
+CTM,Level,Y,N,45.0,25,17.59,N,9999,,
+CTM,Decreasing with CI,Y,Y,44.0,20,19.94,N,9999,,
+Direct,Level,N,N,45.0,10,28.07,N,9999,,
+Direct,Level,N,N,60.0,30,31.73,N,9999,,
+CTM,Decreasing,N,Y,56.0,30,36.16,N,9999,,
+Direct,Decreasing,Y,N,51.0,20,11.47,N,9999,,
+CTM,Level with CI,N,Y,44.0,20,12.67,N,9999,,
+CTM,Decreasing with CI,Y,Y,47.0,10,14.45,N,9999,,
+MSM,Decreasing with CI,N,N,34.0,5,18.75,N,9999,,
+CTM,Level,Y,Y,41.0,30,20.86,N,9999,,
+CTM,Level,N,N,58.0,15,23.97,N,9999,,
+CTM,Level,N,N,64.0,5,56.01,N,9999,,
+CTM,Level with CI,Y,N,42.0,20,63.69,N,9999,,
+MSM,Level with CI,Y,N,46.0,20,72.97,N,9999,,
+Direct,Level,Y,N,61.0,20,135.14,N,9999,,
+Direct,Level,N,Y,39.0,20,154.09,N,9999,,
+CTM,Level,Y,N,32.0,10,176.85,N,9999,,
+CTM,Level,Y,N,59.0,15,4.03,N,9999,,
+Direct,Decreasing,Y,N,32.0,30,4.34,N,9999,,
+CTM,Decreasing with CI,N,N,59.0,20,4.77,N,9999,,
+MSM,Level,Y,Y,41.0,20,4.41,N,9999,,
+MSM,Level,Y,Y,39.0,25,4.77,N,9999,,
+CTM,Decreasing,Y,Y,42.0,15,5.24,N,9999,,
+Direct,Decreasing,N,N,28.0,30,4.41,N,9999,,
+CTM,Decreasing with CI,Y,Y,47.0,30,5.07,N,9999,,
+CTM,Level,Y,N,48.0,30,5.61,N,9999,,
+CTM,Decreasing with CI,N,N,47.0,20,14.02,N,9999,,
+CTM,Level accelerated,N,N,56.0,30,15.21,N,9999,,
+MSM,Decreasing with CI,Y,Y,50.0,30,17.15,N,9999,,
+MSM,Level,N,Y,53.0,20,23.84,N,9999,,
+CTM,Level,Y,N,40.0,10,26.09,N,9999,,
+CTM,Level with CI,Y,Y,43.0,30,29.66,N,9999,,
+Direct,Decreasing with CI,N,Y,42.0,40,54.99,N,9999,,
+CTM,Level accelerated,Y,N,47.0,30,60.51,N,9999,,
+CTM,Level,Y,N,49.0,20,69.07,N,9999,,
+Direct,Level with CI,Y,N,39.0,40,8.62,N,9999,,
+CTM,Level with CI,Y,Y,32.0,20,9.32,N,9999,,
+Direct,Level with CI,Y,N,38.0,30,10.45,N,9999,,
+Direct,Level,Y,N,59.0,30,13.45,N,9999,,
+Direct,Level accelerated,Y,Y,54.0,25,14.63,N,9999,,
+CTM,Decreasing with CI,Y,N,45.0,30,16.53,N,9999,,
+CTM,Decreasing with CI,Y,N,46.0,15,25.08,N,9999,,
+CTM,Decreasing with CI,N,Y,46.0,30,27.38,N,9999,,
+MSM,Level,Y,Y,28.0,30,31.03,N,9999,,
+Direct,Decreasing,N,Y,54.0,30,58.25,N,9999,,
+MSM,Level,N,N,41.0,5,63.9,N,9999,,
+CTM,Level,N,N,42.0,10,72.71,N,9999,,
+Direct,Decreasing with CI,N,Y,53.0,20,37.71,N,583,0.0,-999997.0
+Direct,Decreasing,Y,Y,36.0,30,37.71,N,583,0.0,-999997.0
+MSM,Decreasing with CI,N,N,53.0,25,22.76,N,583,0.0,-999997.0
+MSM,Level,N,N,41.0,15,64.16,N,576,2.0,-999997.0
+Direct,Level,N,Y,21.0,20,139.06,N,576,2.0,-999997.0
+Direct,Decreasing with CI,Y,Y,47.0,20,130.8,N,576,2.0,-999997.0
+CTM,Level,Y,N,45.0,30,81.39,N,576,2.0,-999997.0
+CTM,Level,Y,N,54.0,30,26.17,Y,546,16.0,-999997.0
+Direct,Level,Y,N,59.0,20,38.84,Y,546,16.0,-999997.0
+MSM,Level with CI,N,N,51.0,30,24.9,Y,546,16.0,-999997.0
+CTM,Level,Y,N,46.0,5,24.9,Y,546,16.0,-999997.0
+Direct,Level,N,N,46.0,20,24.9,Y,546,16.0,-999997.0
+CTM,Level,N,Y,47.0,30,11.69,N,557,7.0,-999997.0
+CTM,Level with CI,Y,N,21.0,10,30.91,N,573,9.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,47.0,20,30.91,N,573,9.0,-999997.0
+CTM,Level with CI,Y,N,46.0,10,30.91,N,573,9.0,-999997.0
+CTM,Decreasing,Y,N,48.0,30,20.5,N,573,9.0,-999997.0
+Direct,Level,Y,N,56.0,20,84.99,N,573,9.0,-999997.0
+CTM,Decreasing with CI,N,N,39.0,20,31.92,N,573,9.0,-999997.0
+CTM,Level,Y,N,45.0,15,40.47,N,573,9.0,-999997.0
+CTM,Level with CI,N,Y,31.0,20,26.14,N,573,9.0,-999997.0
+CTM,Decreasing with CI,N,Y,56.0,20,9.7,N,544,4.0,-999997.0
+CTM,Level with CI,N,Y,50.0,10,9.7,N,544,4.0,-999997.0
+CTM,Level with CI,Y,N,45.0,20,27.38,Y,527,7.0,-999997.0
+MSM,Decreasing accelerated,Y,Y,32.0,30,39.33,Y,527,7.0,-999997.0
+Direct,Decreasing,N,N,46.0,20,32.12,Y,527,7.0,-999997.0
+MSM,Decreasing with CI,Y,Y,53.0,20,24.2,Y,527,7.0,-999997.0
+CTM,Level,Y,N,55.0,20,28.24,Y,527,7.0,-999997.0
+Direct,Level accelerated,N,Y,46.0,20,30.37,Y,527,7.0,-999997.0
+CTM,Level with CI,N,Y,51.0,40,26.1,Y,527,7.0,-999997.0
+MSM,Level,N,N,43.0,30,28.24,Y,527,7.0,-999997.0
+CTM,Level,Y,Y,35.0,30,32.12,Y,527,7.0,-999997.0
+MSM,Decreasing with CI,Y,Y,47.0,20,102.66,N,489,-999997.0,
+Direct,Level,Y,N,32.0,30,24.85,N,556,7.0,-999997.0
+Direct,Decreasing,N,Y,37.0,30,26.68,N,556,7.0,-999997.0
+CTM,Decreasing with CI,Y,Y,49.0,20,61.5,Y,544,4.0,-999997.0
+Direct,Decreasing with CI,N,Y,51.0,20,7.77,N,538,5.0,-999997.0
+Direct,Level,Y,N,35.0,5,6.23,N,9999,,
+CTM,Level with CI,Y,N,53.0,30,8.76,N,9999,,
+CTM,Level with CI,Y,N,44.0,40,9.9,N,9999,,
+Direct,Level,Y,Y,33.0,20,11.06,N,9999,,
+MSM,Decreasing accelerated,Y,N,38.0,5,3.59,N,9999,,
+CTM,Level with CI,Y,N,42.0,20,3.9,N,9999,,
+Direct,Level,Y,Y,51.0,30,4.3,N,9999,,
+CTM,Level,Y,N,40.0,30,3.84,N,9999,,
+CTM,Level,Y,N,43.0,30,4.19,N,9999,,
+MSM,Level with CI,N,Y,46.0,30,4.62,N,9999,,
+CTM,Level,Y,N,41.0,30,6.31,N,9999,,
+CTM,Level with CI,Y,N,44.0,5,6.9,N,9999,,
+CTM,Level,N,Y,44.0,20,7.6,N,9999,,
+Direct,Level,N,Y,46.0,20,12.02,N,9999,,
+CTM,Decreasing with CI,Y,Y,35.0,20,13.29,N,9999,,
+MSM,Level accelerated,Y,N,57.0,30,14.7,N,9999,,
+CTM,Level with CI,Y,N,44.0,30,28.1,N,542,0.0,-999997.0
+CTM,Level accelerated,Y,Y,49.0,5,28.14,N,566,16.0,-999997.0
+CTM,Decreasing with CI,Y,Y,43.0,30,24.74,N,499,-999997.0,
+Direct,Level with CI,N,N,46.0,20,24.69,Y,542,6.0,-999997.0
+CTM,Decreasing,Y,Y,50.0,30,16.08,Y,542,6.0,-999997.0
+CTM,Level,Y,N,44.0,10,16.08,Y,542,6.0,-999997.0
+MSM,Decreasing,Y,Y,39.0,30,68.84,N,500,-999997.0,
+Direct,Level,N,N,47.0,20,30.48,N,500,-999997.0,
+MSM,Level,Y,Y,46.0,40,29.58,N,500,-999997.0,
+Direct,Level with CI,Y,Y,33.0,10,29.58,N,500,-999997.0,
+Direct,Decreasing with CI,Y,Y,49.0,30,29.58,N,500,-999997.0,
+CTM,Level,Y,N,38.0,20,34.82,N,500,-999997.0,
+CTM,Decreasing with CI,N,N,51.0,20,29.58,N,500,-999997.0,
+CTM,Level with CI,Y,N,53.0,10,29.58,N,500,-999997.0,
+CTM,Level accelerated,N,N,50.0,30,55.75,N,500,-999997.0,
+CTM,Decreasing with CI,Y,N,44.0,30,81.93,N,500,-999997.0,
+CTM,Level,N,Y,51.0,5,7.77,N,538,5.0,-999997.0
+MSM,Decreasing,Y,N,54.0,20,12.09,N,538,5.0,-999997.0
+MSM,Level,Y,N,54.0,35,7.77,N,538,5.0,-999997.0
+Direct,Level,Y,N,32.0,10,7.77,N,538,5.0,-999997.0
+Direct,Decreasing with CI,Y,N,50.0,5,61.82,N,9999,,
+Direct,Decreasing,N,Y,45.0,10,61.82,N,9999,,
+CTM,Decreasing,N,N,45.0,20,61.82,N,9999,,
+CTM,Level,N,Y,39.0,20,13.02,N,569,4.0,-999997.0
+CTM,Level,N,N,58.0,20,13.02,N,569,4.0,-999997.0
+CTM,Decreasing,N,Y,40.0,20,15.44,N,569,4.0,-999997.0
+MSM,Decreasing with CI,N,Y,45.0,5,20.93,N,558,5.0,-999997.0
+CTM,Level,N,N,43.0,20,24.1,N,9999,,
+CTM,Level with CI,Y,Y,40.0,30,32.73,N,573,17.0,-999997.0
+Direct,Decreasing with CI,Y,N,52.0,5,25.0,N,573,17.0,-999997.0
+CTM,Level,N,N,50.0,30,25.0,N,573,17.0,-999997.0
+CTM,Level with CI,Y,N,45.0,20,165.85,N,551,2.0,-999997.0
+CTM,Decreasing accelerated,Y,N,40.0,5,4.58,Y,9999,,
+Direct,Level,Y,Y,39.0,20,4.58,Y,9999,,
+CTM,Decreasing accelerated,Y,Y,55.0,20,5.61,Y,9999,,
+Direct,Decreasing with CI,Y,Y,44.0,30,50.01,N,559,9.0,-999997.0
+MSM,Decreasing with CI,Y,N,44.0,30,37.81,N,559,9.0,-999997.0
+MSM,Level with CI,N,Y,41.0,20,21.22,N,557,11.0,-999997.0
+CTM,Level with CI,N,Y,36.0,20,20.01,N,557,11.0,-999997.0
+MSM,Level,Y,N,41.0,10,18.67,N,557,11.0,-999997.0
+CTM,Decreasing,Y,N,34.0,20,20.01,N,557,11.0,-999997.0
+Direct,Decreasing with CI,N,N,39.0,20,5.36,N,9999,,
+CTM,Level accelerated,Y,N,47.0,5,5.36,N,9999,,
+CTM,Level with CI,Y,Y,49.0,30,8.09,N,574,2.0,-999997.0
+CTM,Level,N,Y,39.0,20,16.53,N,573,8.0,-999997.0
+CTM,Decreasing,Y,N,45.0,15,16.53,N,573,8.0,-999997.0
+MSM,Level with CI,Y,Y,37.0,20,6.34,N,538,11.0,-999997.0
+MSM,Level with CI,Y,Y,40.0,10,5.53,N,538,11.0,-999997.0
+CTM,Level,Y,N,60.0,20,7.74,N,538,11.0,-999997.0
+CTM,Decreasing,Y,Y,39.0,35,5.53,N,538,11.0,-999997.0
+MSM,Level,N,N,47.0,25,25.14,N,9999,,
+Direct,Level with CI,Y,Y,21.0,25,15.68,N,9999,,
+MSM,Decreasing with CI,N,Y,41.0,30,15.68,N,9999,,
+CTM,Decreasing,N,Y,27.0,5,24.17,N,9999,,
+Direct,Level with CI,Y,N,34.0,30,24.17,N,9999,,
+Direct,Level with CI,N,Y,44.0,30,34.02,Y,562,10.0,-999997.0
+CTM,Decreasing with CI,Y,N,33.0,30,23.66,Y,562,10.0,-999997.0
+MSM,Decreasing with CI,N,N,45.0,20,23.66,Y,562,10.0,-999997.0
+Direct,Decreasing with CI,Y,Y,42.0,30,72.36,N,571,0.0,-999997.0
+CTM,Decreasing,N,N,63.0,30,41.0,Y,571,0.0,-999997.0
+CTM,Level accelerated,Y,N,50.0,35,41.0,Y,571,0.0,-999997.0
+CTM,Level,Y,Y,46.0,30,41.0,Y,571,0.0,-999997.0
+MSM,Level with CI,N,N,30.0,10,26.54,N,9999,,
+CTM,Level,Y,Y,41.0,10,18.93,N,559,3.0,-999997.0
+MSM,Decreasing with CI,N,Y,47.0,20,17.94,N,559,3.0,-999997.0
+CTM,Level,Y,N,46.0,10,45.65,N,9999,,
+CTM,Level,Y,N,46.0,5,19.85,Y,537,6.0,-999997.0
+CTM,Decreasing accelerated,Y,N,46.0,20,19.85,Y,537,6.0,-999997.0
+MSM,Decreasing with CI,N,N,53.0,5,19.85,Y,537,6.0,-999997.0
+Direct,Level with CI,N,N,47.0,5,19.85,Y,537,6.0,-999997.0
+Direct,Level,N,Y,45.0,30,27.59,Y,537,6.0,-999997.0
+Direct,Level with CI,Y,N,45.0,30,22.43,Y,537,6.0,-999997.0
+Direct,Level,Y,N,48.0,10,21.14,Y,537,6.0,-999997.0
+CTM,Level,Y,N,58.0,5,16.48,N,564,14.0,-999997.0
+Direct,Level with CI,N,N,59.0,10,16.48,N,564,14.0,-999997.0
+CTM,Level,Y,Y,47.0,25,61.82,N,9999,,
+Direct,Decreasing,Y,N,45.0,20,61.82,N,9999,,
+CTM,Decreasing with CI,N,N,47.0,20,61.82,N,9999,,
+CTM,Decreasing with CI,N,N,44.0,20,13.31,N,524,7.0,-999997.0
+Direct,Level accelerated,Y,N,47.0,15,13.31,N,524,7.0,-999997.0
+Direct,Decreasing with CI,N,N,48.0,30,13.31,N,524,7.0,-999997.0
+CTM,Decreasing with CI,Y,N,56.0,30,14.74,Y,549,6.0,-999997.0
+CTM,Level,Y,N,36.0,40,35.91,N,584,1.0,-999997.0
+CTM,Decreasing,Y,N,44.0,20,87.29,N,584,1.0,-999997.0
+CTM,Level,Y,N,44.0,5,45.43,N,584,1.0,-999997.0
+CTM,Level with CI,Y,N,59.0,25,35.91,N,584,1.0,-999997.0
+Direct,Level with CI,Y,N,44.0,30,68.62,N,584,1.0,-999997.0
+Direct,Level,Y,N,37.0,30,13.65,N,584,1.0,-999997.0
+Direct,Decreasing accelerated,Y,N,37.0,20,381.22,N,9999,,
+Direct,Decreasing,N,N,39.0,10,90.3,N,9999,,
+Direct,Level,Y,N,47.0,25,100.98,N,9999,,
+CTM,Level,Y,Y,56.0,15,90.3,N,9999,,
+CTM,Level,Y,Y,44.0,10,111.66,N,9999,,
+Direct,Level,Y,N,48.0,30,90.3,N,9999,,
+CTM,Level,Y,N,38.0,20,10.0,N,559,8.0,-999997.0
+MSM,Level,Y,Y,36.0,25,10.0,N,559,8.0,-999997.0
+Direct,Level,N,N,49.0,20,52.99,N,559,8.0,-999997.0
+CTM,Level,N,N,58.0,10,20.01,N,559,8.0,-999997.0
+CTM,Decreasing with CI,Y,Y,49.0,20,15.93,N,9999,,
+CTM,Level,Y,N,33.0,20,115.06,N,568,19.0,-999997.0
+CTM,Level with CI,Y,N,42.0,20,226.64,N,568,19.0,-999997.0
+CTM,Level,Y,N,54.0,15,115.06,N,568,19.0,-999997.0
+CTM,Level with CI,Y,Y,50.0,30,15.0,Y,568,6.0,-999997.0
+CTM,Level,Y,N,48.0,30,36.6,N,558,14.0,-999997.0
+CTM,Level,Y,N,51.0,30,36.6,N,558,14.0,-999997.0
+CTM,Decreasing with CI,Y,Y,52.0,30,60.81,N,9999,,
+Direct,Level,N,N,54.0,30,83.64,N,9999,,
+Direct,Decreasing with CI,Y,Y,39.0,30,41.35,Y,587,4.0,-999997.0
+CTM,Level accelerated,N,Y,41.0,30,41.35,Y,587,4.0,-999997.0
+Direct,Level accelerated,N,N,49.0,20,41.35,Y,587,4.0,-999997.0
+Direct,Level,Y,N,48.0,20,41.35,Y,587,4.0,-999997.0
+CTM,Level with CI,Y,Y,48.0,20,41.35,Y,587,4.0,-999997.0
+CTM,Decreasing,Y,N,52.0,30,20.0,N,564,1.0,-999997.0
+CTM,Decreasing with CI,Y,N,53.0,25,37.77,N,564,1.0,-999997.0
+CTM,Decreasing accelerated,N,Y,34.0,10,8.21,N,561,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,52.0,10,11.96,N,561,3.0,-999997.0
+Direct,Level,Y,N,34.0,10,18.35,N,561,3.0,-999997.0
+CTM,Level,N,N,47.0,30,13.42,N,561,3.0,-999997.0
+Direct,Level accelerated,Y,N,40.0,10,11.96,N,561,3.0,-999997.0
+Direct,Level,Y,N,48.0,30,14.74,Y,549,6.0,-999997.0
+CTM,Decreasing with CI,Y,N,46.0,20,14.74,Y,549,6.0,-999997.0
+CTM,Decreasing with CI,N,Y,44.0,20,13.81,Y,568,6.0,-999997.0
+CTM,Decreasing,Y,Y,44.0,25,12.78,Y,568,6.0,-999997.0
+CTM,Level,N,N,45.0,30,13.81,Y,568,6.0,-999997.0
+CTM,Level,Y,N,53.0,20,134.71,N,539,2.0,-999997.0
+CTM,Decreasing with CI,N,N,46.0,5,23.83,Y,558,0.0,-999997.0
+CTM,Level with CI,Y,N,32.0,10,23.83,N,558,0.0,-999997.0
+Direct,Level with CI,N,N,35.0,5,23.83,N,558,0.0,-999997.0
+CTM,Decreasing,N,Y,28.0,20,23.83,Y,558,0.0,-999997.0
+MSM,Decreasing accelerated,Y,N,62.0,30,23.83,Y,558,0.0,-999997.0
+MSM,Decreasing with CI,N,N,32.0,10,30.19,N,557,3.0,-999997.0
+MSM,Decreasing,Y,Y,53.0,5,30.19,N,557,3.0,-999997.0
+CTM,Level,N,N,47.0,30,16.22,N,561,12.0,-999997.0
+CTM,Level,N,N,47.0,5,83.17,N,9999,,
+Direct,Level accelerated,Y,Y,33.0,20,24.1,N,9999,,
+CTM,Level with CI,N,N,54.0,20,24.1,N,9999,,
+Direct,Decreasing with CI,N,N,43.0,30,28.26,Y,9999,,
+Direct,Level,Y,N,47.0,30,28.26,Y,9999,,
+Direct,Level,N,Y,46.0,5,28.26,Y,9999,,
+Direct,Level with CI,Y,N,34.0,10,28.26,Y,9999,,
+CTM,Decreasing with CI,N,Y,48.0,15,9.62,N,9999,,
+MSM,Level,Y,N,41.0,10,9.62,N,9999,,
+Direct,Level with CI,Y,N,48.0,20,9.62,N,9999,,
+MSM,Decreasing with CI,Y,N,38.0,20,28.5,Y,514,14.0,-999997.0
+Direct,Decreasing accelerated,Y,N,42.0,30,28.5,Y,514,14.0,-999997.0
+CTM,Level,Y,N,35.0,20,28.5,Y,514,14.0,-999997.0
+CTM,Level with CI,Y,Y,51.0,35,28.5,Y,514,14.0,-999997.0
+CTM,Decreasing with CI,N,N,33.0,20,25.97,N,561,3.0,-999997.0
+Direct,Level,N,N,44.0,5,11.96,N,561,3.0,-999997.0
+Direct,Level,N,Y,45.0,20,10.21,N,561,3.0,-999997.0
+MSM,Level,Y,N,32.0,20,159.19,N,9999,,
+Direct,Level,N,N,43.0,30,159.19,N,9999,,
+CTM,Level with CI,Y,Y,39.0,5,24.13,N,9999,,
+MSM,Level with CI,Y,Y,45.0,5,71.64,N,539,2.0,-999997.0
+Direct,Level,N,Y,55.0,20,31.37,Y,568,6.0,-999997.0
+CTM,Decreasing,N,Y,35.0,20,27.01,Y,568,6.0,-999997.0
+MSM,Decreasing accelerated,Y,N,33.0,20,34.16,Y,568,6.0,-999997.0
+CTM,Level,Y,N,47.0,10,18.0,Y,568,6.0,-999997.0
+MSM,Decreasing accelerated,Y,Y,40.0,20,13.81,Y,568,6.0,-999997.0
+CTM,Level,Y,N,33.0,30,13.81,Y,568,6.0,-999997.0
+CTM,Decreasing,Y,Y,31.0,30,37.46,N,535,10.0,-999997.0
+Direct,Decreasing with CI,Y,N,54.0,5,37.46,N,535,10.0,-999997.0
+CTM,Decreasing with CI,Y,Y,48.0,20,33.97,N,535,10.0,-999997.0
+CTM,Level,N,N,53.0,10,43.1,Y,561,3.0,-999997.0
+Direct,Decreasing with CI,Y,N,45.0,10,54.83,N,555,7.0,-999997.0
+MSM,Level,N,N,54.0,30,11.85,N,555,7.0,-999997.0
+CTM,Level,N,N,27.0,10,29.4,Y,567,12.0,-999997.0
+CTM,Decreasing with CI,Y,N,51.0,5,29.4,Y,567,12.0,-999997.0
+CTM,Decreasing,N,Y,42.0,20,38.2,Y,567,12.0,-999997.0
+CTM,Decreasing with CI,Y,Y,39.0,10,38.2,Y,567,12.0,-999997.0
+Direct,Level with CI,N,Y,46.0,20,58.07,N,550,6.0,-999997.0
+Direct,Level,N,N,58.0,20,101.52,N,550,6.0,-999997.0
+CTM,Decreasing with CI,N,Y,46.0,20,168.68,N,541,15.0,63.0
+CTM,Level,N,Y,40.0,25,130.22,N,541,15.0,63.0
+Direct,Level with CI,N,N,41.0,20,40.69,N,555,15.0,-999997.0
+CTM,Level with CI,Y,N,39.0,10,20.74,N,575,7.0,-999997.0
+CTM,Decreasing,Y,N,47.0,5,24.07,N,572,4.0,-999997.0
+CTM,Decreasing,Y,Y,32.0,20,24.07,N,572,4.0,-999997.0
+MSM,Level with CI,Y,N,37.0,20,24.07,N,572,4.0,-999997.0
+CTM,Decreasing with CI,Y,Y,45.0,35,27.64,N,532,3.0,-999997.0
+CTM,Decreasing with CI,Y,Y,33.0,20,29.3,N,532,3.0,-999997.0
+CTM,Decreasing with CI,Y,Y,43.0,20,12.99,N,538,3.0,-999997.0
+CTM,Level with CI,N,N,48.0,10,99.93,N,556,14.0,-999997.0
+MSM,Level with CI,N,N,43.0,10,102.51,Y,556,14.0,-999997.0
+MSM,Level with CI,Y,N,48.0,10,61.41,Y,556,14.0,-999997.0
+CTM,Decreasing with CI,N,N,45.0,30,89.46,Y,556,14.0,-999997.0
+CTM,Level with CI,Y,Y,45.0,5,61.41,Y,556,14.0,-999997.0
+MSM,Level,N,N,22.0,30,59.53,N,556,14.0,-999997.0
+CTM,Level with CI,Y,Y,40.0,30,142.69,Y,556,14.0,-999997.0
+CTM,Level,Y,N,44.0,10,11.86,Y,555,15.0,-999997.0
+MSM,Level,Y,Y,39.0,20,11.86,Y,555,15.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,44.0,30,11.86,Y,555,15.0,-999997.0
+CTM,Decreasing with CI,Y,Y,51.0,30,17.4,N,563,0.0,-999997.0
+CTM,Level,Y,N,48.0,30,17.4,N,563,0.0,-999997.0
+MSM,Decreasing accelerated,Y,N,39.0,10,26.69,N,545,4.0,-999997.0
+Direct,Level with CI,Y,Y,36.0,20,12.95,N,545,4.0,-999997.0
+Direct,Decreasing,Y,Y,37.0,35,24.13,N,9999,,
+CTM,Decreasing accelerated,N,N,35.0,20,3.25,N,558,1.0,-999997.0
+CTM,Level,N,N,43.0,20,5.54,Y,559,4.0,-999997.0
+CTM,Decreasing,Y,N,54.0,5,6.35,N,574,2.0,-999997.0
+Direct,Decreasing accelerated,N,N,51.0,10,70.88,N,565,8.0,-999997.0
+Direct,Level,N,Y,39.0,25,17.19,N,576,22.0,-999997.0
+CTM,Decreasing,N,Y,34.0,10,21.97,N,576,22.0,-999997.0
+CTM,Level with CI,N,N,41.0,20,3.25,N,558,1.0,-999997.0
+MSM,Decreasing with CI,Y,Y,44.0,15,3.25,N,558,1.0,-999997.0
+Direct,Level,N,N,54.0,30,13.75,N,573,4.0,-999997.0
+Direct,Level,Y,Y,49.0,15,58.74,Y,561,3.0,-999997.0
+CTM,Level accelerated,Y,N,39.0,20,43.1,Y,561,3.0,-999997.0
+CTM,Level,Y,Y,43.0,30,43.1,Y,561,3.0,-999997.0
+Direct,Decreasing with CI,Y,N,46.0,20,11.2,Y,561,3.0,-999997.0
+MSM,Level,Y,Y,40.0,30,20.67,N,9999,,
+CTM,Level with CI,Y,N,47.0,25,10.59,N,9999,,
+Direct,Level,Y,N,44.0,15,12.1,N,9999,,
+MSM,Decreasing with CI,Y,N,54.0,40,12.1,N,9999,,
+CTM,Level with CI,Y,Y,46.0,30,16.93,N,9999,,
+MSM,Level with CI,N,N,35.0,10,12.99,N,538,3.0,-999997.0
+MSM,Decreasing with CI,Y,N,46.0,30,13.87,Y,9999,,
+Direct,Decreasing,N,Y,39.0,5,13.87,Y,9999,,
+Direct,Decreasing accelerated,N,N,32.0,10,13.87,Y,9999,,
+CTM,Level accelerated,N,Y,60.0,40,13.87,Y,9999,,
+MSM,Level,Y,Y,26.0,30,18.54,N,9999,,
+Direct,Level,N,Y,54.0,20,4.4,N,552,7.0,-999997.0
+Direct,Level,N,Y,39.0,20,11.87,N,525,-999997.0,
+Direct,Decreasing,Y,N,45.0,20,11.87,N,525,-999997.0,
+Direct,Level,N,Y,30.0,20,10.84,N,9999,,
+Direct,Decreasing with CI,Y,N,44.0,20,10.84,N,9999,,
+Direct,Decreasing with CI,N,Y,41.0,20,24.13,N,585,6.0,-999997.0
+CTM,Level,N,N,37.0,30,26.32,N,585,6.0,-999997.0
+CTM,Decreasing with CI,N,Y,60.0,35,26.32,N,585,6.0,-999997.0
+CTM,Level with CI,N,N,46.0,20,15.17,N,576,22.0,-999997.0
+MSM,Level,Y,Y,64.0,20,9.1,N,576,22.0,-999997.0
+CTM,Decreasing,Y,N,43.0,5,12.03,N,576,22.0,-999997.0
+Direct,Level,Y,Y,32.0,20,5.54,Y,559,4.0,-999997.0
+CTM,Level with CI,N,N,36.0,10,5.54,Y,559,4.0,-999997.0
+CTM,Decreasing,N,N,45.0,20,18.23,N,539,5.0,-999997.0
+MSM,Level,Y,N,26.0,20,21.1,N,539,5.0,-999997.0
+CTM,Level with CI,N,N,36.0,20,66.03,N,569,12.0,-999997.0
+CTM,Level with CI,Y,N,54.0,30,19.37,N,532,3.0,-999997.0
+CTM,Decreasing,Y,Y,39.0,20,17.19,N,567,12.0,-999997.0
+Direct,Decreasing accelerated,Y,N,24.0,20,21.97,N,567,12.0,-999997.0
+CTM,Level,N,Y,48.0,20,15.17,N,567,12.0,-999997.0
+MSM,Level,N,N,51.0,30,9.1,N,567,12.0,-999997.0
+Direct,Decreasing,N,N,38.0,10,12.03,N,567,12.0,-999997.0
+MSM,Level with CI,N,Y,47.0,30,25.0,N,578,3.0,62.0
+Direct,Level accelerated,Y,Y,46.0,30,25.0,N,578,3.0,62.0
+CTM,Level,N,Y,40.0,35,55.27,N,9999,,
+MSM,Level,Y,N,43.0,30,12.55,N,540,5.0,-999997.0
+CTM,Decreasing,Y,N,43.0,20,14.2,N,550,5.0,-999997.0
+CTM,Level,Y,N,51.0,10,10.0,N,550,5.0,-999997.0
+CTM,Level,Y,N,46.0,10,14.2,N,550,5.0,-999997.0
+Direct,Level,Y,Y,39.0,20,56.96,N,569,12.0,-999997.0
+Direct,Level with CI,Y,N,39.0,25,67.26,N,569,12.0,-999997.0
+Direct,Decreasing,Y,Y,46.0,20,79.48,N,569,12.0,-999997.0
+MSM,Level,N,N,39.0,25,79.48,N,569,12.0,-999997.0
+CTM,Level,Y,N,52.0,15,24.08,N,569,12.0,-999997.0
+Direct,Level,Y,N,54.0,20,27.64,N,532,3.0,-999997.0
+MSM,Level with CI,Y,N,38.0,10,29.3,N,532,3.0,-999997.0
+Direct,Decreasing,N,Y,36.0,30,25.92,N,572,0.0,-999997.0
+CTM,Decreasing with CI,Y,N,45.0,10,22.62,N,572,0.0,-999997.0
+CTM,Decreasing with CI,Y,Y,53.0,5,25.92,N,572,0.0,-999997.0
+Direct,Decreasing,N,Y,44.0,20,13.2,N,572,0.0,-999997.0
+MSM,Level,Y,Y,47.0,40,6.41,Y,561,12.0,-999997.0
+CTM,Decreasing,Y,N,46.0,20,6.41,Y,561,12.0,-999997.0
+Direct,Level,Y,Y,39.0,30,87.79,N,563,6.0,-999997.0
+MSM,Level with CI,N,Y,47.0,20,34.91,N,563,6.0,-999997.0
+Direct,Level,Y,N,37.0,10,34.91,N,563,6.0,-999997.0
+Direct,Decreasing,N,Y,28.0,20,41.01,N,563,6.0,-999997.0
+CTM,Decreasing with CI,Y,N,36.0,20,34.91,N,563,6.0,-999997.0
+Direct,Decreasing,Y,Y,47.0,5,20.61,N,563,6.0,-999997.0
+MSM,Decreasing with CI,Y,N,54.0,30,8.89,Y,553,23.0,-999997.0
+CTM,Level with CI,Y,N,35.0,20,8.89,Y,553,23.0,-999997.0
+CTM,Level,N,Y,47.0,5,8.89,Y,553,23.0,-999997.0
+Direct,Level with CI,N,N,51.0,40,8.22,Y,553,23.0,-999997.0
+Direct,Level,Y,N,57.0,30,6.53,Y,553,23.0,-999997.0
+CTM,Level,Y,Y,44.0,40,8.22,Y,553,23.0,-999997.0
+CTM,Decreasing accelerated,Y,N,40.0,30,6.53,Y,553,23.0,-999997.0
+CTM,Level,N,N,47.0,20,94.45,N,568,3.0,-999997.0
+CTM,Level,Y,Y,41.0,10,7.49,N,567,6.0,-999997.0
+MSM,Decreasing,N,Y,24.0,30,39.52,N,547,3.0,-999997.0
+Direct,Decreasing,N,N,45.0,20,39.52,N,547,3.0,-999997.0
+CTM,Level,N,N,43.0,20,6.41,Y,561,12.0,-999997.0
+CTM,Decreasing with CI,N,N,50.0,20,6.41,Y,561,12.0,-999997.0
+MSM,Level,N,Y,56.0,20,6.41,Y,561,12.0,-999997.0
+MSM,Level,Y,N,46.0,25,8.68,Y,561,12.0,-999997.0
+CTM,Level with CI,Y,N,46.0,20,6.41,Y,561,12.0,-999997.0
+CTM,Level,Y,Y,38.0,10,9.97,N,545,10.0,-999997.0
+CTM,Level,Y,Y,46.0,20,9.97,N,545,10.0,-999997.0
+CTM,Level with CI,N,N,47.0,25,13.58,N,545,10.0,-999997.0
+CTM,Level accelerated,Y,N,52.0,10,3.41,N,9999,,
+Direct,Level with CI,Y,N,59.0,40,3.66,N,9999,,
+Direct,Level with CI,Y,N,41.0,20,4.0,N,9999,,
+CTM,Decreasing with CI,N,N,41.0,25,3.67,N,9999,,
+CTM,Level,Y,Y,53.0,5,3.95,N,9999,,
+CTM,Level,Y,N,37.0,30,4.31,N,9999,,
+CTM,Level,Y,Y,47.0,20,4.2,N,9999,,
+CTM,Decreasing,N,Y,56.0,10,4.6,N,9999,,
+MSM,Decreasing with CI,Y,N,37.0,15,5.08,N,9999,,
+Direct,Level accelerated,Y,N,46.0,20,6.74,N,9999,,
+CTM,Level with CI,Y,N,52.0,10,7.53,N,9999,,
+CTM,Decreasing accelerated,Y,N,54.0,10,8.35,N,9999,,
+Direct,Level with CI,Y,N,49.0,20,3.18,N,9999,,
+Direct,Level with CI,Y,N,47.0,5,3.43,N,9999,,
+CTM,Level accelerated,Y,N,51.0,30,3.78,N,9999,,
+Direct,Level with CI,N,N,44.0,30,3.35,N,9999,,
+CTM,Decreasing,Y,N,46.0,20,3.63,N,9999,,
+CTM,Decreasing,N,N,40.0,10,4.0,N,9999,,
+Direct,Level,N,N,27.0,30,12.26,N,9999,,
+MSM,Level,Y,N,35.0,30,40.11,N,9999,,
+Direct,Decreasing with CI,Y,N,56.0,20,8.6,N,9999,,
+MSM,Level,Y,Y,47.0,25,20.0,N,581,11.0,-999997.0
+CTM,Level accelerated,Y,Y,32.0,20,10.35,Y,556,12.0,-999997.0
+MSM,Level,Y,N,57.0,10,10.35,Y,556,12.0,-999997.0
+MSM,Level,Y,Y,36.0,20,10.35,Y,556,12.0,-999997.0
+CTM,Decreasing with CI,N,N,39.0,5,10.35,Y,556,12.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,33.0,20,88.62,N,593,11.0,-999997.0
+MSM,Decreasing with CI,Y,Y,48.0,35,88.62,N,593,11.0,-999997.0
+CTM,Level with CI,Y,N,32.0,20,45.65,N,9999,,
+CTM,Decreasing with CI,Y,N,46.0,10,51.15,N,9999,,
+CTM,Level,N,Y,53.0,5,23.39,N,568,8.0,-999997.0
+Direct,Level accelerated,Y,Y,50.0,15,15.0,N,568,8.0,-999997.0
+CTM,Decreasing with CI,N,N,47.0,20,65.75,N,568,8.0,-999997.0
+Direct,Level,Y,N,23.0,30,15.01,N,568,8.0,-999997.0
+Direct,Decreasing with CI,Y,Y,51.0,15,36.84,N,568,8.0,-999997.0
+CTM,Decreasing,N,N,37.0,20,46.48,N,568,8.0,-999997.0
+Direct,Decreasing with CI,Y,Y,62.0,20,15.0,N,568,8.0,-999997.0
+CTM,Level with CI,Y,N,57.0,30,15.61,N,568,8.0,-999997.0
+MSM,Decreasing with CI,N,N,26.0,20,23.83,Y,558,0.0,-999997.0
+CTM,Decreasing with CI,Y,Y,48.0,30,23.83,Y,558,0.0,-999997.0
+CTM,Level with CI,Y,Y,48.0,20,23.83,Y,558,0.0,-999997.0
+Direct,Level,Y,N,46.0,20,15.0,N,568,5.0,-999997.0
+CTM,Level accelerated,N,Y,49.0,30,16.42,N,568,5.0,-999997.0
+CTM,Decreasing,N,Y,43.0,20,17.61,Y,568,5.0,-999997.0
+CTM,Level,Y,Y,52.0,30,28.85,N,9999,,
+MSM,Level with CI,Y,N,32.0,20,7.08,N,9999,,
+CTM,Level,Y,N,43.0,10,7.08,N,9999,,
+CTM,Level accelerated,N,Y,39.0,10,19.37,N,532,3.0,-999997.0
+MSM,Level,Y,N,45.0,40,143.14,N,485,-999997.0,
+Direct,Decreasing,Y,Y,46.0,10,5.44,N,9999,,
+Direct,Decreasing,Y,N,44.0,30,11.64,N,564,19.0,-999997.0
+MSM,Level accelerated,N,N,34.0,30,11.64,N,564,19.0,-999997.0
+CTM,Decreasing,Y,N,47.0,25,14.14,N,557,6.0,-999997.0
+CTM,Level,Y,Y,57.0,20,14.14,N,557,6.0,-999997.0
+CTM,Level,N,Y,36.0,40,23.31,N,9999,,
+MSM,Decreasing accelerated,Y,N,43.0,10,24.36,N,583,5.0,-999997.0
+Direct,Decreasing with CI,Y,N,42.0,20,6.9,N,540,4.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,46.0,20,9.93,N,540,4.0,-999997.0
+CTM,Decreasing with CI,Y,N,51.0,20,23.42,N,572,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,47.0,30,29.73,N,587,2.0,-999997.0
+Direct,Decreasing with CI,N,Y,43.0,20,29.99,N,587,2.0,-999997.0
+MSM,Decreasing accelerated,Y,N,36.0,20,77.46,N,587,2.0,-999997.0
+MSM,Level accelerated,Y,N,42.0,20,77.46,N,587,2.0,-999997.0
+CTM,Level accelerated,Y,Y,35.0,25,68.41,N,602,0.0,-999997.0
+Direct,Decreasing with CI,Y,Y,63.0,30,64.05,N,567,4.0,-999997.0
+MSM,Level with CI,N,N,51.0,30,46.42,N,567,4.0,-999997.0
+CTM,Level accelerated,Y,N,39.0,30,46.42,N,567,4.0,-999997.0
+Direct,Level accelerated,Y,N,59.0,20,35.18,N,567,4.0,-999997.0
+MSM,Level,Y,N,53.0,5,4.97,N,9999,,
+MSM,Level with CI,Y,N,48.0,30,5.38,N,9999,,
+Direct,Level,Y,N,45.0,20,5.88,N,9999,,
+MSM,Level,Y,Y,58.0,20,8.85,N,9999,,
+MSM,Level,N,Y,39.0,5,9.69,N,9999,,
+CTM,Level with CI,Y,N,45.0,30,10.58,N,9999,,
+Direct,Level,N,Y,47.0,15,6.1,N,9999,,
+Direct,Level,Y,Y,40.0,20,6.88,N,9999,,
+CTM,Level with CI,Y,N,42.0,15,7.85,N,9999,,
+Direct,Level accelerated,Y,N,52.0,10,4.81,N,9999,,
+Direct,Decreasing,N,N,51.0,30,5.36,N,9999,,
+CTM,Level,Y,Y,42.0,10,6.08,N,9999,,
+CTM,Level,N,N,45.0,5,24.14,N,9999,,
+CTM,Level,Y,N,34.0,25,6.96,N,9999,,
+MSM,Level with CI,N,Y,37.0,30,7.88,N,9999,,
+MSM,Level accelerated,Y,N,41.0,10,9.03,N,9999,,
+MSM,Level accelerated,N,N,37.0,15,11.25,N,9999,,
+MSM,Level,Y,Y,46.0,20,12.93,N,9999,,
+Direct,Level,N,N,33.0,5,14.95,N,9999,,
+CTM,Decreasing with CI,N,N,42.0,20,227.1,N,9999,,
+Direct,Level accelerated,N,Y,53.0,30,76.58,N,9999,,
+CTM,Level,N,N,44.0,30,227.1,N,9999,,
+Direct,Level with CI,N,Y,46.0,30,28.98,N,9999,,
+CTM,Decreasing with CI,Y,N,48.0,20,36.0,N,580,1.0,-999997.0
+Direct,Decreasing with CI,N,N,44.0,20,36.0,N,580,1.0,-999997.0
+CTM,Level with CI,N,N,56.0,20,20.0,N,9999,,
+MSM,Level,Y,N,45.0,10,11.76,N,564,19.0,-999997.0
+MSM,Decreasing with CI,Y,Y,54.0,10,179.88,N,485,-999997.0,
+CTM,Decreasing accelerated,N,Y,38.0,20,15.37,N,574,8.0,-999997.0
+CTM,Decreasing accelerated,N,N,34.0,30,15.37,N,574,8.0,-999997.0
+MSM,Decreasing,N,N,23.0,35,17.14,N,574,8.0,-999997.0
+MSM,Level with CI,N,N,45.0,20,29.4,Y,567,12.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,60.0,15,29.4,Y,567,12.0,-999997.0
+MSM,Level accelerated,N,N,55.0,20,38.2,Y,567,12.0,-999997.0
+CTM,Level,Y,Y,64.0,20,38.2,Y,567,12.0,-999997.0
+MSM,Level,N,N,26.0,20,28.5,N,514,14.0,-999997.0
+CTM,Level,Y,N,56.0,30,28.5,N,514,14.0,-999997.0
+CTM,Level with CI,Y,Y,41.0,5,28.5,N,514,14.0,-999997.0
+CTM,Level,Y,N,44.0,30,28.5,N,514,14.0,-999997.0
+CTM,Level with CI,N,N,45.0,20,28.5,N,514,14.0,-999997.0
+CTM,Decreasing with CI,Y,N,53.0,30,174.85,N,9999,,
+Direct,Level with CI,Y,N,46.0,40,69.57,N,573,8.0,-999997.0
+MSM,Level with CI,Y,Y,47.0,30,69.57,N,573,8.0,-999997.0
+CTM,Decreasing,Y,Y,55.0,30,31.02,N,9999,,
+MSM,Level with CI,Y,N,40.0,20,35.87,N,9999,,
+Direct,Level,Y,N,53.0,15,35.87,N,9999,,
+Direct,Decreasing accelerated,Y,N,37.0,10,25.0,N,9999,,
+Direct,Level accelerated,Y,N,29.0,25,25.0,N,9999,,
+CTM,Decreasing with CI,Y,N,56.0,40,29.4,N,9999,,
+CTM,Level with CI,Y,Y,59.0,40,30.47,N,9999,,
+MSM,Decreasing with CI,Y,Y,56.0,30,25.0,N,9999,,
+MSM,Level accelerated,N,Y,45.0,20,23.42,N,572,3.0,-999997.0
+Direct,Level with CI,Y,N,45.0,10,20.0,N,572,3.0,-999997.0
+Direct,Level with CI,Y,Y,53.0,20,20.0,N,572,3.0,-999997.0
+CTM,Level,N,N,33.0,5,5.6,N,574,10.0,-999997.0
+Direct,Decreasing,Y,N,44.0,20,5.6,N,574,10.0,-999997.0
+MSM,Decreasing,Y,N,49.0,30,29.33,Y,9999,,
+MSM,Level with CI,Y,Y,41.0,20,29.33,Y,9999,,
+Direct,Level with CI,Y,Y,48.0,30,29.33,Y,9999,,
+CTM,Level accelerated,Y,N,44.0,25,17.61,N,568,5.0,-999997.0
+CTM,Decreasing,N,N,46.0,40,17.61,N,568,5.0,-999997.0
+Direct,Level,N,N,51.0,20,17.21,N,568,5.0,-999997.0
+MSM,Decreasing accelerated,Y,N,40.0,10,17.21,N,568,5.0,-999997.0
+CTM,Level with CI,N,Y,45.0,20,18.6,N,568,5.0,-999997.0
+MSM,Decreasing accelerated,Y,Y,44.0,20,15.0,N,568,5.0,-999997.0
+CTM,Level with CI,N,Y,37.0,20,16.42,N,568,5.0,-999997.0
+MSM,Level,Y,N,55.0,20,11.35,N,568,5.0,-999997.0
+CTM,Decreasing,N,Y,35.0,25,16.42,Y,568,5.0,-999997.0
+CTM,Level,Y,N,49.0,30,16.42,Y,568,5.0,-999997.0
+CTM,Decreasing with CI,Y,N,46.0,20,28.43,N,567,4.0,-999997.0
+CTM,Level accelerated,N,Y,47.0,20,46.06,N,567,4.0,-999997.0
+Direct,Level,Y,Y,27.0,20,28.43,N,567,4.0,-999997.0
+MSM,Decreasing accelerated,Y,N,38.0,30,20.03,N,567,4.0,-999997.0
+Direct,Level with CI,Y,N,49.0,5,10.0,N,571,1.0,-999997.0
+Direct,Decreasing with CI,Y,Y,55.0,10,10.0,N,571,1.0,-999997.0
+CTM,Level,N,N,32.0,20,30.38,N,586,1.0,-999997.0
+CTM,Decreasing,N,N,29.0,20,54.7,N,9999,,
+MSM,Level,Y,N,33.0,20,54.7,N,9999,,
+Direct,Level,Y,N,60.0,5,13.24,N,9999,,
+MSM,Level,Y,Y,35.0,20,13.24,N,9999,,
+CTM,Level accelerated,N,N,50.0,20,22.53,N,9999,,
+CTM,Decreasing,,Y,53.0,30,13.24,N,9999,,
+Direct,Decreasing,Y,Y,,30,28.35,N,456,8.0,20.0
+CTM,Level with CI,Y,N,32.0,20,28.35,N,456,8.0,20.0
+MSM,Decreasing with CI,N,N,60.0,30,36.0,N,580,1.0,-999997.0
+CTM,Level,Y,Y,36.0,30,36.0,N,580,1.0,-999997.0
+Direct,Level with CI,N,N,43.0,10,10.16,N,9999,,
+CTM,Decreasing with CI,Y,N,49.0,30,9.78,N,9999,,
+CTM,Decreasing with CI,N,Y,44.0,5,9.91,N,9999,,
+MSM,Decreasing accelerated,Y,N,45.0,30,10.97,N,9999,,
+CTM,Level,Y,N,47.0,35,9.59,N,9999,,
+CTM,Decreasing with CI,Y,N,42.0,10,10.16,N,9999,,
+MSM,Level with CI,Y,N,53.0,10,9.78,N,9999,,
+MSM,Level accelerated,Y,Y,45.0,10,8.0,N,9999,,
+CTM,Level accelerated,Y,N,52.0,20,19.96,N,573,8.0,-999997.0
+CTM,Level,Y,N,49.0,35,79.01,N,564,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,42.0,30,31.84,N,542,4.0,-999997.0
+Direct,Level,N,N,54.0,30,26.21,N,542,4.0,-999997.0
+CTM,Level,Y,N,29.0,15,143.61,N,485,7.0,22.0
+Direct,Level,N,Y,47.0,25,143.61,N,485,7.0,22.0
+MSM,Level,Y,N,40.0,30,23.64,Y,537,3.0,-999997.0
+CTM,Decreasing,N,N,46.0,10,23.64,Y,537,3.0,-999997.0
+CTM,Decreasing,Y,N,45.0,20,23.64,Y,537,3.0,-999997.0
+Direct,Level with CI,N,N,41.0,20,14.76,N,560,7.0,-999997.0
+CTM,Level,Y,Y,41.0,20,14.76,N,560,7.0,-999997.0
+CTM,Level,Y,Y,55.0,10,23.01,N,551,5.0,-999997.0
+MSM,Level with CI,N,N,46.0,25,21.32,N,587,0.0,-999997.0
+MSM,Level,N,N,30.0,15,21.32,N,587,0.0,-999997.0
+CTM,Level,Y,Y,51.0,10,20.77,N,507,5.0,17.0
+CTM,Level,Y,N,46.0,10,19.81,N,472,4.0,2.0
+Direct,Level with CI,Y,N,58.0,20,21.27,N,472,4.0,2.0
+CTM,Level,N,Y,34.0,20,21.27,N,472,4.0,2.0
+Direct,Decreasing,N,Y,49.0,30,16.91,N,472,4.0,2.0
+Direct,Decreasing with CI,N,N,44.0,20,25.66,Y,9999,,
+MSM,Level,Y,N,39.0,15,21.96,Y,9999,,
+Direct,Decreasing,Y,N,46.0,5,18.43,Y,9999,,
+CTM,Level,Y,N,42.0,20,14.15,Y,9999,,
+CTM,Decreasing with CI,Y,N,42.0,5,268.12,N,573,2.0,-999997.0
+CTM,Level,Y,Y,46.0,5,18.43,Y,9999,,
+Direct,Decreasing,Y,N,52.0,30,18.43,Y,9999,,
+CTM,Decreasing with CI,Y,Y,46.0,5,14.15,Y,9999,,
+CTM,Decreasing,N,N,47.0,30,10.96,Y,9999,,
+CTM,Level,N,N,48.0,30,24.89,N,575,0.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,33.0,40,20.0,N,9999,,
+MSM,Decreasing with CI,Y,N,37.0,5,20.0,N,9999,,
+Direct,Decreasing with CI,N,N,45.0,20,20.0,N,9999,,
+Direct,Decreasing,Y,Y,35.0,10,20.0,N,9999,,
+MSM,Level,Y,N,53.0,35,8.23,N,540,5.0,-999997.0
+CTM,Level,N,Y,60.0,30,8.23,N,540,5.0,-999997.0
+MSM,Level,N,Y,39.0,20,207.53,N,533,5.0,-999997.0
+CTM,Level,Y,Y,49.0,30,207.53,N,533,5.0,-999997.0
+CTM,Decreasing,Y,Y,35.0,10,28.5,N,514,14.0,-999997.0
+Direct,Level,Y,Y,41.0,25,28.5,N,514,14.0,-999997.0
+Direct,Decreasing,Y,N,37.0,30,43.52,N,564,9.0,-999997.0
+Direct,Decreasing with CI,Y,Y,44.0,10,43.52,N,564,9.0,-999997.0
+CTM,Level,N,N,46.0,30,13.59,N,477,15.0,43.0
+CTM,Level,Y,N,49.0,20,31.73,Y,9999,,
+CTM,Level with CI,N,Y,52.0,10,30.04,Y,9999,,
+MSM,Decreasing,N,Y,24.0,30,31.73,Y,9999,,
+CTM,Decreasing,N,N,40.0,30,31.73,Y,9999,,
+CTM,Level,Y,Y,56.0,30,45.76,N,584,8.0,-999997.0
+CTM,Level with CI,Y,N,46.0,20,40.66,N,585,9.0,-999997.0
+CTM,Level,N,N,45.0,5,25.94,N,539,5.0,-999997.0
+CTM,Decreasing with CI,N,N,41.0,40,25.94,N,539,5.0,-999997.0
+MSM,Decreasing,Y,N,44.0,10,25.94,N,539,5.0,-999997.0
+CTM,Level accelerated,N,Y,51.0,30,255.67,N,598,0.0,-999997.0
+CTM,Decreasing with CI,Y,N,40.0,20,255.67,N,598,0.0,-999997.0
+MSM,Level accelerated,N,N,45.0,5,255.67,N,598,0.0,-999997.0
+Direct,Decreasing with CI,Y,Y,43.0,30,11.64,N,564,19.0,-999997.0
+CTM,Level with CI,Y,N,46.0,20,11.64,N,564,19.0,-999997.0
+CTM,Decreasing,Y,N,42.0,30,11.76,N,564,19.0,-999997.0
+MSM,Level,N,N,48.0,10,12.66,Y,587,12.0,-999997.0
+Direct,Decreasing,Y,Y,50.0,25,13.0,Y,587,12.0,-999997.0
+CTM,Decreasing with CI,Y,N,51.0,5,13.0,Y,587,12.0,-999997.0
+Direct,Level with CI,N,N,52.0,25,13.0,Y,587,12.0,-999997.0
+CTM,Level,N,Y,43.0,30,10.0,Y,587,12.0,-999997.0
+Direct,Decreasing with CI,Y,N,46.0,20,4.26,Y,483,3.0,14.0
+Direct,Level accelerated,N,N,55.0,20,4.26,Y,483,3.0,14.0
+MSM,Level,Y,Y,44.0,20,5.8,Y,483,3.0,14.0
+CTM,Level,Y,Y,44.0,20,33.22,N,565,10.0,-999997.0
+Direct,Decreasing with CI,N,N,44.0,5,33.22,N,565,10.0,-999997.0
+CTM,Decreasing with CI,Y,Y,45.0,15,10.87,Y,538,7.0,-999997.0
+CTM,Decreasing with CI,Y,N,37.0,30,7.01,Y,538,7.0,-999997.0
+Direct,Decreasing,Y,N,34.0,10,7.01,Y,538,7.0,-999997.0
+CTM,Level,Y,N,32.0,10,6.53,Y,538,7.0,-999997.0
+CTM,Decreasing,Y,N,24.0,30,6.44,Y,538,7.0,-999997.0
+CTM,Decreasing with CI,N,Y,35.0,30,9.97,Y,538,7.0,-999997.0
+CTM,Decreasing,Y,N,46.0,10,6.92,Y,538,7.0,-999997.0
+MSM,Level,Y,N,36.0,30,6.46,Y,538,7.0,-999997.0
+Direct,Decreasing,N,N,48.0,30,6.82,Y,538,7.0,-999997.0
+CTM,Level,Y,N,53.0,5,7.01,Y,538,7.0,-999997.0
+MSM,Level with CI,N,Y,44.0,30,26.58,N,576,6.0,-999997.0
+MSM,Level,Y,N,33.0,20,59.0,N,549,9.0,-999997.0
+CTM,Level,Y,Y,49.0,40,24.18,N,549,9.0,-999997.0
+MSM,Decreasing,Y,Y,42.0,40,24.18,N,549,9.0,-999997.0
+CTM,Decreasing,Y,Y,37.0,30,24.18,N,549,9.0,-999997.0
+Direct,Level,Y,N,35.0,10,16.26,N,9999,,
+CTM,Decreasing accelerated,N,Y,46.0,10,16.26,N,9999,,
+MSM,Decreasing,Y,N,40.0,20,16.26,N,9999,,
+CTM,Decreasing,N,N,42.0,20,19.41,N,9999,,
+MSM,Decreasing,Y,N,47.0,5,19.41,N,9999,,
+CTM,Level,N,N,45.0,20,9.99,Y,555,1.0,-999997.0
+CTM,Decreasing,Y,N,42.0,20,10.09,Y,555,1.0,-999997.0
+Direct,Decreasing with CI,Y,N,42.0,20,9.99,Y,555,1.0,-999997.0
+CTM,Level,N,Y,51.0,5,9.99,Y,555,1.0,-999997.0
+Direct,Level,Y,N,50.0,20,43.56,Y,526,27.0,-999997.0
+CTM,Decreasing with CI,N,Y,48.0,5,43.56,Y,526,27.0,-999997.0
+CTM,Decreasing,N,Y,45.0,30,43.56,Y,526,27.0,-999997.0
+CTM,Level,Y,N,47.0,20,77.99,N,551,1.0,-999997.0
+Direct,Decreasing with CI,N,Y,58.0,35,27.44,N,551,1.0,-999997.0
+Direct,Level,N,Y,57.0,10,72.25,N,570,1.0,-999997.0
+Direct,Level,N,Y,41.0,20,25.88,N,551,1.0,-999997.0
+Direct,Level with CI,Y,Y,34.0,5,29.36,N,559,4.0,-999997.0
+CTM,Level,Y,Y,46.0,20,29.36,N,559,4.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,41.0,30,5.96,N,559,4.0,-999997.0
+CTM,Level,Y,N,60.0,5,5.96,N,559,4.0,-999997.0
+Direct,Decreasing,N,N,27.0,20,5.54,N,559,4.0,-999997.0
+Direct,Level with CI,Y,Y,48.0,30,5.06,N,9999,,
+CTM,Decreasing,N,N,34.0,20,5.06,N,9999,,
+CTM,Decreasing accelerated,N,Y,51.0,25,5.06,N,9999,,
+MSM,Level,Y,N,39.0,30,5.06,N,9999,,
+CTM,Decreasing with CI,Y,Y,34.0,20,16.51,N,566,13.0,-999997.0
+CTM,Level,Y,N,48.0,20,16.51,N,566,13.0,-999997.0
+CTM,Level,Y,N,40.0,10,318.02,N,9999,,
+Direct,Level with CI,Y,N,38.0,30,26.05,N,9999,,
+Direct,Decreasing,Y,Y,23.0,20,35.22,N,551,1.0,-999997.0
+CTM,Level,N,N,47.0,35,43.51,N,499,-999997.0,
+CTM,Level with CI,Y,N,39.0,20,8.12,N,523,7.0,-999997.0
+MSM,Level,N,Y,44.0,5,5.8,Y,483,3.0,14.0
+Direct,Decreasing with CI,Y,N,49.0,20,15.41,N,473,-999997.0,
+Direct,Level,Y,N,41.0,35,60.55,N,9999,,
+CTM,Decreasing with CI,Y,N,46.0,20,16.55,N,9999,,
+CTM,Level with CI,N,Y,50.0,20,60.78,N,565,6.0,-999997.0
+MSM,Level,Y,N,45.0,30,13.2,N,458,-999997.0,
+CTM,Decreasing with CI,N,Y,30.0,20,91.13,N,9999,,
+CTM,Level with CI,Y,N,32.0,30,85.14,N,9999,,
+MSM,Level,Y,N,50.0,20,81.72,N,9999,,
+Direct,Decreasing with CI,Y,N,42.0,10,78.29,N,9999,,
+CTM,Decreasing,Y,N,53.0,15,76.58,N,9999,,
+CTM,Decreasing with CI,N,Y,43.0,20,76.58,N,9999,,
+Direct,Level,N,N,42.0,35,32.65,N,576,7.0,-999997.0
+MSM,Level,Y,N,46.0,20,32.65,N,576,7.0,-999997.0
+MSM,Decreasing with CI,Y,N,44.0,20,26.61,N,471,-999997.0,
+CTM,Level,N,N,49.0,15,25.69,N,512,-999997.0,
+MSM,Level with CI,Y,N,35.0,20,25.69,N,512,-999997.0,
+CTM,Level,N,N,53.0,30,33.83,N,571,0.0,-999997.0
+CTM,Decreasing with CI,N,N,54.0,30,19.46,N,9999,,
+CTM,Decreasing with CI,N,N,56.0,30,19.46,N,9999,,
+CTM,Decreasing,Y,N,35.0,30,19.46,N,9999,,
+MSM,Level,Y,Y,27.0,20,10.83,N,9999,,
+Direct,Level,N,Y,58.0,30,10.83,N,9999,,
+CTM,Level with CI,Y,Y,40.0,15,9.31,N,527,9.0,-999997.0
+CTM,Level with CI,Y,N,40.0,40,9.31,N,527,9.0,-999997.0
+MSM,Decreasing with CI,Y,N,45.0,10,14.94,N,578,4.0,-999997.0
+Direct,Level,N,N,51.0,35,17.27,N,578,4.0,-999997.0
+Direct,Decreasing with CI,Y,N,53.0,20,12.62,N,578,4.0,-999997.0
+CTM,Level,N,Y,34.0,20,17.27,N,578,4.0,-999997.0
+MSM,Level with CI,N,Y,47.0,25,7.0,N,569,3.0,-999997.0
+CTM,Level,N,N,45.0,30,9.64,N,569,3.0,-999997.0
+CTM,Decreasing,N,Y,53.0,35,7.87,N,569,3.0,-999997.0
+MSM,Decreasing,Y,Y,47.0,20,7.87,N,569,3.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,27.0,20,8.06,N,549,10.0,-999997.0
+CTM,Level with CI,N,N,53.0,20,8.06,N,549,10.0,-999997.0
+CTM,Decreasing,Y,N,57.0,20,38.63,N,549,0.0,-999997.0
+CTM,Decreasing with CI,Y,Y,42.0,30,14.35,N,556,7.0,-999997.0
+CTM,Decreasing accelerated,Y,N,47.0,20,22.0,N,566,2.0,-999997.0
+CTM,Decreasing with CI,N,N,33.0,10,17.27,N,578,4.0,-999997.0
+Direct,Level,Y,Y,26.0,5,11.01,Y,9999,,
+MSM,Level,Y,N,44.0,10,11.01,Y,9999,,
+CTM,Decreasing,Y,N,34.0,10,11.01,Y,9999,,
+MSM,Level,Y,Y,56.0,25,18.54,Y,9999,,
+MSM,Level,N,N,40.0,5,16.03,Y,9999,,
+CTM,Decreasing with CI,Y,N,33.0,20,15.49,Y,9999,,
+Direct,Decreasing with CI,Y,Y,38.0,30,11.01,Y,9999,,
+Direct,Level,Y,Y,58.0,25,10.53,Y,9999,,
+CTM,Decreasing accelerated,Y,N,47.0,10,11.01,Y,9999,,
+CTM,Decreasing with CI,Y,Y,44.0,20,19.15,Y,9999,,
+CTM,Level with CI,Y,N,50.0,20,9.31,N,9999,,
+CTM,Decreasing with CI,Y,N,43.0,15,9.31,N,9999,,
+CTM,Level,Y,Y,43.0,10,9.31,N,9999,,
+CTM,Level accelerated,Y,Y,45.0,20,51.25,N,9999,,
+MSM,Level,Y,Y,59.0,5,59.61,N,557,7.0,-999997.0
+Direct,Decreasing with CI,N,N,46.0,20,35.52,N,557,7.0,-999997.0
+CTM,Level accelerated,Y,N,51.0,30,35.52,N,557,7.0,-999997.0
+CTM,Level,N,Y,45.0,20,32.95,N,551,5.0,-999997.0
+MSM,Decreasing accelerated,Y,N,53.0,15,112.29,N,551,5.0,-999997.0
+Direct,Level,Y,N,33.0,5,41.25,N,572,16.0,-999997.0
+Direct,Level,Y,N,50.0,20,41.25,N,572,16.0,-999997.0
+MSM,Decreasing,N,N,40.0,20,63.33,N,551,5.0,-999997.0
+Direct,Level,N,N,37.0,35,69.22,N,551,5.0,-999997.0
+Direct,Decreasing with CI,N,Y,42.0,20,32.95,N,551,5.0,-999997.0
+Direct,Level,Y,N,44.0,40,20.11,N,566,6.0,-999997.0
+CTM,Decreasing,N,Y,45.0,5,76.04,N,566,6.0,-999997.0
+CTM,Decreasing with CI,Y,N,44.0,20,70.57,N,566,6.0,-999997.0
+Direct,Level,Y,N,47.0,30,83.34,N,566,6.0,-999997.0
+MSM,Level,Y,Y,33.0,30,88.81,N,566,6.0,-999997.0
+CTM,Level,Y,N,42.0,30,88.81,N,566,6.0,-999997.0
+CTM,Level,Y,N,37.0,25,12.91,N,569,11.0,-999997.0
+Direct,Level,Y,N,63.0,20,9.0,Y,569,11.0,-999997.0
+CTM,Level,N,N,40.0,30,9.0,Y,569,11.0,-999997.0
+MSM,Level with CI,N,N,45.0,30,9.0,Y,569,11.0,-999997.0
+Direct,Decreasing,Y,N,41.0,30,8.06,N,569,11.0,-999997.0
+CTM,Decreasing with CI,Y,N,42.0,5,7.88,Y,569,11.0,-999997.0
+MSM,Level with CI,N,Y,39.0,20,34.02,Y,562,10.0,-999997.0
+CTM,Decreasing with CI,N,N,45.0,30,23.66,Y,562,10.0,-999997.0
+CTM,Level,Y,N,34.0,20,25.24,N,579,3.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,49.0,20,25.24,N,579,3.0,-999997.0
+MSM,Level with CI,N,N,47.0,30,10.59,N,575,8.0,-999997.0
+MSM,Level,Y,N,43.0,20,10.59,N,575,8.0,-999997.0
+CTM,Level with CI,Y,Y,59.0,20,20.88,N,572,7.0,-999997.0
+CTM,Level with CI,Y,Y,35.0,20,20.88,N,572,7.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,63.0,15,5.06,N,9999,,
+CTM,Decreasing with CI,Y,N,51.0,10,5.06,N,9999,,
+Direct,Level,N,N,45.0,40,5.06,N,9999,,
+CTM,Level with CI,Y,N,45.0,5,5.06,N,9999,,
+CTM,Level with CI,Y,N,29.0,30,9.99,Y,546,5.0,-999997.0
+CTM,Decreasing with CI,N,N,42.0,30,9.99,Y,546,5.0,-999997.0
+MSM,Level,N,Y,35.0,20,62.0,N,551,32.0,-999997.0
+Direct,Level with CI,Y,Y,49.0,10,6.29,Y,569,11.0,-999997.0
+MSM,Level,N,N,50.0,20,27.43,N,9999,,
+Direct,Level,Y,Y,58.0,5,29.17,N,574,3.0,-999997.0
+Direct,Level with CI,Y,Y,54.0,30,29.17,N,574,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,47.0,5,29.17,N,574,3.0,-999997.0
+Direct,Decreasing with CI,Y,Y,47.0,10,23.66,Y,562,10.0,-999997.0
+Direct,Level with CI,N,N,44.0,40,82.46,N,9999,,
+MSM,Level with CI,Y,N,59.0,20,82.46,N,9999,,
+MSM,Decreasing accelerated,Y,N,47.0,20,115.05,N,9999,,
+CTM,Level,Y,Y,58.0,30,10.84,N,9999,,
+MSM,Level,Y,N,47.0,20,20.99,N,9999,,
+CTM,Level,Y,N,33.0,40,12.64,N,559,4.0,-999997.0
+MSM,Level,Y,N,47.0,20,12.64,N,559,4.0,-999997.0
+MSM,Level accelerated,Y,N,23.0,20,14.55,N,559,4.0,-999997.0
+Direct,Level,Y,Y,45.0,20,10.89,N,9999,,
+CTM,Decreasing,Y,Y,46.0,20,54.7,N,577,8.0,-999997.0
+CTM,Decreasing,N,Y,58.0,25,54.7,N,577,8.0,-999997.0
+Direct,Level,Y,N,46.0,30,36.28,N,566,4.0,-999997.0
+MSM,Level with CI,N,N,39.0,30,68.22,N,566,4.0,-999997.0
+Direct,Decreasing,Y,N,31.0,20,36.28,N,566,4.0,-999997.0
+CTM,Decreasing with CI,N,N,37.0,30,23.81,N,566,4.0,-999997.0
+MSM,Level with CI,N,N,45.0,20,62.76,N,9999,,
+MSM,Decreasing,Y,Y,35.0,20,11.6,N,587,2.0,-999997.0
+CTM,Level,Y,Y,33.0,30,21.37,N,584,1.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,45.0,10,20.79,N,584,1.0,-999997.0
+CTM,Decreasing,Y,Y,38.0,20,20.79,N,584,1.0,-999997.0
+MSM,Level,N,N,26.0,10,52.72,N,556,5.0,-999997.0
+CTM,Decreasing with CI,Y,N,52.0,20,52.72,N,556,5.0,-999997.0
+Direct,Decreasing,N,Y,42.0,20,15.76,N,577,6.0,-999997.0
+CTM,Level with CI,Y,N,42.0,30,15.76,N,577,6.0,-999997.0
+MSM,Level,N,Y,44.0,10,71.02,N,568,12.0,-999997.0
+CTM,Decreasing,Y,Y,51.0,20,71.02,N,568,12.0,-999997.0
+CTM,Level,Y,N,46.0,25,12.56,N,568,3.0,-999997.0
+CTM,Level with CI,N,Y,45.0,30,14.53,N,559,5.0,-999997.0
+MSM,Level,N,N,44.0,40,14.53,N,559,5.0,-999997.0
+CTM,Level,N,N,49.0,20,16.7,N,574,3.0,-999997.0
+CTM,Level with CI,Y,Y,47.0,20,16.7,N,574,3.0,-999997.0
+Direct,Decreasing accelerated,N,Y,39.0,30,18.57,N,562,6.0,-999997.0
+Direct,Decreasing with CI,N,Y,49.0,20,20.0,N,562,6.0,-999997.0
+Direct,Decreasing,Y,Y,36.0,10,20.0,N,562,6.0,-999997.0
+CTM,Level,N,N,52.0,30,10.72,N,579,2.0,-999997.0
+MSM,Decreasing with CI,Y,N,50.0,10,10.72,N,579,2.0,-999997.0
+Direct,Level,Y,Y,29.0,5,33.76,N,489,-999997.0,
+MSM,Decreasing with CI,N,N,40.0,20,33.76,N,489,-999997.0,
+CTM,Level,Y,N,34.0,5,11.09,N,568,12.0,-999997.0
+MSM,Decreasing with CI,Y,Y,42.0,30,8.62,N,568,12.0,-999997.0
+Direct,Level,Y,N,22.0,30,28.37,N,548,9.0,-999997.0
+MSM,Decreasing with CI,N,Y,39.0,5,28.37,N,548,9.0,-999997.0
+Direct,Level,Y,Y,47.0,30,28.37,N,548,9.0,-999997.0
+CTM,Level,N,Y,47.0,20,14.28,N,556,0.0,-999997.0
+Direct,Level,Y,N,20.0,5,14.28,N,556,0.0,-999997.0
+CTM,Level,Y,N,46.0,20,16.84,N,556,0.0,-999997.0
+MSM,Level,Y,Y,44.0,20,17.77,N,556,0.0,-999997.0
+CTM,Decreasing,Y,Y,48.0,10,17.31,N,556,0.0,-999997.0
+MSM,Level,N,Y,41.0,30,68.98,N,566,30.0,-999997.0
+Direct,Decreasing with CI,Y,Y,33.0,20,68.98,N,566,30.0,-999997.0
+CTM,Level,Y,N,44.0,25,9.1,N,566,30.0,-999997.0
+CTM,Level,Y,Y,39.0,10,9.1,N,566,30.0,-999997.0
+CTM,Decreasing with CI,Y,Y,46.0,20,32.08,N,566,30.0,-999997.0
+Direct,Decreasing,Y,N,46.0,20,32.68,N,550,11.0,-999997.0
+Direct,Level with CI,Y,N,44.0,5,53.8,N,523,34.0,37.0
+Direct,Level with CI,Y,N,43.0,20,45.92,N,523,34.0,37.0
+MSM,Level,N,Y,47.0,5,53.8,N,523,34.0,37.0
+Direct,Decreasing,N,N,56.0,20,109.54,N,523,34.0,37.0
+CTM,Level,Y,N,35.0,20,51.0,N,523,34.0,37.0
+Direct,Decreasing with CI,N,N,53.0,20,4.93,N,9999,,
+Direct,Level,Y,N,51.0,20,68.7,N,560,5.0,-999997.0
+CTM,Decreasing accelerated,N,Y,40.0,30,41.72,N,560,5.0,-999997.0
+CTM,Level accelerated,Y,N,63.0,30,41.72,N,560,5.0,-999997.0
+CTM,Decreasing,N,N,40.0,30,40.2,N,560,5.0,-999997.0
+CTM,Level,N,N,45.0,20,45.97,N,587,7.0,-999997.0
+Direct,Level,N,N,47.0,5,10.38,N,489,-999997.0,
+CTM,Decreasing with CI,Y,Y,38.0,40,7.45,N,489,-999997.0,
+CTM,Decreasing with CI,Y,N,45.0,20,8.71,N,489,-999997.0,
+Direct,Level,Y,N,47.0,30,53.36,N,551,6.0,-999997.0
+Direct,Level,N,N,46.0,10,53.36,N,551,6.0,-999997.0
+CTM,Level with CI,Y,Y,45.0,30,37.97,Y,9999,,
+Direct,Decreasing,N,Y,42.0,5,37.97,Y,9999,,
+MSM,Decreasing,Y,N,33.0,15,37.97,Y,9999,,
+Direct,Level,Y,Y,45.0,20,10.0,N,553,11.0,-999997.0
+CTM,Decreasing with CI,Y,N,44.0,20,15.0,N,553,11.0,-999997.0
+Direct,Level with CI,Y,N,57.0,20,15.0,N,553,11.0,-999997.0
+Direct,Decreasing,N,Y,44.0,20,20.03,Y,9999,,
+CTM,Level with CI,Y,Y,44.0,20,29.62,Y,9999,,
+Direct,Level,Y,N,61.0,20,17.97,Y,9999,,
+MSM,Level,N,Y,46.0,20,20.03,Y,9999,,
+Direct,Decreasing accelerated,Y,Y,54.0,30,26.59,N,9999,,
+MSM,Decreasing accelerated,N,N,37.0,20,24.3,N,9999,,
+CTM,Decreasing with CI,Y,N,40.0,15,22.6,N,9999,,
+CTM,Decreasing accelerated,Y,N,24.0,30,17.55,N,9999,,
+Direct,Level with CI,Y,Y,55.0,30,22.56,N,9999,,
+CTM,Level,Y,Y,43.0,20,18.35,N,9999,,
+Direct,Level,N,N,53.0,30,18.35,N,9999,,
+CTM,Level,N,Y,53.0,15,22.56,N,9999,,
+MSM,Decreasing,Y,Y,49.0,15,38.67,N,549,10.0,-999997.0
+MSM,Level,N,N,29.0,10,38.67,N,549,10.0,-999997.0
+MSM,Level,Y,N,46.0,15,32.68,N,550,11.0,-999997.0
+CTM,Level,Y,N,48.0,10,277.32,N,9999,,
+MSM,Level,N,N,41.0,20,277.32,N,9999,,
+MSM,Decreasing with CI,Y,Y,39.0,20,51.0,N,523,34.0,37.0
+Direct,Level with CI,N,Y,51.0,10,91.24,N,523,34.0,37.0
+MSM,Level,Y,Y,44.0,5,66.26,N,523,34.0,37.0
+Direct,Decreasing,Y,N,40.0,15,25.24,N,579,3.0,-999997.0
+Direct,Level,Y,N,47.0,10,25.24,N,579,3.0,-999997.0
+CTM,Decreasing,N,Y,42.0,30,18.13,N,572,2.0,-999997.0
+MSM,Decreasing,N,N,42.0,5,7.2,N,551,7.0,-999997.0
+CTM,Level,Y,N,53.0,20,10.56,N,551,7.0,-999997.0
+CTM,Level,Y,N,33.0,20,11.37,N,551,7.0,-999997.0
+Direct,Level,N,N,55.0,40,10.64,N,551,7.0,-999997.0
+MSM,Decreasing with CI,N,Y,52.0,30,10.56,N,551,7.0,-999997.0
+MSM,Level,Y,N,35.0,30,18.35,N,9999,,
+CTM,Level,Y,Y,50.0,30,36.02,N,9999,,
+CTM,Level with CI,N,Y,39.0,10,11.64,N,564,19.0,-999997.0
+Direct,Decreasing with CI,N,N,49.0,20,11.64,N,564,19.0,-999997.0
+Direct,Level with CI,Y,Y,54.0,25,11.76,N,564,19.0,-999997.0
+CTM,Level with CI,Y,N,50.0,10,112.86,N,9999,,
+MSM,Level with CI,Y,N,44.0,20,105.53,N,9999,,
+Direct,Level,Y,Y,61.0,30,9.1,N,566,30.0,-999997.0
+MSM,Decreasing with CI,Y,Y,45.0,30,5.36,N,9999,,
+CTM,Decreasing with CI,Y,Y,56.0,20,46.38,N,545,28.0,-999997.0
+CTM,Level,Y,N,49.0,20,18.38,N,568,12.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,39.0,10,18.38,N,568,12.0,-999997.0
+CTM,Decreasing,Y,Y,44.0,30,18.38,N,568,12.0,-999997.0
+CTM,Level with CI,Y,Y,36.0,5,14.43,N,509,-999997.0,
+Direct,Decreasing with CI,Y,N,40.0,30,14.43,N,509,-999997.0,
+CTM,Level with CI,N,N,42.0,5,73.64,N,564,3.0,-999997.0
+MSM,Decreasing,N,N,35.0,30,14.95,N,564,3.0,-999997.0
+CTM,Level,Y,N,47.0,20,38.59,N,564,3.0,-999997.0
+MSM,Level with CI,Y,Y,43.0,30,14.95,N,564,3.0,-999997.0
+CTM,Level,Y,N,33.0,20,55.15,N,549,11.0,-999997.0
+MSM,Level,N,N,50.0,20,55.15,N,549,11.0,-999997.0
+CTM,Level,N,Y,44.0,20,24.1,Y,581,6.0,-999997.0
+Direct,Decreasing with CI,Y,Y,19.0,30,24.1,Y,581,6.0,-999997.0
+Direct,Level with CI,N,N,35.0,30,24.1,Y,581,6.0,-999997.0
+Direct,Level with CI,Y,Y,45.0,5,24.1,Y,581,6.0,-999997.0
+Direct,Level,N,Y,43.0,20,24.1,N,581,6.0,-999997.0
+Direct,Level,Y,N,39.0,20,30.01,N,570,7.0,-999997.0
+CTM,Decreasing with CI,N,Y,43.0,20,30.01,N,570,7.0,-999997.0
+CTM,Decreasing,N,N,51.0,15,40.0,N,570,7.0,-999997.0
+CTM,Level,N,N,34.0,10,15.0,N,570,7.0,-999997.0
+MSM,Decreasing,Y,Y,42.0,30,35.15,Y,575,3.0,-999997.0
+CTM,Level,Y,N,37.0,20,34.45,Y,575,3.0,-999997.0
+CTM,Decreasing,N,N,56.0,10,37.95,Y,575,3.0,-999997.0
+MSM,Level with CI,N,N,34.0,20,36.78,Y,575,3.0,-999997.0
+CTM,Level,Y,Y,38.0,30,35.61,Y,575,3.0,-999997.0
+Direct,Decreasing with CI,Y,Y,33.0,30,12.35,N,539,4.0,-999997.0
+CTM,Level,Y,N,39.0,30,10.47,N,539,4.0,-999997.0
+MSM,Level,N,N,45.0,10,17.75,N,539,4.0,-999997.0
+CTM,Level with CI,N,N,37.0,5,12.35,N,539,4.0,-999997.0
+CTM,Level,N,N,33.0,5,12.35,N,539,4.0,-999997.0
+MSM,Decreasing with CI,Y,Y,54.0,30,12.35,N,539,4.0,-999997.0
+CTM,Decreasing,N,Y,43.0,20,12.35,N,539,4.0,-999997.0
+Direct,Decreasing with CI,N,Y,40.0,20,8.56,N,539,3.0,-999997.0
+CTM,Decreasing with CI,Y,Y,54.0,20,8.56,N,539,3.0,-999997.0
+CTM,Level,N,N,53.0,10,38.95,N,531,7.0,-999997.0
+CTM,Level,Y,Y,36.0,30,38.32,N,531,7.0,-999997.0
+Direct,Decreasing,Y,N,52.0,20,39.6,N,531,7.0,-999997.0
+Direct,Level with CI,N,N,45.0,40,38.32,N,531,7.0,-999997.0
+CTM,Decreasing,N,N,44.0,15,30.26,N,9999,,
+CTM,Decreasing,Y,N,41.0,15,126.31,N,9999,,
+MSM,Level accelerated,N,N,23.0,30,126.31,N,9999,,
+CTM,Level,N,N,35.0,20,35.61,Y,575,3.0,-999997.0
+Direct,Level,N,N,43.0,10,35.61,Y,575,3.0,-999997.0
+MSM,Level,Y,N,45.0,20,35.38,Y,575,3.0,-999997.0
+MSM,Decreasing,Y,N,46.0,40,32.12,Y,575,3.0,-999997.0
+CTM,Level accelerated,N,Y,42.0,30,37.95,Y,575,3.0,-999997.0
+CTM,Level,Y,Y,52.0,10,37.46,Y,575,3.0,-999997.0
+CTM,Level accelerated,N,N,39.0,25,40.43,Y,575,3.0,-999997.0
+CTM,Level,Y,N,45.0,20,37.94,N,562,9.0,-999997.0
+MSM,Level with CI,N,N,32.0,30,14.95,N,564,3.0,-999997.0
+MSM,Level with CI,Y,Y,50.0,20,29.72,N,555,9.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,46.0,5,26.08,N,555,9.0,-999997.0
+CTM,Decreasing,Y,Y,52.0,20,10.0,N,555,9.0,-999997.0
+CTM,Level with CI,N,Y,42.0,20,15.0,N,555,9.0,-999997.0
+Direct,Decreasing accelerated,N,Y,50.0,30,15.0,N,555,9.0,-999997.0
+MSM,Level,Y,Y,44.0,5,18.91,N,555,9.0,-999997.0
+Direct,Decreasing with CI,N,N,60.0,20,30.0,N,555,9.0,-999997.0
+MSM,Level,N,Y,56.0,20,18.79,N,555,9.0,-999997.0
+CTM,Decreasing with CI,Y,N,59.0,20,17.58,N,555,9.0,-999997.0
+CTM,Level,Y,N,54.0,30,75.54,N,560,9.0,-999997.0
+CTM,Level,N,N,57.0,25,55.82,N,545,28.0,-999997.0
+CTM,Level,N,Y,48.0,30,49.38,N,545,28.0,-999997.0
+CTM,Decreasing with CI,Y,Y,34.0,40,49.38,N,545,28.0,-999997.0
+Direct,Decreasing with CI,Y,Y,46.0,35,58.82,N,545,28.0,-999997.0
+Direct,Level accelerated,N,N,29.0,10,46.38,N,545,28.0,-999997.0
+MSM,Decreasing with CI,Y,N,48.0,20,20.01,N,556,6.0,-999997.0
+Direct,Level,Y,N,52.0,20,20.06,N,556,6.0,-999997.0
+MSM,Level with CI,N,Y,54.0,20,5.9,N,479,-999997.0,
+MSM,Decreasing accelerated,N,N,51.0,10,5.9,N,479,-999997.0,
+MSM,Decreasing,Y,N,43.0,30,5.9,N,479,-999997.0,
+MSM,Decreasing with CI,N,N,23.0,5,75.54,N,560,9.0,-999997.0
+CTM,Level,Y,Y,47.0,10,75.54,N,560,9.0,-999997.0
+MSM,Decreasing,N,N,47.0,20,75.54,N,560,9.0,-999997.0
+Direct,Level with CI,Y,N,52.0,40,112.51,N,557,30.0,-999997.0
+CTM,Level,N,N,51.0,30,40.28,N,557,30.0,-999997.0
+Direct,Level,N,N,46.0,40,18.79,N,555,9.0,-999997.0
+Direct,Level,Y,N,51.0,30,22.43,N,555,9.0,-999997.0
+CTM,Level,Y,Y,23.0,25,20.0,N,582,7.0,-999997.0
+Direct,Level,N,N,61.0,30,20.0,N,582,7.0,-999997.0
+MSM,Level with CI,Y,N,33.0,20,20.02,N,557,2.0,-999997.0
+CTM,Decreasing with CI,Y,N,49.0,5,9.8,N,557,2.0,-999997.0
+Direct,Level,N,N,32.0,5,8.09,Y,522,4.0,-999997.0
+Direct,Level,Y,Y,42.0,10,8.79,Y,522,4.0,-999997.0
+MSM,Decreasing,N,N,52.0,20,75.54,N,560,9.0,-999997.0
+CTM,Decreasing with CI,Y,N,50.0,30,75.54,N,560,9.0,-999997.0
+MSM,Decreasing with CI,N,N,51.0,20,22.64,N,9999,,
+CTM,Level,Y,N,35.0,20,22.64,N,9999,,
+MSM,Level with CI,N,Y,54.0,30,20.01,N,556,6.0,-999997.0
+Direct,Level,Y,N,45.0,25,28.24,N,582,1.0,-999997.0
+CTM,Decreasing,N,N,44.0,20,87.32,N,582,1.0,-999997.0
+Direct,Level,N,Y,29.0,5,35.1,N,578,0.0,-999997.0
+Direct,Level with CI,Y,N,29.0,20,20.99,N,578,0.0,-999997.0
+Direct,Level,Y,N,39.0,20,10.87,Y,538,7.0,-999997.0
+CTM,Level,Y,N,50.0,5,7.01,Y,538,7.0,-999997.0
+Direct,Level with CI,N,N,37.0,30,7.01,Y,538,7.0,-999997.0
+Direct,Level,Y,N,35.0,20,6.53,Y,538,7.0,-999997.0
+Direct,Decreasing with CI,Y,N,55.0,10,6.44,Y,538,7.0,-999997.0
+CTM,Level,Y,N,46.0,30,9.97,Y,538,7.0,-999997.0
+CTM,Decreasing with CI,N,N,33.0,10,6.92,Y,538,7.0,-999997.0
+MSM,Decreasing with CI,Y,Y,48.0,10,6.46,Y,538,7.0,-999997.0
+CTM,Decreasing accelerated,Y,N,49.0,15,6.82,Y,538,7.0,-999997.0
+CTM,Level with CI,N,N,47.0,20,7.01,Y,538,7.0,-999997.0
+MSM,Level,N,N,41.0,20,22.64,N,9999,,
+CTM,Level accelerated,Y,Y,52.0,20,24.69,Y,542,6.0,-999997.0
+MSM,Level accelerated,Y,N,55.0,5,16.08,Y,542,6.0,-999997.0
+CTM,Level,Y,Y,53.0,20,16.08,Y,542,6.0,-999997.0
+Direct,Level with CI,N,N,46.0,10,34.09,Y,9999,,
+Direct,Level with CI,Y,Y,41.0,30,20.11,N,571,1.0,-999997.0
+MSM,Decreasing,Y,N,48.0,25,20.11,N,571,1.0,-999997.0
+Direct,Decreasing,Y,N,47.0,30,32.77,N,571,1.0,-999997.0
+Direct,Level,Y,N,41.0,10,21.43,N,571,1.0,-999997.0
+MSM,Level,N,Y,33.0,20,31.05,N,571,1.0,-999997.0
+MSM,Level with CI,Y,Y,48.0,10,64.98,Y,9999,,
+CTM,Level,Y,Y,48.0,20,34.46,Y,9999,,
+CTM,Decreasing with CI,Y,N,41.0,20,34.46,Y,9999,,
+CTM,Level,Y,N,47.0,15,34.46,Y,9999,,
+MSM,Level,Y,Y,49.0,35,30.19,N,571,1.0,-999997.0
+Direct,Decreasing,Y,N,45.0,40,8.09,Y,522,4.0,-999997.0
+Direct,Level,N,N,40.0,20,8.09,Y,522,4.0,-999997.0
+MSM,Level,N,N,54.0,30,9.8,Y,522,4.0,-999997.0
+Direct,Decreasing with CI,N,Y,64.0,30,31.04,N,581,6.0,-999997.0
+Direct,Level,Y,N,40.0,10,6.92,N,9999,,
+Direct,Decreasing with CI,Y,N,43.0,20,6.92,N,9999,,
+CTM,Level,N,N,34.0,20,6.92,N,9999,,
+CTM,Level,Y,Y,51.0,25,8.46,N,9999,,
+CTM,Level with CI,Y,N,39.0,20,6.77,N,569,6.0,-999997.0
+MSM,Level with CI,N,Y,50.0,15,16.02,N,569,6.0,-999997.0
+CTM,Level with CI,Y,N,32.0,35,21.63,N,569,6.0,-999997.0
+Direct,Decreasing,Y,Y,44.0,20,21.63,N,569,6.0,-999997.0
+Direct,Level with CI,Y,Y,48.0,30,16.02,N,569,6.0,-999997.0
+CTM,Level,Y,Y,57.0,10,19.8,N,551,32.0,-999997.0
+CTM,Decreasing with CI,N,N,38.0,20,131.76,N,9999,,
+CTM,Level,Y,N,48.0,30,22.88,Y,558,5.0,-999997.0
+MSM,Level,Y,Y,46.0,25,28.47,Y,558,5.0,-999997.0
+MSM,Decreasing with CI,Y,N,46.0,20,32.62,Y,558,5.0,-999997.0
+CTM,Level,N,N,39.0,10,25.7,Y,558,5.0,-999997.0
+Direct,Level with CI,Y,N,34.0,20,19.66,Y,558,5.0,-999997.0
+Direct,Level,Y,N,44.0,10,19.66,Y,558,5.0,-999997.0
+Direct,Decreasing with CI,Y,N,51.0,20,34.09,Y,9999,,
+CTM,Level,N,Y,54.0,20,13.63,N,543,1.0,-999997.0
+Direct,Level,Y,N,41.0,20,13.63,N,543,1.0,-999997.0
+MSM,Level with CI,Y,Y,37.0,25,11.14,N,551,7.0,-999997.0
+MSM,Decreasing,N,N,37.0,20,3.29,N,578,0.0,-999997.0
+MSM,Level accelerated,N,N,42.0,10,3.29,N,578,0.0,-999997.0
+CTM,Level,N,Y,34.0,10,34.82,N,531,7.0,-999997.0
+CTM,Decreasing,Y,N,44.0,10,34.82,N,531,7.0,-999997.0
+CTM,Level,N,Y,37.0,15,33.31,N,531,7.0,-999997.0
+CTM,Level,N,Y,46.0,30,34.42,N,531,7.0,-999997.0
+Direct,Level,N,N,36.0,20,38.6,N,531,7.0,-999997.0
+MSM,Level,N,N,45.0,20,50.13,N,531,7.0,-999997.0
+MSM,Decreasing with CI,Y,N,56.0,5,33.31,N,531,7.0,-999997.0
+CTM,Level,Y,N,53.0,5,47.74,N,531,7.0,-999997.0
+CTM,Decreasing with CI,Y,Y,52.0,10,48.41,Y,571,1.0,-999997.0
+Direct,Level with CI,Y,Y,45.0,10,48.41,Y,571,1.0,-999997.0
+Direct,Decreasing,N,Y,53.0,20,48.41,Y,571,1.0,-999997.0
+MSM,Decreasing,Y,N,57.0,10,24.22,N,558,15.0,-999997.0
+MSM,Level accelerated,N,Y,59.0,5,24.22,N,558,15.0,-999997.0
+MSM,Level with CI,Y,N,30.0,15,24.22,N,558,15.0,-999997.0
+Direct,Level with CI,Y,N,42.0,30,10.0,N,564,7.0,-999997.0
+CTM,Decreasing with CI,Y,N,42.0,5,10.0,N,564,7.0,-999997.0
+CTM,Decreasing with CI,Y,N,39.0,40,24.89,N,498,-999997.0,
+Direct,Level with CI,Y,N,33.0,20,10.34,N,564,5.0,-999997.0
+CTM,Level,N,N,53.0,30,8.19,N,564,5.0,-999997.0
+Direct,Level,N,N,54.0,20,8.19,N,564,5.0,-999997.0
+Direct,Decreasing with CI,N,Y,32.0,20,8.19,N,564,5.0,-999997.0
+CTM,Decreasing accelerated,Y,N,52.0,30,14.97,N,564,5.0,-999997.0
+CTM,Decreasing with CI,Y,Y,47.0,20,8.19,N,564,5.0,-999997.0
+Direct,Decreasing with CI,Y,N,34.0,20,10.34,N,564,5.0,-999997.0
+Direct,Level with CI,Y,N,44.0,20,47.48,Y,579,6.0,-999997.0
+CTM,Level,Y,N,37.0,20,47.48,Y,579,6.0,-999997.0
+CTM,Decreasing with CI,N,Y,44.0,30,47.48,Y,579,6.0,-999997.0
+CTM,Decreasing,Y,N,25.0,5,25.48,N,519,4.0,36.0
+MSM,Level,Y,N,42.0,20,21.69,N,519,4.0,36.0
+CTM,Decreasing,N,Y,44.0,20,18.97,N,519,4.0,36.0
+CTM,Decreasing with CI,N,N,47.0,30,18.97,N,519,4.0,36.0
+CTM,Level,N,N,51.0,15,4.07,N,539,6.0,-999997.0
+MSM,Level with CI,Y,N,32.0,10,31.04,N,581,6.0,-999997.0
+Direct,Level,N,N,60.0,15,18.04,N,569,4.0,-999997.0
+Direct,Decreasing with CI,Y,N,50.0,5,18.04,N,569,4.0,-999997.0
+Direct,Decreasing,N,N,46.0,20,15.0,N,569,4.0,-999997.0
+MSM,Level,N,Y,27.0,20,28.3,N,567,5.0,-999997.0
+MSM,Decreasing with CI,N,N,45.0,20,54.96,N,567,5.0,-999997.0
+Direct,Decreasing,Y,Y,43.0,30,116.2,N,567,5.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,45.0,5,85.58,N,567,5.0,-999997.0
+CTM,Level,Y,Y,46.0,5,107.91,N,567,5.0,-999997.0
+Direct,Decreasing,Y,N,57.0,10,28.3,N,567,5.0,-999997.0
+CTM,Decreasing,Y,N,46.0,10,28.3,N,567,5.0,-999997.0
+CTM,Level,Y,Y,51.0,20,46.67,N,567,5.0,-999997.0
+CTM,Decreasing,N,N,44.0,20,28.29,N,567,5.0,-999997.0
+MSM,Level with CI,Y,N,48.0,15,17.28,N,569,0.0,-999997.0
+CTM,Level,N,Y,33.0,30,64.85,N,577,6.0,-999997.0
+CTM,Level,Y,N,50.0,30,43.69,N,577,6.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,34.0,20,15.29,N,538,5.0,-999997.0
+Direct,Decreasing accelerated,N,N,44.0,20,15.29,N,538,5.0,-999997.0
+Direct,Level,Y,N,44.0,30,7.45,N,9999,,
+Direct,Decreasing with CI,Y,N,34.0,30,23.2,N,558,11.0,-999997.0
+CTM,Level,N,N,35.0,10,10.53,N,558,11.0,-999997.0
+MSM,Decreasing with CI,Y,Y,45.0,20,10.53,N,558,11.0,-999997.0
+CTM,Level with CI,N,N,52.0,30,184.52,N,595,2.0,-999997.0
+MSM,Level,Y,N,56.0,20,140.57,N,595,2.0,-999997.0
+Direct,Decreasing,Y,Y,48.0,30,31.62,Y,579,6.0,-999997.0
+CTM,Decreasing with CI,N,Y,33.0,25,13.42,N,538,8.0,-999997.0
+MSM,Decreasing with CI,Y,N,58.0,5,13.42,N,538,8.0,-999997.0
+Direct,Decreasing with CI,N,N,50.0,30,13.42,N,538,8.0,-999997.0
+Direct,Decreasing,N,Y,53.0,35,49.44,N,9999,,
+MSM,Level with CI,Y,Y,46.0,20,33.68,N,9999,,
+Direct,Level,N,N,59.0,20,21.06,N,9999,,
+CTM,Decreasing,N,N,49.0,25,21.06,N,9999,,
+CTM,Level,Y,Y,19.0,10,42.58,N,9999,,
+CTM,Level with CI,Y,N,47.0,30,72.41,N,550,5.0,-999997.0
+MSM,Level with CI,Y,Y,40.0,25,72.41,N,550,5.0,-999997.0
+Direct,Level,Y,N,44.0,20,78.35,N,547,5.0,-999997.0
+Direct,Level with CI,N,Y,49.0,25,78.35,N,547,5.0,-999997.0
+Direct,Level,N,N,44.0,20,89.99,N,566,6.0,-999997.0
+Direct,Level,Y,Y,34.0,20,40.05,N,573,5.0,-999997.0
+MSM,Level with CI,Y,Y,29.0,20,121.71,N,9999,,
+CTM,Decreasing accelerated,Y,N,40.0,35,5.93,N,588,0.0,-999997.0
+Direct,Decreasing,Y,Y,45.0,10,36.87,N,558,1.0,-999997.0
+CTM,Level with CI,N,Y,54.0,20,303.18,N,9999,,
+CTM,Decreasing with CI,Y,N,32.0,20,144.82,N,9999,,
+Direct,Decreasing with CI,N,N,47.0,20,8.03,N,9999,,
+CTM,Level with CI,Y,N,33.0,20,34.55,N,9999,,
+CTM,Level,Y,Y,61.0,20,15.26,N,565,10.0,-999997.0
+CTM,Decreasing accelerated,N,N,49.0,30,15.26,N,565,10.0,-999997.0
+MSM,Level accelerated,N,N,44.0,20,15.26,N,565,10.0,-999997.0
+CTM,Decreasing with CI,N,N,43.0,30,16.8,N,565,10.0,-999997.0
+Direct,Level,Y,N,28.0,15,16.8,N,565,10.0,-999997.0
+MSM,Level with CI,Y,N,34.0,10,24.49,N,565,10.0,-999997.0
+CTM,Level,Y,N,60.0,20,24.49,N,565,10.0,-999997.0
+CTM,Level,Y,Y,39.0,20,24.49,N,565,10.0,-999997.0
+MSM,Decreasing with CI,Y,Y,40.0,5,17.81,Y,9999,,
+MSM,Level,Y,N,57.0,5,17.81,Y,9999,,
+CTM,Decreasing,N,Y,26.0,10,17.81,Y,9999,,
+CTM,Level,Y,N,46.0,20,17.81,Y,9999,,
+CTM,Level,Y,N,58.0,5,21.17,N,555,4.0,-999997.0
+MSM,Decreasing with CI,Y,Y,38.0,30,64.32,Y,573,5.0,-999997.0
+Direct,Decreasing with CI,Y,N,42.0,5,64.32,Y,573,5.0,-999997.0
+CTM,Level,N,N,45.0,20,64.32,Y,573,5.0,-999997.0
+Direct,Decreasing,N,Y,41.0,30,23.87,Y,581,6.0,-999997.0
+CTM,Level,N,N,39.0,10,51.92,N,568,1.0,-999997.0
+Direct,Level,N,N,46.0,20,51.92,N,568,1.0,-999997.0
+CTM,Level with CI,Y,N,47.0,20,51.92,N,568,1.0,-999997.0
+Direct,Decreasing,N,Y,46.0,30,63.1,N,512,-999997.0,
+Direct,Level,N,N,46.0,30,16.2,N,512,-999997.0,
+CTM,Level,Y,Y,32.0,25,16.2,N,512,-999997.0,
+CTM,Decreasing with CI,Y,N,47.0,25,17.22,N,512,-999997.0,
+CTM,Level,N,Y,23.0,40,100.44,N,491,-999997.0,
+MSM,Level,N,Y,40.0,30,24.49,N,565,10.0,-999997.0
+CTM,Level with CI,No,N,38.0,30,24.49,N,565,10.0,-999997.0
+CTM,Level,Y,N,43.0,10,15.26,N,565,10.0,-999997.0
+MSM,Level,Y,Y,38.0,10,22.81,N,565,10.0,-999997.0
+Direct,Level,Y,Y,44.0,20,22.81,N,565,10.0,-999997.0
+CTM,Level with CI,Y,N,45.0,25,26.14,N,565,10.0,-999997.0
+CTM,Decreasing,N,N,47.0,20,19.99,Y,554,4.0,-999997.0
+CTM,Decreasing,N,Y,50.0,10,23.15,Y,554,4.0,-999997.0
+MSM,Decreasing with CI,N,N,20.0,20,25.0,Y,554,4.0,-999997.0
+CTM,Level accelerated,Y,N,58.0,20,22.5,Y,554,4.0,-999997.0
+MSM,Level,Y,N,41.0,10,22.5,Y,554,4.0,-999997.0
+CTM,Decreasing with CI,Y,Y,47.0,20,22.5,Y,554,4.0,-999997.0
+CTM,Level,Y,N,52.0,5,24.75,Y,554,4.0,-999997.0
+CTM,Level,Y,N,46.0,20,37.46,N,535,10.0,-999997.0
+Direct,Level,Y,N,47.0,30,37.46,N,535,10.0,-999997.0
+CTM,Level,Y,Y,46.0,30,41.05,N,555,4.0,-999997.0
+MSM,Level with CI,Y,N,49.0,20,38.61,N,529,8.0,-999997.0
+Direct,Level,Y,N,46.0,10,25.0,N,529,8.0,-999997.0
+CTM,Level,N,N,47.0,40,32.42,N,537,6.0,-999997.0
+MSM,Level,N,N,47.0,30,32.42,N,537,6.0,-999997.0
+Direct,Level,N,N,45.0,20,36.17,N,537,6.0,-999997.0
+MSM,Decreasing with CI,N,Y,48.0,20,36.17,N,537,6.0,-999997.0
+MSM,Decreasing accelerated,N,N,46.0,20,36.17,N,537,6.0,-999997.0
+Direct,Decreasing with CI,Y,N,47.0,30,15.71,N,9999,,
+MSM,Level with CI,Y,N,41.0,30,15.71,N,9999,,
+Direct,Level with CI,Y,N,43.0,20,24.18,N,549,9.0,-999997.0
+CTM,Level accelerated,Y,N,40.0,30,24.18,N,549,9.0,-999997.0
+CTM,Level with CI,Y,Y,46.0,20,24.18,N,549,9.0,-999997.0
+CTM,Decreasing with CI,Y,N,47.0,20,55.35,N,571,0.0,-999997.0
+CTM,Decreasing,Y,Y,45.0,30,34.67,N,571,0.0,-999997.0
+Direct,Decreasing with CI,Y,Y,50.0,10,22.64,N,533,2.0,-999997.0
+CTM,Level,N,N,26.0,15,22.64,N,533,2.0,-999997.0
+CTM,Decreasing,Y,N,41.0,20,33.97,N,535,10.0,-999997.0
+CTM,Decreasing with CI,Y,N,46.0,25,9.82,N,581,0.0,-999997.0
+CTM,Level,Y,N,44.0,30,9.82,N,581,0.0,-999997.0
+CTM,Decreasing accelerated,Y,N,42.0,35,15.71,N,9999,,
+CTM,Level,N,Y,44.0,20,15.71,N,9999,,
+MSM,Decreasing,Y,Y,46.0,10,40.0,Y,549,4.0,-999997.0
+CTM,Decreasing,Y,N,39.0,30,51.6,Y,549,4.0,-999997.0
+Direct,Decreasing with CI,N,Y,53.0,10,51.6,Y,549,4.0,-999997.0
+MSM,Decreasing with CI,N,N,32.0,30,46.11,Y,549,4.0,-999997.0
+CTM,Level,N,N,33.0,30,40.0,Y,549,4.0,-999997.0
+MSM,Decreasing,N,N,36.0,30,40.0,Y,549,4.0,-999997.0
+Direct,Decreasing,Y,N,32.0,20,50.0,N,555,4.0,-999997.0
+CTM,Level with CI,Y,N,51.0,5,19.95,N,552,2.0,-999997.0
+Direct,Decreasing with CI,N,N,34.0,15,19.95,N,552,2.0,-999997.0
+MSM,Level with CI,Y,Y,59.0,30,16.35,N,587,7.0,-999997.0
+MSM,Level with CI,N,N,52.0,5,16.35,N,587,7.0,-999997.0
+CTM,Level with CI,Y,N,39.0,20,24.18,Y,549,9.0,-999997.0
+Direct,Decreasing,N,N,46.0,20,24.18,Y,549,9.0,-999997.0
+MSM,Level with CI,Y,Y,53.0,20,24.18,Y,549,9.0,-999997.0
+CTM,Level,N,Y,34.0,30,10.29,N,534,8.0,-999997.0
+MSM,Level,Y,N,54.0,40,10.29,N,534,8.0,-999997.0
+MSM,Level accelerated,Y,Y,43.0,20,9.99,N,534,8.0,-999997.0
+Direct,Decreasing,N,N,35.0,20,9.99,N,534,8.0,-999997.0
+CTM,Decreasing with CI,N,Y,18.0,40,9.99,N,534,8.0,-999997.0
+CTM,Level accelerated,N,Y,38.0,20,10.29,N,534,8.0,-999997.0
+MSM,Level,N,N,45.0,20,10.29,N,534,8.0,-999997.0
+MSM,Decreasing,Y,N,47.0,30,24.27,Y,556,7.0,-999997.0
+CTM,Level accelerated,Y,Y,46.0,30,24.27,Y,556,7.0,-999997.0
+Direct,Level with CI,N,N,32.0,20,25.1,Y,556,7.0,-999997.0
+CTM,Level,N,Y,31.0,20,29.4,Y,556,7.0,-999997.0
+Direct,Decreasing with CI,Y,Y,33.0,30,25.1,Y,556,7.0,-999997.0
+Direct,Level,Y,N,44.0,15,25.1,Y,556,7.0,-999997.0
+CTM,Level with CI,Y,N,45.0,5,29.4,Y,556,7.0,-999997.0
+CTM,Level,N,N,29.0,5,25.1,Y,556,7.0,-999997.0
+CTM,Level,Y,Y,44.0,20,25.1,Y,556,7.0,-999997.0
+MSM,Level with CI,Y,N,54.0,20,25.1,Y,556,7.0,-999997.0
+CTM,Level,Y,N,56.0,15,25.1,Y,556,7.0,-999997.0
+MSM,Level,N,Y,44.0,20,37.99,Y,556,7.0,-999997.0
+CTM,Decreasing,N,N,30.0,10,25.1,Y,556,7.0,-999997.0
+Direct,Level with CI,Y,Y,51.0,30,37.99,Y,556,7.0,-999997.0
+CTM,Decreasing,Y,Y,47.0,20,7.81,N,588,18.0,-999997.0
+CTM,Level accelerated,Y,N,50.0,25,41.23,N,556,8.0,-999997.0
+Direct,Level with CI,N,N,53.0,20,41.23,N,556,8.0,-999997.0
+Direct,Level,N,N,43.0,20,55.25,Y,549,4.0,-999997.0
+MSM,Level,N,N,47.0,20,21.16,Y,568,4.0,-999997.0
+CTM,Level,N,N,42.0,20,21.16,Y,568,4.0,-999997.0
+MSM,Level with CI,Y,N,46.0,30,23.6,Y,568,4.0,-999997.0
+Direct,Level with CI,Y,N,54.0,30,318.02,N,576,6.0,-999997.0
+CTM,Decreasing,N,N,26.0,30,318.02,N,576,6.0,-999997.0
+MSM,Decreasing with CI,Y,N,49.0,30,40.43,N,542,1.0,-999997.0
+Direct,Decreasing with CI,Y,N,45.0,30,7.19,N,544,5.0,-999997.0
+CTM,Level,Y,Y,43.0,10,13.15,N,544,5.0,-999997.0
+CTM,Level with CI,Y,N,44.0,20,14.74,N,544,5.0,-999997.0
+CTM,Decreasing with CI,Y,N,51.0,20,4.76,N,544,5.0,-999997.0
+CTM,Decreasing with CI,N,Y,46.0,30,25.24,Y,579,3.0,-999997.0
+Direct,Decreasing accelerated,N,Y,47.0,20,25.24,Y,579,3.0,-999997.0
+Direct,Decreasing with CI,Y,Y,37.0,20,25.24,Y,579,3.0,-999997.0
+MSM,Level with CI,Y,N,33.0,20,7.0,Y,574,11.0,-999997.0
+Direct,Level with CI,N,N,42.0,20,7.0,Y,574,11.0,-999997.0
+Direct,Level,Y,N,47.0,20,7.0,Y,574,11.0,-999997.0
+CTM,Decreasing with CI,Y,N,45.0,30,22.21,N,559,4.0,-999997.0
+CTM,Level,Y,N,43.0,15,22.21,N,559,4.0,-999997.0
+Direct,Decreasing with CI,N,Y,48.0,30,31.84,N,559,4.0,-999997.0
+Direct,Decreasing with CI,Y,N,44.0,20,38.17,N,516,4.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,52.0,15,30.88,N,552,8.0,-999997.0
+Direct,Level,N,Y,43.0,10,46.32,N,552,8.0,-999997.0
+MSM,Decreasing with CI,N,N,52.0,25,39.33,N,9999,,
+CTM,Level with CI,Y,N,47.0,20,67.66,N,9999,,
+CTM,Level,Y,N,50.0,20,39.33,N,9999,,
+CTM,Decreasing,N,Y,45.0,20,50.36,N,9999,,
+MSM,Decreasing accelerated,Y,N,47.0,30,39.33,N,9999,,
+CTM,Decreasing,Y,N,21.0,40,43.95,N,9999,,
+Direct,Level,Y,Y,47.0,25,48.57,N,9999,,
+MSM,Level,N,N,59.0,10,43.95,N,9999,,
+CTM,Level,Y,N,47.0,10,12.02,N,9999,,
+Direct,Level,Y,N,45.0,20,54.45,N,9999,,
+CTM,Level accelerated,Y,Y,45.0,30,8.8,Y,562,8.0,-999997.0
+CTM,Level with CI,N,N,54.0,20,8.8,Y,562,8.0,-999997.0
+CTM,Level with CI,Y,N,46.0,10,8.8,Y,562,8.0,-999997.0
+CTM,Level with CI,Y,Y,33.0,30,6.04,Y,580,0.0,-999997.0
+CTM,Decreasing,Y,Y,38.0,10,15.69,N,569,9.0,-999997.0
+CTM,Decreasing with CI,Y,N,34.0,30,15.69,N,569,9.0,-999997.0
+MSM,Decreasing with CI,Y,Y,44.0,20,15.69,N,569,9.0,-999997.0
+MSM,Level accelerated,Y,N,45.0,30,15.31,Y,558,1.0,-999997.0
+CTM,Decreasing accelerated,Y,N,25.0,35,16.48,Y,558,1.0,-999997.0
+CTM,Decreasing with CI,Y,N,62.0,35,15.31,Y,558,1.0,-999997.0
+Direct,Level,N,Y,49.0,20,15.31,Y,558,1.0,-999997.0
+CTM,Decreasing with CI,N,Y,51.0,20,15.31,Y,558,1.0,-999997.0
+CTM,Level with CI,Y,Y,58.0,20,7.64,Y,580,0.0,-999997.0
+Direct,Decreasing with CI,N,N,54.0,20,6.04,Y,580,0.0,-999997.0
+Direct,Level with CI,N,N,51.0,20,27.7,N,9999,,
+CTM,Decreasing,Y,N,41.0,30,31.25,N,9999,,
+Direct,Decreasing accelerated,N,Y,51.0,20,24.14,N,9999,,
+CTM,Level,N,N,34.0,10,24.14,N,9999,,
+CTM,Level,Y,N,56.0,5,24.14,N,9999,,
+CTM,Decreasing with CI,N,N,46.0,10,33.23,N,589,3.0,-999997.0
+CTM,Decreasing with CI,Y,Y,38.0,15,33.23,N,589,3.0,-999997.0
+CTM,Level with CI,Y,N,43.0,20,18.37,N,587,11.0,-999997.0
+Direct,Level with CI,N,N,61.0,20,18.37,N,587,11.0,-999997.0
+CTM,Level with CI,Y,Y,26.0,20,18.37,N,587,11.0,-999997.0
+Direct,Level,N,N,51.0,30,31.41,Y,558,1.0,-999997.0
+Direct,Level,Y,Y,34.0,20,33.32,Y,558,1.0,-999997.0
+MSM,Decreasing,Y,N,52.0,25,32.2,Y,558,1.0,-999997.0
+MSM,Decreasing with CI,N,N,49.0,30,30.35,Y,558,1.0,-999997.0
+Direct,Level with CI,Y,Y,50.0,20,31.41,Y,558,1.0,-999997.0
+Direct,Level,Y,N,40.0,5,31.41,Y,558,1.0,-999997.0
+CTM,Decreasing,N,Y,47.0,5,31.41,Y,558,1.0,-999997.0
+Direct,Level,Y,N,44.0,30,25.5,N,562,6.0,-999997.0
+CTM,Decreasing with CI,Y,N,49.0,30,10.64,N,567,4.0,-999997.0
+CTM,Level with CI,Y,N,36.0,5,10.64,N,567,4.0,-999997.0
+Direct,Decreasing accelerated,N,Y,62.0,30,10.64,N,567,4.0,-999997.0
+CTM,Level with CI,Y,Y,29.0,40,10.64,N,567,4.0,-999997.0
+MSM,Level,N,N,40.0,30,18.38,Y,571,8.0,-999997.0
+MSM,Level with CI,Y,N,48.0,10,19.98,Y,571,8.0,-999997.0
+Direct,Decreasing accelerated,N,N,46.0,20,19.98,Y,571,8.0,-999997.0
+Direct,Level with CI,Y,N,50.0,20,22.96,Y,571,8.0,-999997.0
+Direct,Level with CI,N,N,36.0,20,19.98,Y,571,8.0,-999997.0
+Direct,Decreasing with CI,Y,N,53.0,25,19.98,Y,571,8.0,-999997.0
+CTM,Level with CI,N,N,34.0,40,26.57,N,550,14.0,-999997.0
+CTM,Level accelerated,N,Y,44.0,5,26.57,N,550,14.0,-999997.0
+CTM,Decreasing with CI,N,N,35.0,25,18.48,N,9999,,
+Direct,Decreasing with CI,N,N,24.0,20,18.48,N,9999,,
+MSM,Level,N,N,47.0,15,26.94,N,9999,,
+Direct,Level accelerated,N,Y,62.0,20,23.69,N,551,6.0,-999997.0
+CTM,Level with CI,Y,Y,51.0,20,23.69,N,551,6.0,-999997.0
+Direct,Level with CI,N,N,45.0,20,23.69,N,551,6.0,-999997.0
+CTM,Decreasing accelerated,Y,N,62.0,20,23.69,N,551,6.0,-999997.0
+MSM,Decreasing with CI,N,Y,46.0,20,138.47,N,568,5.0,-999997.0
+MSM,Decreasing accelerated,N,Y,61.0,20,138.47,N,568,5.0,-999997.0
+CTM,Decreasing with CI,Y,Y,45.0,20,222.43,N,568,5.0,-999997.0
+CTM,Level accelerated,Y,Y,30.0,30,25.11,N,543,11.0,-999997.0
+CTM,Decreasing,Y,N,35.0,10,19.58,N,543,11.0,-999997.0
+CTM,Level,Y,N,46.0,25,25.11,N,543,11.0,-999997.0
+Direct,Level with CI,Y,Y,46.0,30,36.6,N,546,1.0,-999997.0
+CTM,Decreasing,Y,Y,46.0,30,23.94,N,546,1.0,-999997.0
+CTM,Level accelerated,N,N,48.0,30,29.0,N,546,1.0,-999997.0
+Direct,Level,N,N,45.0,20,15.88,Y,441,2.0,6.0
+Direct,Decreasing,Y,Y,41.0,10,15.88,Y,441,2.0,6.0
+CTM,Level with CI,N,N,52.0,5,15.88,Y,441,2.0,6.0
+CTM,Decreasing with CI,Y,Y,54.0,30,40.39,N,571,2.0,-999997.0
+Direct,Level accelerated,Y,N,36.0,30,30.89,N,571,2.0,-999997.0
+CTM,Level,Y,N,58.0,20,35.3,N,559,5.0,-999997.0
+MSM,Level,Y,N,25.0,25,29.24,N,559,5.0,-999997.0
+MSM,Level accelerated,N,N,37.0,15,10.49,Y,575,11.0,-999997.0
+Direct,Level with CI,N,N,41.0,15,12.08,Y,575,11.0,-999997.0
+CTM,Level,Y,N,40.0,20,10.49,Y,575,11.0,-999997.0
+Direct,Level,Y,Y,46.0,20,11.36,N,550,4.0,-999997.0
+MSM,Decreasing with CI,Y,N,33.0,20,11.36,N,550,4.0,-999997.0
+CTM,Level,Y,Y,49.0,20,11.36,N,550,4.0,-999997.0
+MSM,Level accelerated,N,N,39.0,20,5.53,N,565,0.0,-999997.0
+CTM,Decreasing,Y,N,44.0,5,19.19,N,541,6.0,-999997.0
+MSM,Level,N,N,43.0,25,12.38,N,589,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,41.0,30,12.38,N,589,3.0,-999997.0
+MSM,Decreasing,Y,N,37.0,20,12.38,N,589,3.0,-999997.0
+CTM,Level,N,N,45.0,30,22.13,N,589,3.0,-999997.0
+CTM,Level,Y,Y,43.0,30,46.9,N,571,2.0,-999997.0
+MSM,Level with CI,N,N,58.0,20,44.89,N,9999,,
+Direct,Level accelerated,Y,Y,49.0,20,34.09,Y,9999,,
+CTM,Level,Y,N,40.0,15,26.58,N,9999,,
+MSM,Level,Y,N,35.0,5,26.58,N,9999,,
+Direct,Level with CI,N,N,57.0,20,121.16,N,9999,,
+CTM,Level,N,N,47.0,20,121.16,N,9999,,
+MSM,Level,Y,N,49.0,30,82.84,N,575,9.0,-999997.0
+CTM,Level with CI,N,N,46.0,5,40.39,N,571,2.0,-999997.0
+MSM,Level with CI,Y,N,47.0,20,30.89,N,571,2.0,-999997.0
+Direct,Decreasing,Y,N,53.0,30,40.39,N,571,2.0,-999997.0
+MSM,Decreasing with CI,Y,N,46.0,5,46.9,N,571,2.0,-999997.0
+CTM,Decreasing with CI,Y,Y,41.0,10,68.17,N,571,2.0,-999997.0
+MSM,Level accelerated,Y,N,43.0,15,30.89,N,571,2.0,-999997.0
+Direct,Decreasing with CI,Y,N,39.0,5,104.39,N,498,-999997.0,
+MSM,Level with CI,N,Y,38.0,15,31.52,N,560,21.0,-999997.0
+MSM,Level with CI,Y,Y,57.0,15,31.52,N,560,21.0,-999997.0
+Direct,Level with CI,Y,Y,42.0,5,3.76,Y,583,5.0,-999997.0
+Direct,Level accelerated,N,N,44.0,20,3.76,Y,583,5.0,-999997.0
+MSM,Level with CI,Y,N,41.0,20,3.76,Y,583,5.0,-999997.0
+Direct,Decreasing with CI,N,Y,38.0,30,20.25,N,589,3.0,-999997.0
+CTM,Decreasing,Y,N,45.0,20,20.25,N,589,3.0,-999997.0
+Direct,Level with CI,N,Y,54.0,10,13.16,N,589,3.0,-999997.0
+CTM,Level accelerated,Y,N,52.0,20,26.26,N,571,1.0,-999997.0
+CTM,Level,N,N,46.0,5,26.26,N,571,1.0,-999997.0
+CTM,Decreasing with CI,Y,N,51.0,30,8.79,N,581,5.0,-999997.0
+MSM,Decreasing with CI,Y,N,52.0,20,8.79,N,581,5.0,-999997.0
+Direct,Decreasing with CI,N,N,50.0,30,40.57,N,585,1.0,-999997.0
+CTM,Decreasing with CI,Y,Y,42.0,20,21.44,N,578,5.0,-999997.0
+CTM,Decreasing,Y,N,39.0,20,13.56,N,548,7.0,-999997.0
+MSM,Decreasing with CI,N,N,48.0,20,62.24,N,582,3.0,-999997.0
+CTM,Level,Y,N,40.0,20,209.09,N,582,3.0,-999997.0
+CTM,Level,Y,N,50.0,5,13.02,Y,9999,,
+CTM,Level,N,Y,41.0,20,13.02,Y,9999,,
+CTM,Level,N,N,47.0,30,6.08,Y,9999,,
+CTM,Decreasing,N,N,32.0,20,8.05,Y,9999,,
+CTM,Decreasing with CI,Y,N,52.0,10,13.02,Y,9999,,
+MSM,Decreasing with CI,Y,N,49.0,20,15.0,N,536,-999997.0,
+Direct,Level,Y,Y,44.0,20,39.33,N,9999,,
+CTM,Decreasing with CI,N,Y,43.0,20,67.66,N,9999,,
+CTM,Level,N,N,34.0,15,39.33,N,9999,,
+Direct,Level with CI,Y,Y,47.0,30,50.36,N,9999,,
+CTM,Level with CI,N,N,47.0,20,39.33,N,9999,,
+Direct,Level,Y,N,50.0,25,43.95,N,9999,,
+Direct,Level with CI,Y,Y,24.0,40,48.57,N,9999,,
+Direct,Decreasing with CI,Y,N,51.0,5,43.95,N,9999,,
+Direct,Level,N,N,38.0,20,12.02,N,9999,,
+Direct,Decreasing accelerated,N,N,52.0,30,54.45,N,9999,,
+CTM,Level with CI,Y,N,56.0,25,13.56,N,548,7.0,-999997.0
+CTM,Decreasing,N,Y,35.0,20,24.91,N,539,4.0,-999997.0
+CTM,Decreasing with CI,N,N,30.0,20,24.91,N,539,4.0,-999997.0
+Direct,Level accelerated,N,N,44.0,30,67.14,N,539,4.0,-999997.0
+MSM,Decreasing with CI,N,N,57.0,30,16.85,N,487,-999997.0,
+Direct,Level,Y,Y,59.0,30,16.85,N,487,-999997.0,
+CTM,Decreasing with CI,N,N,46.0,10,31.39,N,577,17.0,-999997.0
+CTM,Level with CI,Y,Y,34.0,20,42.38,N,577,17.0,-999997.0
+MSM,Level,Y,N,53.0,10,40.55,N,577,17.0,-999997.0
+MSM,Level,Y,Y,35.0,30,40.55,N,577,17.0,-999997.0
+CTM,Level,Y,Y,51.0,10,47.64,N,577,17.0,-999997.0
+Direct,Decreasing,N,N,39.0,40,42.6,N,9999,,
+Direct,Level,N,N,24.0,20,22.81,N,9999,,
+Direct,Decreasing with CI,N,Y,60.0,10,22.81,N,9999,,
+Direct,Level with CI,Y,Y,45.0,20,30.27,N,565,10.0,-999997.0
+CTM,Decreasing with CI,Y,N,33.0,30,24.49,N,565,10.0,-999997.0
+CTM,Decreasing,Y,Y,35.0,30,20.81,N,565,10.0,-999997.0
+MSM,Level,Y,Y,56.0,20,20.81,N,565,10.0,-999997.0
+CTM,Decreasing,Y,N,50.0,30,34.36,N,565,10.0,-999997.0
+CTM,Level,N,N,40.0,30,23.83,Y,9999,,
+Direct,Decreasing with CI,Y,N,42.0,5,23.83,N,9999,,
+MSM,Level,Y,Y,40.0,30,23.83,N,9999,,
+CTM,Level,Y,Y,42.0,20,23.83,Y,9999,,
+CTM,Level,Y,N,52.0,30,23.83,Y,9999,,
+CTM,Level,N,N,48.0,10,50.0,N,584,3.0,-999997.0
+CTM,Decreasing,Y,N,32.0,20,50.0,N,584,3.0,-999997.0
+CTM,Level,Y,Y,45.0,10,50.0,N,584,3.0,-999997.0
+CTM,Level with CI,Y,Y,44.0,10,29.99,N,584,3.0,-999997.0
+CTM,Level,N,N,43.0,5,31.52,N,537,5.0,-999997.0
+Direct,Decreasing,Y,N,59.0,30,23.33,N,537,5.0,-999997.0
+MSM,Level accelerated,Y,Y,36.0,30,31.52,N,537,5.0,-999997.0
+Direct,Decreasing,Y,Y,50.0,20,23.33,N,537,5.0,-999997.0
+Direct,Level with CI,Y,N,38.0,30,16.17,N,537,5.0,-999997.0
+MSM,Level,Y,Y,50.0,15,16.17,N,537,5.0,-999997.0
+CTM,Level with CI,Y,N,51.0,30,24.36,N,537,5.0,-999997.0
+Direct,Level with CI,Y,N,42.0,20,14.83,N,563,17.0,-999997.0
+Direct,Level,N,Y,36.0,30,21.13,N,469,6.0,23.0
+CTM,Decreasing,N,Y,32.0,20,21.13,N,469,6.0,23.0
+Direct,Decreasing,N,N,52.0,20,21.13,N,469,6.0,23.0
+CTM,Level,Y,N,52.0,20,207.21,N,470,3.0,28.0
+MSM,Decreasing,N,N,55.0,5,50.0,N,470,3.0,28.0
+MSM,Level with CI,Y,N,44.0,25,50.0,N,470,3.0,28.0
+CTM,Level with CI,Y,Y,44.0,10,50.0,N,470,3.0,28.0
+MSM,Decreasing with CI,Y,N,54.0,10,10.33,Y,558,8.0,-999997.0
+MSM,Level with CI,Y,N,33.0,5,9.27,Y,558,8.0,-999997.0
+CTM,Level,Y,N,46.0,15,9.27,Y,558,8.0,-999997.0
+Direct,Decreasing,Y,Y,63.0,10,9.27,Y,558,8.0,-999997.0
+MSM,Level,Y,N,34.0,30,29.07,N,551,3.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,54.0,20,43.86,N,562,2.0,-999997.0
+CTM,Decreasing with CI,N,N,46.0,5,41.37,N,562,2.0,-999997.0
+MSM,Decreasing,N,N,38.0,30,20.44,N,9999,,
+Direct,Level,N,Y,49.0,10,183.56,N,555,7.0,-999997.0
+CTM,Level,Y,N,47.0,20,200.39,N,555,7.0,-999997.0
+Direct,Level,Y,Y,59.0,30,50.83,N,555,7.0,-999997.0
+MSM,Level accelerated,N,N,54.0,30,48.94,N,555,7.0,-999997.0
+Direct,Decreasing,Y,N,28.0,20,32.11,N,555,7.0,-999997.0
+CTM,Decreasing,Y,N,39.0,10,5.19,N,580,0.0,-999997.0
+Direct,Level with CI,N,N,35.0,30,5.19,N,580,0.0,-999997.0
+Direct,Decreasing,Y,N,35.0,20,14.83,N,563,17.0,-999997.0
+CTM,Decreasing with CI,Y,N,28.0,30,40.32,N,9999,,
+CTM,Level with CI,Y,Y,46.0,30,60.49,N,522,1.0,-999997.0
+CTM,Decreasing with CI,N,N,63.0,20,60.49,N,522,1.0,-999997.0
+Direct,Decreasing,N,N,31.0,10,6.24,N,509,-999997.0,
+Direct,Level,Y,Y,44.0,20,6.24,N,509,-999997.0,
+CTM,Level,N,Y,59.0,10,52.62,N,9999,,
+CTM,Level with CI,Y,Y,53.0,15,49.52,N,9999,,
+CTM,Decreasing,Y,N,44.0,30,10.32,Y,554,1.0,-999997.0
+MSM,Level with CI,Y,N,46.0,15,10.32,Y,554,1.0,-999997.0
+MSM,Decreasing,Y,Y,42.0,5,10.32,Y,554,1.0,-999997.0
+MSM,Level,N,N,36.0,15,10.32,Y,554,1.0,-999997.0
+CTM,Level,Y,N,48.0,10,51.35,Y,546,4.0,-999997.0
+CTM,Decreasing,N,N,44.0,20,36.29,Y,546,4.0,-999997.0
+MSM,Level,N,N,33.0,30,36.29,Y,546,4.0,-999997.0
+MSM,Level,Y,Y,49.0,30,39.3,Y,546,4.0,-999997.0
+MSM,Level,N,N,34.0,5,36.29,Y,546,4.0,-999997.0
+Direct,Level,N,Y,53.0,10,47.72,N,568,4.0,-999997.0
+MSM,Level,Y,Y,42.0,5,17.01,N,558,1.0,-999997.0
+MSM,Level accelerated,Y,Y,54.0,30,19.93,N,558,1.0,-999997.0
+CTM,Decreasing with CI,Y,N,52.0,5,19.06,N,558,1.0,-999997.0
+CTM,Level,Y,Y,45.0,5,8.01,N,570,4.0,-999997.0
+CTM,Level with CI,N,N,39.0,20,8.01,N,570,4.0,-999997.0
+Direct,Decreasing with CI,Y,Y,35.0,30,25.65,N,564,3.0,-999997.0
+CTM,Level,N,N,45.0,20,25.65,N,564,3.0,-999997.0
+CTM,Level,N,N,48.0,10,46.48,N,564,3.0,-999997.0
+CTM,Level accelerated,Y,N,35.0,20,41.73,N,564,3.0,-999997.0
+CTM,Decreasing with CI,Y,Y,52.0,30,39.37,N,564,3.0,-999997.0
+MSM,Level with CI,Y,Y,47.0,20,146.46,N,9999,,
+Direct,Level,Y,N,50.0,30,14.82,Y,553,21.0,-999997.0
+Direct,Decreasing accelerated,N,Y,41.0,20,14.82,Y,553,21.0,-999997.0
+CTM,Decreasing with CI,Y,Y,46.0,5,15.7,Y,553,21.0,-999997.0
+CTM,Level with CI,Y,Y,44.0,10,45.87,Y,558,27.0,-999997.0
+Direct,Level with CI,N,N,57.0,20,26.9,Y,558,27.0,-999997.0
+CTM,Level,N,N,39.0,10,36.3,Y,558,27.0,-999997.0
+Direct,Level,Y,N,54.0,30,31.43,Y,558,27.0,-999997.0
+MSM,Level,Y,N,38.0,30,31.43,Y,558,27.0,-999997.0
+Direct,Decreasing with CI,Y,N,32.0,5,34.05,Y,558,27.0,-999997.0
+MSM,Level,N,Y,45.0,20,55.53,Y,9999,,
+CTM,Level with CI,N,N,34.0,20,55.53,Y,9999,,
+Direct,Level,Y,N,35.0,30,55.53,Y,9999,,
+MSM,Level,N,N,54.0,20,68.94,Y,9999,,
+CTM,Level,Y,N,33.0,25,57.92,Y,9999,,
+CTM,Level with CI,Y,N,44.0,20,44.51,Y,9999,,
+CTM,Decreasing with CI,N,N,38.0,10,55.53,Y,9999,,
+CTM,Decreasing with CI,N,Y,48.0,30,99.62,Y,9999,,
+CTM,Decreasing with CI,Y,Y,45.0,30,55.53,Y,9999,,
+Direct,Decreasing with CI,N,N,24.0,30,13.22,N,9999,,
+Direct,Level,Y,N,46.0,10,14.05,N,543,6.0,-999997.0
+Direct,Decreasing with CI,Y,N,43.0,25,9.83,N,9999,,
+CTM,Decreasing with CI,N,N,43.0,30,9.83,N,9999,,
+CTM,Level,Y,N,48.0,10,104.42,N,578,7.0,-999997.0
+CTM,Level,Y,Yes,54.0,30,88.19,N,578,7.0,-999997.0
+MSM,Level with CI,Y,N,47.0,20,54.8,N,578,7.0,-999997.0
+CTM,Decreasing,Y,N,54.0,10,97.58,N,578,7.0,-999997.0
+CTM,Level,N,N,57.0,30,88.19,N,578,7.0,-999997.0
+CTM,Level,Y,Y,45.0,35,88.19,N,578,7.0,-999997.0
+Direct,Level,Y,N,46.0,15,31.43,Y,558,27.0,-999997.0
+Direct,Level with CI,Y,N,33.0,30,5.24,N,553,10.0,-999997.0
+CTM,Level with CI,Y,Y,32.0,40,5.0,N,553,10.0,-999997.0
+CTM,Decreasing accelerated,Y,N,44.0,25,14.11,N,494,-999997.0,
+Direct,Level with CI,Y,N,51.0,30,14.11,N,494,-999997.0,
+Direct,Decreasing accelerated,Y,N,36.0,5,37.88,Y,9999,,
+Direct,Decreasing with CI,Y,N,40.0,20,46.9,Y,9999,,
+Direct,Decreasing,Y,Y,40.0,10,11.46,N,478,-999997.0,
+CTM,Level,Y,Y,47.0,20,11.46,N,478,-999997.0,
+CTM,Decreasing,Y,N,53.0,25,10.09,N,9999,,
+Direct,Level,N,N,45.0,15,11.73,N,9999,,
+MSM,Level accelerated,N,Y,57.0,30,10.09,N,9999,,
+CTM,Level,N,Y,40.0,30,37.52,N,9999,,
+Direct,Decreasing with CI,N,N,44.0,40,37.4,N,9999,,
+CTM,Level,Y,N,29.0,20,37.4,N,9999,,
+CTM,Level,Y,Y,53.0,20,19.99,N,556,0.0,-999997.0
+MSM,Decreasing with CI,Y,Y,28.0,20,19.99,N,556,0.0,-999997.0
+MSM,Level with CI,N,N,46.0,30,17.07,N,9999,,
+Direct,Decreasing with CI,Y,N,32.0,20,17.07,N,9999,,
+Direct,Level,Y,N,47.0,30,17.07,N,9999,,
+Direct,Level with CI,Y,N,42.0,20,49.99,N,572,12.0,-999997.0
+Direct,Level,N,Y,38.0,30,50.0,N,572,12.0,-999997.0
+CTM,Decreasing accelerated,N,Y,39.0,20,11.59,Y,570,0.0,-999997.0
+CTM,Level accelerated,N,N,53.0,20,11.59,Y,570,0.0,-999997.0
+MSM,Level,Y,N,52.0,30,11.59,Y,570,0.0,-999997.0
+CTM,Level with CI,N,N,51.0,20,17.76,N,571,0.0,-999997.0
+Direct,Level with CI,Y,N,44.0,5,17.76,N,571,0.0,-999997.0
+CTM,Decreasing,N,N,32.0,30,19.75,N,571,0.0,-999997.0
+Direct,Decreasing with CI,Y,Y,41.0,30,11.46,N,478,-999997.0,
+Direct,Decreasing,N,Y,40.0,30,11.46,N,478,-999997.0,
+CTM,Level with CI,N,N,41.0,25,28.55,N,605,2.0,-999997.0
+CTM,Level,N,Y,53.0,30,28.55,N,605,2.0,-999997.0
+CTM,Level,N,N,44.0,40,9.41,N,567,0.0,-999997.0
+CTM,Level,Y,Y,46.0,20,11.46,N,478,-999997.0,
+Direct,Level with CI,N,N,42.0,30,50.0,N,564,3.0,-999997.0
+CTM,Level,Y,N,39.0,25,30.0,N,564,3.0,-999997.0
+MSM,Decreasing with CI,Y,No,50.0,20,56.08,N,564,3.0,-999997.0
+Direct,Level with CI,Y,No,43.0,5,50.02,N,564,3.0,-999997.0
+CTM,Level with CI,Y,N,41.0,30,41.89,N,564,3.0,-999997.0
+Direct,Decreasing with CI,Y,N,44.0,10,49.97,N,564,3.0,-999997.0
+MSM,Level with CI,Y,Y,38.0,5,118.32,N,576,6.0,-999997.0
+CTM,Level with CI,N,Y,45.0,25,36.52,N,576,6.0,-999997.0
+CTM,Decreasing accelerated,Y,N,44.0,30,36.52,N,576,6.0,-999997.0
+Direct,Level,Y,Y,34.0,30,27.68,N,530,2.0,71.0
+Direct,Level,N,N,44.0,30,27.68,N,530,2.0,71.0
+Direct,Level with CI,N,Y,46.0,30,53.83,N,564,3.0,-999997.0
+CTM,Decreasing with CI,N,N,42.0,30,43.35,N,564,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,40.0,20,38.11,N,564,3.0,-999997.0
+CTM,Decreasing with CI,N,N,50.0,20,40.24,N,564,3.0,-999997.0
+CTM,Decreasing,Y,N,45.0,15,40.24,N,564,3.0,-999997.0
+Direct,Decreasing with CI,Y,N,33.0,20,65.26,N,564,3.0,-999997.0
+CTM,Level,Y,N,57.0,5,39.0,Y,9999,,
+MSM,Decreasing with CI,N,N,32.0,10,61.54,Y,9999,,
+CTM,Level,Y,N,45.0,5,54.38,Y,9999,,
+Direct,Level,N,N,52.0,15,35.41,Y,9999,,
+Direct,Decreasing with CI,N,Y,55.0,20,47.62,Y,9999,,
+Direct,Level,N,N,45.0,25,39.0,Y,9999,,
+Direct,Level,Y,N,63.0,25,27.21,N,572,4.0,-999997.0
+Direct,Level accelerated,Y,N,50.0,20,16.92,N,572,4.0,-999997.0
+CTM,Level,Y,N,44.0,30,16.92,N,572,4.0,-999997.0
+MSM,Level with CI,Y,N,33.0,10,16.92,N,572,4.0,-999997.0
+Direct,Level with CI,Y,Y,34.0,10,19.07,N,562,3.0,-999997.0
+CTM,Level,Y,N,44.0,30,17.72,N,562,3.0,-999997.0
+Direct,Level accelerated,Y,Y,38.0,10,15.0,N,562,3.0,-999997.0
+CTM,Level,Y,Y,44.0,30,15.0,N,562,3.0,-999997.0
+Direct,Level,N,N,42.0,5,17.87,N,562,3.0,-999997.0
+Direct,Level with CI,Y,N,46.0,40,16.49,N,562,3.0,-999997.0
+CTM,Level with CI,N,Y,27.0,30,24.74,N,562,3.0,-999997.0
+Direct,Level,N,N,34.0,30,112.53,N,557,9.0,-999997.0
+Direct,Level with CI,N,N,47.0,20,112.53,N,557,9.0,-999997.0
+MSM,Decreasing with CI,Y,N,38.0,20,97.57,N,562,4.0,-999997.0
+CTM,Level with CI,N,Y,48.0,20,97.57,N,562,4.0,-999997.0
+CTM,Level with CI,Y,Y,37.0,20,19.07,N,562,3.0,-999997.0
+Direct,Level,N,N,49.0,35,17.72,N,562,3.0,-999997.0
+CTM,Decreasing,Y,N,44.0,15,15.0,N,562,3.0,-999997.0
+Direct,Level,Y,Y,50.0,5,15.0,N,562,3.0,-999997.0
+MSM,Level,Y,Y,49.0,20,17.87,N,562,3.0,-999997.0
+CTM,Decreasing with CI,N,Y,27.0,25,16.49,N,562,3.0,-999997.0
+Direct,Level,N,N,44.0,10,10.0,N,580,30.0,-999997.0
+CTM,Level,Y,N,59.0,20,18.16,N,580,30.0,-999997.0
+CTM,Decreasing with CI,Y,N,40.0,30,40.35,N,580,30.0,-999997.0
+Direct,Decreasing,N,N,47.0,20,91.88,N,9999,,
+CTM,Level with CI,N,Y,39.0,20,91.88,N,9999,,
+CTM,Decreasing with CI,N,N,51.0,30,7.38,N,9999,,
+MSM,Level with CI,Y,Y,54.0,15,7.38,N,9999,,
+MSM,Decreasing accelerated,Y,N,32.0,25,7.38,N,9999,,
+Direct,Decreasing with CI,Y,N,34.0,20,9.02,N,9999,,
+MSM,Decreasing,Y,N,59.0,5,21.27,N,559,3.0,-999997.0
+CTM,Decreasing,N,Y,34.0,30,24.74,N,562,3.0,-999997.0
+Direct,Level,N,Y,40.0,30,23.13,N,562,3.0,-999997.0
+CTM,Level,N,N,38.0,20,17.69,N,562,3.0,-999997.0
+Direct,Decreasing,N,Y,40.0,20,22.9,N,520,3.0,-999997.0
+MSM,Decreasing with CI,Y,N,47.0,20,24.74,N,562,3.0,-999997.0
+MSM,Level with CI,Y,N,52.0,10,24.74,N,562,3.0,-999997.0
+MSM,Level,N,Y,44.0,5,23.13,N,562,3.0,-999997.0
+CTM,Decreasing with CI,Y,Y,38.0,30,17.69,N,562,3.0,-999997.0
+Direct,Level with CI,N,N,44.0,20,7.79,N,544,5.0,-999997.0
+CTM,Level with CI,N,N,47.0,20,9.64,N,544,5.0,-999997.0
+Direct,Decreasing with CI,N,N,46.0,25,14.09,N,544,5.0,-999997.0
+CTM,Level accelerated,Y,Y,53.0,20,13.15,N,544,5.0,-999997.0
+Direct,Level with CI,Y,Y,55.0,25,13.15,N,544,5.0,-999997.0
+Direct,Level,N,N,59.0,10,13.15,N,544,5.0,-999997.0
+MSM,Level with CI,Y,N,48.0,15,51.25,N,555,7.0,-999997.0
+Direct,Decreasing,Y,N,46.0,30,51.25,N,555,7.0,-999997.0
+CTM,Level,Y,Y,54.0,5,6.89,N,9999,,
+CTM,Level with CI,Y,Y,56.0,15,6.89,N,9999,,
+MSM,Decreasing accelerated,Y,N,38.0,20,6.89,N,9999,,
+MSM,Level with CI,N,Y,35.0,25,9.37,N,551,12.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,49.0,30,9.01,N,551,12.0,-999997.0
+MSM,Decreasing,N,N,33.0,10,9.01,N,551,12.0,-999997.0
+Direct,Level,Y,N,27.0,20,17.76,N,571,0.0,-999997.0
+CTM,Decreasing with CI,Y,Y,33.0,10,17.76,N,571,0.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,43.0,20,6.39,N,562,10.0,-999997.0
+Direct,Decreasing accelerated,Y,Y,44.0,5,6.39,N,562,10.0,-999997.0
+CTM,Level,Y,N,52.0,20,331.25,N,565,8.0,-999997.0
+MSM,Level with CI,Y,N,47.0,20,99.8,N,565,8.0,-999997.0
+CTM,Level,N,Y,58.0,30,99.8,N,565,8.0,-999997.0
+Direct,Decreasing with CI,N,N,44.0,30,99.8,N,565,8.0,-999997.0
+CTM,Level with CI,N,Y,62.0,30,18.68,Y,533,13.0,-999997.0
+Direct,Level,Y,Y,56.0,10,18.68,Y,533,13.0,-999997.0
+CTM,Level,Y,N,24.0,5,18.68,Y,533,13.0,-999997.0
+MSM,Decreasing with CI,Y,N,32.0,10,19.37,Y,533,13.0,-999997.0
+CTM,Level,N,Y,38.0,20,47.62,N,556,3.0,-999997.0
+CTM,Level with CI,Y,N,39.0,20,47.62,N,556,3.0,-999997.0
+MSM,Level with CI,N,N,40.0,30,25.23,N,9999,,
+Direct,Level with CI,N,N,40.0,35,25.23,N,9999,,
+CTM,Decreasing accelerated,N,N,58.0,30,19.95,N,552,2.0,-999997.0
+CTM,Decreasing accelerated,Y,N,45.0,10,19.95,N,552,2.0,-999997.0
+Direct,Level,N,Y,47.0,30,17.7,N,9999,,
+Direct,Level with CI,N,N,59.0,30,13.41,N,9999,,
+CTM,Decreasing accelerated,N,Y,39.0,25,13.41,N,9999,,
+CTM,Decreasing with CI,N,Y,51.0,20,25.32,Y,577,4.0,-999997.0
+CTM,Decreasing,N,Y,62.0,20,41.07,Y,577,4.0,-999997.0
+MSM,Level,Y,N,53.0,20,41.07,Y,577,4.0,-999997.0
+MSM,Decreasing accelerated,N,N,51.0,20,41.07,Y,577,4.0,-999997.0
+Direct,Decreasing with CI,Y,N,39.0,20,20.29,N,531,7.0,-999997.0
+Direct,Level with CI,Y,Y,59.0,30,13.96,Y,561,8.0,-999997.0
+MSM,Level,Y,Y,49.0,20,66.94,N,503,7.0,50.0
+Direct,Decreasing with CI,N,Y,44.0,5,23.83,Y,9999,,
+CTM,Decreasing,Y,N,42.0,30,23.83,Y,9999,,
+CTM,Decreasing with CI,Y,N,49.0,30,23.83,Y,9999,,
+CTM,Decreasing,N,Y,33.0,10,22.37,N,9999,,
+MSM,Level with CI,Y,N,54.0,5,22.37,N,9999,,
+CTM,Level with CI,Y,N,49.0,20,16.08,N,9999,,
+CTM,Level with CI,Y,N,42.0,20,10.0,N,9999,,
+Direct,Level with CI,Y,N,48.0,30,10.0,N,9999,,
+MSM,Level,N,N,59.0,25,19.75,N,571,0.0,-999997.0
+CTM,Level,N,N,44.0,5,24.83,N,573,7.0,-999997.0
+CTM,Level with CI,N,N,38.0,20,18.22,N,573,7.0,-999997.0
+CTM,Level,Y,N,46.0,5,15.72,N,573,7.0,-999997.0
+Direct,Level,N,Y,47.0,30,18.58,N,573,7.0,-999997.0
+MSM,Level with CI,Y,Y,41.0,20,15.72,N,573,7.0,-999997.0
+Direct,Decreasing with CI,N,Y,36.0,25,13.96,Y,561,8.0,-999997.0
+MSM,Level with CI,Y,Y,33.0,10,13.96,Y,561,8.0,-999997.0
+CTM,Decreasing with CI,Y,N,37.0,20,14.45,Y,572,4.0,-999997.0
+MSM,Level accelerated,Y,N,43.0,30,14.45,Y,572,4.0,-999997.0
+Direct,Decreasing,N,N,35.0,30,12.46,Y,572,4.0,-999997.0
+Direct,Level,N,N,58.0,20,18.45,Y,572,4.0,-999997.0
+Direct,Decreasing with CI,N,Y,38.0,20,14.45,Y,572,4.0,-999997.0
+CTM,Decreasing accelerated,N,N,58.0,10,66.94,N,503,7.0,50.0
+CTM,Level with CI,Y,Y,43.0,20,325.84,N,503,7.0,50.0
+Direct,Level,N,N,42.0,5,67.91,N,503,7.0,50.0
+CTM,Decreasing with CI,N,N,38.0,30,93.79,N,585,8.0,-999997.0
+MSM,Level with CI,N,Y,37.0,15,14.58,N,9999,,
+Direct,Level with CI,Y,N,57.0,10,49.82,N,585,4.0,-999997.0
+MSM,Level with CI,Y,N,59.0,30,17.15,N,549,3.0,-999997.0
+MSM,Decreasing with CI,Y,Y,32.0,20,9.92,N,549,3.0,-999997.0
+Direct,Level,Y,N,53.0,25,10.36,N,549,3.0,-999997.0
+CTM,Decreasing with CI,N,N,47.0,20,11.44,N,549,3.0,-999997.0
+MSM,Level,N,N,44.0,5,12.67,N,549,3.0,-999997.0
+CTM,Level,Y,Y,41.0,40,9.41,N,557,9.0,-999997.0
+MSM,Level,N,Y,52.0,5,9.41,N,557,9.0,-999997.0
+CTM,Level,Y,N,39.0,20,9.41,N,557,9.0,-999997.0
+CTM,Decreasing with CI,Y,Y,52.0,20,9.41,N,557,9.0,-999997.0
+CTM,Level accelerated,Y,N,39.0,30,13.29,N,9999,,
+Direct,Level,N,Y,33.0,20,10.57,Y,9999,,
+Direct,Decreasing with CI,Y,Y,35.0,20,10.57,Y,9999,,
+CTM,Level,N,N,52.0,5,13.92,Y,9999,,
+Direct,Level,Y,N,43.0,20,11.46,N,562,8.0,-999997.0
+Direct,Level with CI,Y,Y,44.0,10,11.46,N,562,8.0,-999997.0
+CTM,Decreasing,Y,Y,35.0,20,11.46,N,562,8.0,-999997.0
+MSM,Decreasing with CI,N,N,28.0,20,11.46,N,562,8.0,-999997.0
+CTM,Decreasing with CI,Y,Y,47.0,30,24.51,N,9999,,
+CTM,Decreasing,N,N,56.0,10,24.51,N,9999,,
+MSM,Decreasing with CI,N,Y,49.0,5,24.61,N,9999,,
+CTM,Decreasing,N,N,38.0,20,24.61,N,9999,,
+CTM,Level,N,N,38.0,10,24.2,N,9999,,
+Direct,Level,N,N,49.0,5,5.64,N,9999,,
+CTM,Level,Y,N,49.0,20,5.64,N,9999,,
+MSM,Decreasing with CI,N,N,32.0,20,54.09,N,9999,,
+CTM,Level with CI,Y,N,28.0,30,24.07,N,572,4.0,-999997.0
+MSM,Level with CI,Y,Y,42.0,30,24.07,N,572,4.0,-999997.0
+Direct,Level,Y,N,55.0,10,24.07,N,572,4.0,-999997.0
+CTM,Level,N,Y,60.0,20,18.42,N,561,13.0,-999997.0
+Direct,Level with CI,Y,N,52.0,20,18.42,N,561,13.0,-999997.0
+CTM,Decreasing with CI,N,Y,21.0,30,9.62,N,525,-999997.0,
+CTM,Decreasing with CI,N,N,45.0,20,9.62,N,525,-999997.0,
+CTM,Level,N,Y,52.0,20,7.63,N,560,12.0,-999997.0
+CTM,Decreasing with CI,Y,N,42.0,30,9.14,N,560,12.0,-999997.0
+Direct,Level,Y,N,27.0,20,9.14,N,560,12.0,-999997.0
+MSM,Decreasing accelerated,Y,N,39.0,20,9.14,N,560,12.0,-999997.0
+Direct,Level accelerated,Y,Y,45.0,30,23.88,N,9999,,
+CTM,Level accelerated,N,N,43.0,25,52.17,N,9999,,
+MSM,Level,Y,N,51.0,15,20.81,Y,556,8.0,-999997.0
+MSM,Decreasing,Y,N,30.0,10,18.07,Y,556,8.0,-999997.0
+CTM,Decreasing,N,N,29.0,20,16.96,Y,556,8.0,-999997.0
+Direct,Level,N,N,39.0,10,20.81,Y,556,8.0,-999997.0
+CTM,Level,N,Y,41.0,30,20.81,Y,556,8.0,-999997.0
+MSM,Decreasing with CI,N,Y,46.0,20,23.9,Y,568,19.0,-999997.0
+CTM,Decreasing with CI,N,N,33.0,5,23.9,Y,568,19.0,-999997.0
+Direct,Level accelerated,N,N,54.0,20,23.9,Y,568,19.0,-999997.0
+CTM,Decreasing,N,Y,45.0,20,23.9,N,568,19.0,-999997.0
+Direct,Level with CI,Y,Y,50.0,20,23.9,Y,568,19.0,-999997.0
+Direct,Decreasing,Y,Y,57.0,30,14.05,N,543,6.0,-999997.0
+Direct,Level,Y,Y,51.0,15,15.38,N,556,12.0,-999997.0
+CTM,Level,Y,N,37.0,30,13.53,N,556,12.0,-999997.0
+CTM,Level,Y,N,53.0,5,12.04,N,556,12.0,-999997.0
+MSM,Level with CI,N,Y,59.0,20,100.72,N,9999,,
+CTM,Level with CI,N,N,45.0,20,18.42,N,561,13.0,-999997.0
+CTM,Level,Y,Y,44.0,30,35.87,N,557,18.0,-999997.0
+CTM,Level with CI,Y,Y,45.0,20,16.3,N,9999,,
+MSM,Level with CI,Y,N,40.0,10,16.3,N,9999,,
+CTM,Decreasing,Y,N,54.0,5,23.29,N,9999,,
+Direct,Decreasing with CI,Y,N,43.0,30,23.29,N,9999,,
+CTM,Level,N,Y,45.0,30,19.39,N,9999,,
+Direct,Level,N,N,47.0,30,23.64,N,9999,,
+CTM,Level accelerated,N,N,35.0,30,23.64,N,9999,,
+CTM,Decreasing with CI,Y,N,50.0,20,22.11,N,9999,,
+CTM,Decreasing with CI,Y,N,41.0,40,20.48,N,9999,,
+CTM,Decreasing with CI,Y,N,38.0,20,20.81,Y,556,8.0,-999997.0
+Direct,Decreasing with CI,Y,N,42.0,10,18.89,Y,556,8.0,-999997.0
+CTM,Decreasing with CI,Y,N,47.0,20,15.04,Y,556,8.0,-999997.0
+MSM,Level,Y,Y,44.0,30,10.85,Y,556,8.0,-999997.0
+CTM,Level,Y,Y,45.0,40,59.07,N,578,20.0,-999997.0
+Direct,Decreasing with CI,Y,N,44.0,30,33.23,N,578,20.0,-999997.0
+MSM,Level,N,N,45.0,5,10.17,N,564,5.0,-999997.0
+CTM,Decreasing with CI,N,N,27.0,30,7.56,N,564,5.0,-999997.0
+MSM,Decreasing with CI,N,Y,48.0,20,8.12,N,564,5.0,-999997.0
+Direct,Level,Y,Y,34.0,30,7.93,N,564,5.0,-999997.0
+Direct,Level with CI,N,N,50.0,20,6.44,N,564,5.0,-999997.0
+CTM,Level with CI,Y,N,45.0,20,6.06,N,564,5.0,-999997.0
+CTM,Decreasing with CI,Y,N,45.0,20,8.3,N,564,5.0,-999997.0
+Direct,Decreasing with CI,N,N,42.0,20,6.06,N,564,5.0,-999997.0
+Direct,Decreasing with CI,Y,N,49.0,10,10.34,N,564,5.0,-999997.0
+CTM,Decreasing,N,Y,46.0,20,10.34,N,564,5.0,-999997.0
+Direct,Level,Y,Y,50.0,20,7.93,N,564,5.0,-999997.0
+CTM,Decreasing,N,Y,34.0,15,7.74,N,564,5.0,-999997.0
+Direct,Level with CI,N,Y,51.0,5,7.93,N,564,5.0,-999997.0
+CTM,Level,N,Y,46.0,20,8.3,N,564,5.0,-999997.0
+CTM,Decreasing with CI,Y,Y,48.0,20,123.54,N,573,10.0,-999997.0
+Direct,Decreasing with CI,N,Y,39.0,20,104.18,N,573,10.0,-999997.0
+MSM,Level,N,N,59.0,20,104.18,N,573,10.0,-999997.0
+Direct,Level with CI,N,Y,55.0,20,41.4,N,572,8.0,-999997.0
+MSM,Level,Y,Y,64.0,20,41.4,N,572,8.0,-999997.0
+Direct,Decreasing,N,Y,45.0,25,41.4,N,572,8.0,-999997.0
+CTM,Level,Y,N,33.0,10,20.0,N,597,3.0,-999997.0
+CTM,Level,Y,N,40.0,20,10.0,N,597,3.0,-999997.0
+Direct,Decreasing with CI,Y,Y,44.0,30,20.0,N,597,3.0,-999997.0
+MSM,Decreasing with CI,N,Y,58.0,25,112.53,N,524,9.0,-999997.0
+CTM,Level,N,N,41.0,35,112.53,N,524,9.0,-999997.0
+CTM,Level,N,N,30.0,20,12.04,N,501,-999997.0,
+CTM,Level with CI,N,N,57.0,10,489.07,N,583,12.0,-999997.0
+Direct,Decreasing with CI,N,N,19.0,5,327.97,N,583,12.0,-999997.0
+MSM,Decreasing with CI,Y,Y,44.0,15,58.47,N,9999,,
+CTM,Level,N,N,40.0,20,20.0,N,9999,,
+CTM,Decreasing with CI,Y,Y,39.0,25,11.46,N,562,8.0,-999997.0
+CTM,Level,Y,N,41.0,5,99.2,Y,9999,,
+Direct,Level with CI,N,N,53.0,25,13.59,Y,9999,,
+Direct,Decreasing,Y,N,51.0,10,25.98,Y,9999,,
+Direct,Level,Y,N,51.0,25,25.98,Y,9999,,
+CTM,Level accelerated,N,N,53.0,20,9.41,N,524,9.0,-999997.0
+CTM,Level,Y,Y,37.0,20,9.41,N,524,9.0,-999997.0
+CTM,Decreasing,N,N,47.0,20,9.41,N,524,9.0,-999997.0
+Direct,Level with CI,N,N,50.0,20,9.41,N,524,9.0,-999997.0
+Direct,Decreasing with CI,Y,N,45.0,10,89.83,N,594,6.0,-999997.0
+Direct,Level with CI,N,Y,46.0,30,21.98,N,594,6.0,-999997.0
+CTM,Decreasing with CI,Y,Y,62.0,40,21.77,N,594,6.0,-999997.0
+Direct,Level,N,Y,31.0,20,49.77,N,9999,,
+CTM,Level,Y,N,44.0,15,54.86,N,9999,,
+MSM,Level,N,Y,29.0,20,11.93,N,550,13.0,-999997.0
+Direct,Level with CI,Y,Y,37.0,30,11.93,N,550,13.0,-999997.0
+MSM,Level,N,N,23.0,25,11.93,N,550,13.0,-999997.0
+MSM,Decreasing,Y,Y,45.0,10,51.58,Y,581,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,47.0,20,47.64,Y,581,3.0,-999997.0
+CTM,Level,N,Y,49.0,10,36.32,Y,581,3.0,-999997.0
+MSM,Level with CI,N,N,45.0,40,36.32,Y,581,3.0,-999997.0
+Direct,Level with CI,N,N,39.0,30,23.41,Y,9999,,
+CTM,Level with CI,N,N,31.0,30,26.22,Y,9999,,
+MSM,Decreasing with CI,Y,Y,52.0,30,120.35,N,567,1.0,-999997.0
+Direct,Level accelerated,N,Y,64.0,15,120.35,N,567,1.0,-999997.0
+CTM,Level with CI,Y,N,30.0,30,36.32,Y,581,3.0,-999997.0
+MSM,Level,Y,Y,51.0,20,44.16,Y,581,3.0,-999997.0
+Direct,Decreasing,N,N,37.0,10,32.38,Y,581,3.0,-999997.0
+MSM,Level,Y,Y,43.0,20,36.32,Y,581,3.0,-999997.0
+CTM,Level with CI,Y,Y,27.0,20,119.38,N,585,3.0,-999997.0
+MSM,Decreasing,Y,N,62.0,10,119.38,N,585,3.0,-999997.0
+CTM,Level,N,Y,36.0,30,119.38,N,585,3.0,-999997.0
+CTM,Level,Y,Y,64.0,20,51.63,N,585,3.0,-999997.0
+Direct,Level accelerated,Y,Y,39.0,30,57.41,N,9999,,
+Direct,Level with CI,N,Y,37.0,5,68.79,N,9999,,
+Direct,Level,Y,N,39.0,15,59.69,N,9999,,
+CTM,Level,N,Y,39.0,20,59.69,N,9999,,
+Direct,Level with CI,N,N,49.0,40,118.93,N,9999,,
+Direct,Decreasing with CI,Y,Y,53.0,20,118.93,N,9999,,
+CTM,Level,N,N,23.0,30,28.02,Y,9999,,
+CTM,Decreasing with CI,Y,N,45.0,20,26.34,Y,9999,,
+Direct,Decreasing accelerated,Y,Y,34.0,20,28.02,Y,9999,,
+Direct,Decreasing,N,Y,47.0,20,29.81,Y,9999,,
+CTM,Decreasing accelerated,Y,Y,45.0,20,19.45,Y,9999,,
+MSM,Level,N,N,27.0,5,19.45,Y,9999,,
+MSM,Decreasing,Y,Y,49.0,20,32.39,Y,9999,,
+CTM,Level,Y,Y,54.0,20,25.21,Y,9999,,
+CTM,Level with CI,Y,N,50.0,15,23.41,Y,9999,,
+Direct,Level,Y,N,48.0,10,24.59,N,566,7.0,-999997.0
+MSM,Level accelerated,N,N,39.0,10,24.59,N,566,7.0,-999997.0
+Direct,Decreasing with CI,N,N,54.0,30,59.02,N,590,7.0,-999997.0
+CTM,Level accelerated,Y,N,30.0,20,30.35,N,577,8.0,-999997.0
+CTM,Decreasing with CI,Y,N,45.0,20,30.35,N,577,8.0,-999997.0
+CTM,Level,Y,N,49.0,20,17.29,N,543,6.0,-999997.0
+MSM,Decreasing with CI,Y,Y,36.0,20,17.29,N,543,6.0,-999997.0
+CTM,Decreasing with CI,Y,N,42.0,10,194.28,Y,537,13.0,-999997.0
+CTM,Level,Y,Y,32.0,15,63.45,Y,537,13.0,-999997.0
+CTM,Level with CI,Y,Y,52.0,20,55.4,Y,537,13.0,-999997.0
+CTM,Level,N,N,56.0,35,55.4,Y,537,13.0,-999997.0
+Direct,Decreasing with CI,N,N,54.0,10,23.03,N,568,0.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,48.0,30,23.03,N,568,0.0,-999997.0
+MSM,Level,Y,Y,58.0,15,17.62,N,571,2.0,-999997.0
+CTM,Decreasing with CI,Y,Y,38.0,20,17.62,N,571,2.0,-999997.0
+MSM,Decreasing with CI,Y,N,51.0,20,10.0,N,559,14.0,-999997.0
+Direct,Decreasing,Y,N,44.0,10,7.0,N,559,14.0,-999997.0
+CTM,Decreasing with CI,Y,N,36.0,30,10.0,N,559,14.0,-999997.0
+Direct,Level,N,Y,41.0,30,6.38,N,9999,,
+MSM,Decreasing with CI,Y,N,53.0,20,6.38,N,9999,,
+Direct,Level accelerated,N,Y,61.0,30,352.73,N,575,5.0,-999997.0
+Direct,Level with CI,Y,N,25.0,30,17.65,Y,581,5.0,-999997.0
+MSM,Decreasing with CI,Y,N,42.0,15,17.65,Y,581,5.0,-999997.0
+MSM,Level with CI,N,Y,40.0,20,17.65,Y,581,5.0,-999997.0
+CTM,Level with CI,N,Y,36.0,20,17.65,Y,581,5.0,-999997.0
+CTM,Level,Y,N,39.0,20,56.77,Y,575,5.0,-999997.0
+MSM,Level with CI,N,N,21.0,10,56.77,Y,575,5.0,-999997.0
+CTM,Decreasing with CI,Y,Y,50.0,25,56.77,Y,575,5.0,-999997.0
+Direct,Level with CI,Y,N,44.0,30,55.4,Y,537,13.0,-999997.0
+CTM,Decreasing,Y,Y,47.0,30,66.09,Y,537,13.0,-999997.0
+MSM,Level,N,N,48.0,25,84.13,Y,537,13.0,-999997.0
+CTM,Level,N,N,21.0,20,121.67,Y,537,13.0,-999997.0
+CTM,Decreasing,Y,N,38.0,10,63.45,Y,537,13.0,-999997.0
+CTM,Level with CI,Y,Y,51.0,30,47.25,Y,537,13.0,-999997.0
+CTM,Level with CI,Y,N,58.0,20,26.4,N,516,9.0,46.0
+Direct,Level,Y,N,42.0,20,26.4,N,516,9.0,46.0
+CTM,Level with CI,N,N,44.0,15,26.4,Y,516,9.0,46.0
+CTM,Level with CI,Y,Y,45.0,20,26.4,Y,516,9.0,46.0
+CTM,Level with CI,N,Y,40.0,20,80.51,N,590,6.0,-999997.0
+CTM,Level,Y,N,57.0,10,5.06,N,572,6.0,-999997.0
+Direct,Decreasing,N,Y,44.0,20,22.52,N,577,8.0,-999997.0
+MSM,Decreasing,N,Y,46.0,30,14.48,N,577,8.0,-999997.0
+CTM,Level,Y,N,50.0,30,10.29,N,532,3.0,-999997.0
+Direct,Level,Y,N,34.0,5,34.88,Y,575,5.0,-999997.0
+Direct,Decreasing with CI,N,Y,43.0,20,21.58,Y,575,5.0,-999997.0
+Direct,Level,Y,Y,47.0,20,34.88,Y,575,5.0,-999997.0
+CTM,Level,N,Y,53.0,30,7.67,N,521,5.0,-999997.0
+CTM,Level,Y,Y,50.0,10,68.33,N,555,7.0,-999997.0
+CTM,Level,Y,N,57.0,40,15.32,Y,9999,,
+MSM,Decreasing accelerated,Y,N,39.0,30,15.32,Y,9999,,
+CTM,Decreasing,Y,Y,33.0,20,15.32,Y,9999,,
+CTM,Decreasing with CI,Y,Y,38.0,5,15.32,Y,9999,,
+Direct,Decreasing,N,Y,41.0,35,26.4,Y,516,9.0,46.0
+CTM,Level with CI,N,Y,45.0,10,30.95,Y,516,9.0,46.0
+CTM,Decreasing,Y,Y,47.0,30,40.04,N,516,9.0,46.0
+CTM,Decreasing with CI,Y,Y,32.0,20,39.54,N,516,9.0,46.0
+CTM,Decreasing,N,N,45.0,20,35.25,N,516,9.0,46.0
+Direct,Decreasing with CI,N,Y,39.0,20,30.0,N,568,12.0,-999997.0
+CTM,Level with CI,N,Y,33.0,30,30.0,N,568,12.0,-999997.0
+CTM,Level,N,Y,58.0,20,25.21,Y,542,15.0,-999997.0
+Direct,Level with CI,Y,N,45.0,30,5.06,N,572,6.0,-999997.0
+CTM,Level with CI,Y,N,42.0,5,25.81,N,587,8.0,-999997.0
+CTM,Decreasing,N,N,43.0,20,33.33,N,587,8.0,-999997.0
+Direct,Decreasing,N,Y,51.0,30,19.88,N,562,4.0,-999997.0
+CTM,Level,Y,Y,45.0,20,332.38,N,573,9.0,-999997.0
+MSM,Level with CI,Y,Y,45.0,15,78.54,N,573,9.0,-999997.0
+CTM,Level,Y,N,53.0,20,47.61,N,573,9.0,-999997.0
+MSM,Level accelerated,Y,N,45.0,30,17.25,N,9999,,
+CTM,Level,N,N,37.0,30,17.25,N,9999,,
+Direct,Level with CI,Y,Y,62.0,20,17.25,N,9999,,
+CTM,Decreasing,Y,N,43.0,5,25.97,N,9999,,
+CTM,Decreasing,Y,Y,57.0,5,25.97,N,9999,,
+CTM,Level,N,Y,47.0,20,25.97,N,9999,,
+CTM,Level,N,Y,56.0,20,18.75,N,560,5.0,-999997.0
+Direct,Decreasing,Y,N,34.0,10,15.94,Y,542,15.0,-999997.0
+Direct,Level,N,Y,60.0,35,9.41,Y,542,15.0,-999997.0
+CTM,Level with CI,Y,Y,42.0,20,9.41,Y,542,15.0,-999997.0
+CTM,Level accelerated,Y,N,38.0,30,9.41,Y,542,15.0,-999997.0
+MSM,Level,Y,Y,39.0,30,9.41,Y,542,15.0,-999997.0
+CTM,Level,Y,Y,31.0,30,34.06,N,569,10.0,-999997.0
+CTM,Decreasing with CI,N,N,41.0,20,62.87,Y,547,6.0,-999997.0
+Direct,Decreasing accelerated,Y,N,47.0,15,37.98,Y,547,6.0,-999997.0
+Direct,Decreasing with CI,N,N,46.0,5,37.98,Y,547,6.0,-999997.0
+CTM,Decreasing accelerated,Y,N,33.0,20,50.64,Y,547,6.0,-999997.0
+Direct,Level,Y,Y,44.0,10,13.33,N,478,-999997.0,
+CTM,Level with CI,Y,Y,40.0,20,10.0,N,478,-999997.0,
+MSM,Level,N,N,53.0,15,12.97,N,478,-999997.0,
+CTM,Level with CI,Y,N,46.0,10,10.0,N,564,22.0,-999997.0
+CTM,Level with CI,Y,N,52.0,30,16.1,Y,564,22.0,-999997.0
+Direct,Decreasing accelerated,N,N,45.0,10,16.1,Y,564,22.0,-999997.0
+CTM,Decreasing with CI,Y,N,36.0,10,10.0,N,564,22.0,-999997.0
+CTM,Level,Y,N,51.0,30,10.0,N,564,22.0,-999997.0
+CTM,Level,N,N,36.0,20,10.5,N,564,22.0,-999997.0
+CTM,Level,N,Y,53.0,10,16.1,Y,564,22.0,-999997.0
+MSM,Decreasing,Y,N,45.0,30,9.15,N,564,22.0,-999997.0
+MSM,Decreasing with CI,N,N,49.0,20,16.95,N,560,5.0,-999997.0
+MSM,Level,N,N,42.0,30,18.75,N,560,5.0,-999997.0
+MSM,Level,Y,Y,33.0,20,18.75,N,560,5.0,-999997.0
+Direct,Decreasing with CI,N,N,54.0,20,10.0,Y,575,1.0,-999997.0
+CTM,Decreasing with CI,Y,N,50.0,30,10.57,Y,575,1.0,-999997.0
+Direct,Decreasing accelerated,N,Y,34.0,20,10.57,Y,575,1.0,-999997.0
+CTM,Level,Y,Y,40.0,20,10.57,Y,575,1.0,-999997.0
+CTM,Level,Y,N,46.0,15,14.11,Y,575,1.0,-999997.0
+CTM,Decreasing with CI,Y,N,47.0,10,24.44,N,564,7.0,-999997.0
+MSM,Level,Y,Y,41.0,30,19.27,N,9999,,
+CTM,Level with CI,N,N,32.0,20,29.72,N,9999,,
+MSM,Level,Y,Y,45.0,20,29.72,N,9999,,
+Direct,Decreasing,Y,N,44.0,15,29.72,N,9999,,
+CTM,Decreasing,Y,N,45.0,20,29.72,N,9999,,
+CTM,Level,Y,N,48.0,20,29.72,N,9999,,
+Direct,Level accelerated,Y,N,53.0,30,26.35,N,523,-999997.0,
+MSM,Level accelerated,Y,N,42.0,25,5.0,N,567,8.0,-999997.0
+Direct,Decreasing with CI,N,N,47.0,30,9.79,Y,530,11.0,-999997.0
+CTM,Level with CI,Y,N,62.0,20,9.79,Y,530,11.0,-999997.0
+Direct,Decreasing accelerated,Y,N,54.0,5,9.79,Y,530,11.0,-999997.0
+Direct,Decreasing,Y,N,46.0,20,12.46,Y,547,6.0,-999997.0
+CTM,Decreasing accelerated,Y,Y,53.0,25,52.7,N,9999,,
+Direct,Decreasing,Y,Y,53.0,20,52.7,N,9999,,
+CTM,Decreasing with CI,N,Y,43.0,30,100.46,N,9999,,
+CTM,Decreasing with CI,Y,N,48.0,20,15.9,N,545,0.0,-999997.0
+CTM,Decreasing with CI,Y,Y,47.0,20,20.34,N,536,5.0,-999997.0
+CTM,Level,Y,N,52.0,10,29.37,N,564,8.0,-999997.0
+MSM,Level with CI,N,N,35.0,20,10.61,N,575,4.0,-999997.0
+Direct,Level accelerated,Y,N,63.0,20,10.61,N,575,4.0,-999997.0
+CTM,Level with CI,Y,Y,35.0,30,10.61,N,575,4.0,-999997.0
+MSM,Level with CI,Y,N,32.0,10,18.75,Y,560,5.0,-999997.0
+Direct,Level,Y,Y,32.0,20,18.75,Y,560,5.0,-999997.0
+Direct,Decreasing,Y,Y,50.0,10,18.75,Y,560,5.0,-999997.0
+Direct,Level,Y,N,50.0,20,24.45,N,523,5.0,-999997.0
+Direct,Level accelerated,Y,N,44.0,20,20.79,N,555,11.0,-999997.0
+MSM,Level with CI,Y,N,49.0,30,8.1,Y,555,4.0,-999997.0
+Direct,Decreasing with CI,N,N,45.0,20,8.1,Y,555,4.0,-999997.0
+CTM,Decreasing,Y,Y,30.0,20,9.93,Y,555,4.0,-999997.0
+CTM,Level,N,N,41.0,20,11.14,Y,555,4.0,-999997.0
+Direct,Decreasing,N,Y,44.0,20,8.1,Y,555,4.0,-999997.0
+Direct,Decreasing accelerated,N,Y,26.0,30,8.1,Y,555,4.0,-999997.0
+MSM,Level,Y,N,36.0,5,8.1,Y,555,4.0,-999997.0
+Direct,Decreasing with CI,Y,N,45.0,5,8.1,N,555,4.0,-999997.0
+Direct,Decreasing,N,N,46.0,10,8.1,N,555,4.0,-999997.0
+MSM,Level with CI,N,Y,39.0,20,8.1,Y,555,4.0,-999997.0
+CTM,Decreasing with CI,Y,N,32.0,35,8.1,Y,555,4.0,-999997.0
+Direct,Level,Y,N,45.0,30,18.75,Y,560,5.0,-999997.0
+Direct,Decreasing with CI,N,N,47.0,5,18.14,Y,554,5.0,-999997.0
+CTM,Level,Y,N,39.0,5,18.14,Y,554,5.0,-999997.0
+CTM,Level,Y,N,43.0,20,15.05,Y,554,5.0,-999997.0
+MSM,Level with CI,N,Y,46.0,20,18.14,Y,554,5.0,-999997.0
+Direct,Decreasing with CI,Y,N,40.0,30,12.04,Y,554,5.0,-999997.0
+MSM,Decreasing with CI,Y,N,36.0,20,12.04,Y,554,5.0,-999997.0
+CTM,Level with CI,N,Y,47.0,25,18.14,Y,554,5.0,-999997.0
+CTM,Level,N,Y,38.0,30,25.0,N,559,15.0,-999997.0
+CTM,Decreasing,Y,N,47.0,35,7.93,N,559,15.0,-999997.0
+Direct,Level with CI,Y,N,40.0,30,7.93,N,559,15.0,-999997.0
+CTM,Level with CI,Y,N,45.0,30,7.93,N,559,15.0,-999997.0
+Direct,Decreasing with CI,N,N,45.0,10,7.93,N,559,15.0,-999997.0
+MSM,Decreasing,N,N,50.0,20,6.06,N,559,15.0,-999997.0
+Direct,Level with CI,N,N,47.0,30,15.15,N,9999,,
+Direct,Decreasing,Y,Y,48.0,20,15.15,N,9999,,
+CTM,Level with CI,Y,Y,54.0,5,15.15,N,9999,,
+CTM,Level,N,N,58.0,20,21.66,N,9999,,
+Direct,Decreasing,N,N,39.0,20,22.95,N,561,12.0,-999997.0
+Direct,Level,N,Y,38.0,35,19.6,N,561,12.0,-999997.0
+CTM,Level,N,N,52.0,30,22.95,N,561,12.0,-999997.0
+CTM,Decreasing with CI,Y,N,38.0,5,3.14,N,548,5.0,-999997.0
+Direct,Level,Y,N,44.0,5,27.5,N,566,9.0,-999997.0
+CTM,Decreasing with CI,N,Y,45.0,30,27.5,N,566,9.0,-999997.0
+Direct,Level with CI,N,N,47.0,30,11.46,N,9999,,
+CTM,Level with CI,N,N,45.0,20,23.08,N,9999,,
+MSM,Level,Y,N,45.0,10,31.08,N,579,8.0,-999997.0
+MSM,Decreasing,Y,Y,54.0,20,28.86,N,579,8.0,-999997.0
+CTM,Decreasing,Y,N,49.0,30,35.51,N,579,8.0,-999997.0
+CTM,Level accelerated,N,Y,38.0,35,33.3,N,579,8.0,-999997.0
+Direct,Level accelerated,N,N,53.0,20,52.86,N,579,8.0,-999997.0
+CTM,Level with CI,N,N,38.0,20,48.42,N,579,8.0,-999997.0
+CTM,Decreasing,N,N,55.0,20,37.73,N,579,8.0,-999997.0
+CTM,Decreasing with CI,N,N,46.0,20,33.3,N,579,8.0,-999997.0
+CTM,Decreasing accelerated,Y,N,46.0,10,7.84,N,578,0.0,-999997.0
+CTM,Decreasing accelerated,Y,N,43.0,10,25.63,Y,544,55.0,-999997.0
+CTM,Level,Y,Y,51.0,30,25.63,Y,544,55.0,-999997.0
+CTM,Level with CI,N,N,32.0,20,25.63,Y,544,55.0,-999997.0
+Direct,Decreasing with CI,Y,N,39.0,10,29.75,Y,544,55.0,-999997.0
+CTM,Level,Y,Y,46.0,20,15.15,N,9999,,
+CTM,Level with CI,N,N,43.0,40,6.83,N,551,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,57.0,5,6.83,N,551,3.0,-999997.0
+CTM,Decreasing with CI,N,N,50.0,10,23.9,Y,568,19.0,-999997.0
+CTM,Decreasing with CI,Y,N,29.0,10,23.9,Y,568,19.0,-999997.0
+MSM,Level,N,Y,46.0,10,23.9,Y,568,19.0,-999997.0
+MSM,Decreasing,Y,N,45.0,5,23.9,N,568,19.0,-999997.0
+Direct,Decreasing,Y,N,45.0,20,23.9,Y,568,19.0,-999997.0
+Direct,Level,Y,Y,45.0,10,22.9,N,520,3.0,-999997.0
+MSM,Level,Y,N,53.0,20,7.84,N,578,0.0,-999997.0
+CTM,Level with CI,Y,N,44.0,5,7.84,N,578,0.0,-999997.0
+CTM,Level with CI,N,N,54.0,5,49.18,N,565,20.0,-999997.0
+MSM,Level,Y,Y,48.0,30,36.94,N,565,20.0,-999997.0
+Direct,Decreasing,Y,Y,47.0,30,25.24,Y,579,3.0,-999997.0
+MSM,Level with CI,Y,Y,38.0,10,25.24,Y,579,3.0,-999997.0
+Direct,Decreasing,Y,Y,46.0,15,25.24,Y,579,3.0,-999997.0
+CTM,Level,Y,N,45.0,20,16.46,N,486,18.0,12.0
+CTM,Level accelerated,Y,Y,50.0,10,48.16,N,9999,,
+Direct,Level,Y,Y,48.0,20,40.1,N,603,3.0,-999997.0
+CTM,Level,Y,Y,46.0,20,51.94,N,603,3.0,-999997.0
+MSM,Level,Y,Y,48.0,25,15.58,N,9999,,
+Direct,Level with CI,Y,N,45.0,20,15.58,N,9999,,
+Direct,Decreasing,Y,N,57.0,40,27.91,N,583,5.0,-999997.0
+CTM,Level with CI,N,N,38.0,30,13.44,N,9999,,
+MSM,Level,N,N,34.0,10,13.44,N,9999,,
+CTM,Level,Y,Y,47.0,10,27.61,N,520,3.0,-999997.0
+Direct,Level accelerated,Y,Y,44.0,5,23.82,N,575,7.0,-999997.0
+CTM,Decreasing accelerated,Y,N,54.0,20,23.82,N,575,7.0,-999997.0
+Direct,Decreasing with CI,N,N,45.0,5,23.82,N,575,7.0,-999997.0
+Direct,Decreasing with CI,N,N,41.0,20,20.06,N,9999,,
+CTM,Level,Y,Y,58.0,20,20.06,N,9999,,
+CTM,Decreasing with CI,Y,N,42.0,20,20.06,N,9999,,
+CTM,Decreasing with CI,Y,Y,34.0,10,16.6,N,9999,,
+CTM,Level,Y,Y,46.0,20,16.6,N,9999,,
+Direct,Decreasing with CI,N,N,51.0,20,21.22,N,9999,,
+CTM,Level with CI,Y,Y,60.0,10,20.3,N,9999,,
+MSM,Level,N,N,39.0,30,19.84,N,9999,,
+CTM,Level,Y,N,52.0,30,16.6,N,9999,,
+MSM,Decreasing,Y,N,48.0,20,10.0,N,9999,,
+CTM,Decreasing,Y,N,41.0,30,57.32,N,560,2.0,-999997.0
+CTM,Decreasing,Y,N,56.0,15,5.0,N,532,9.0,-999997.0
+MSM,Decreasing,Y,N,40.0,20,5.0,N,532,9.0,-999997.0
+MSM,Decreasing,N,N,34.0,10,20.38,N,9999,,
+CTM,Level,N,N,43.0,15,14.42,N,9999,,
+Direct,Level,N,N,44.0,20,14.42,N,9999,,
+Direct,Level,N,Y,40.0,15,30.41,N,9999,,
+CTM,Decreasing,Y,N,54.0,30,85.25,N,9999,,
+CTM,Level,N,N,55.0,20,69.49,N,9999,,
+CTM,Level with CI,N,N,34.0,30,30.41,N,9999,,
+CTM,Decreasing accelerated,N,N,48.0,10,69.49,N,9999,,
+CTM,Decreasing,N,N,31.0,30,71.02,N,568,12.0,-999997.0
+CTM,Decreasing,N,N,36.0,5,79.91,N,570,0.0,-999997.0
+Direct,Decreasing,N,Y,42.0,20,69.07,N,570,0.0,-999997.0
+CTM,Level,Y,N,31.0,30,71.99,N,570,0.0,-999997.0
+MSM,Level with CI,N,N,42.0,20,71.99,N,570,0.0,-999997.0
+CTM,Level,Y,Y,56.0,30,71.99,N,570,0.0,-999997.0
+Direct,Level with CI,Y,N,42.0,15,24.95,N,544,20.0,-999997.0
+MSM,Level with CI,Y,N,45.0,30,24.95,N,544,20.0,-999997.0
+CTM,Level,Y,N,54.0,15,8.41,N,9999,,
+CTM,Level,Y,Y,35.0,40,13.51,Y,553,5.0,-999997.0
+CTM,Level,N,Y,41.0,30,13.51,Y,553,5.0,-999997.0
+Direct,Level,N,N,44.0,20,13.51,Y,553,5.0,-999997.0
+MSM,Level,N,N,52.0,10,13.51,Y,553,5.0,-999997.0
+CTM,Decreasing,Y,N,49.0,20,12.44,N,529,1.0,-999997.0
+CTM,Level with CI,N,N,57.0,20,12.44,N,529,1.0,-999997.0
+Direct,Decreasing with CI,Y,N,42.0,30,10.0,Y,9999,,
+CTM,Level accelerated,Y,Y,54.0,30,8.21,Y,9999,,
+CTM,Decreasing with CI,Y,Y,49.0,30,66.92,Y,578,7.0,-999997.0
+MSM,Level,Y,N,46.0,30,61.86,Y,578,7.0,-999997.0
+CTM,Level with CI,N,Y,26.0,10,68.58,Y,578,7.0,-999997.0
+CTM,Level with CI,N,Y,34.0,30,7.62,N,558,7.0,-999997.0
+Direct,Level,N,N,46.0,25,5.66,N,558,7.0,-999997.0
+CTM,Level,Y,N,31.0,5,72.25,N,570,1.0,-999997.0
+MSM,Level with CI,N,Y,45.0,20,72.25,N,570,1.0,-999997.0
+Direct,Level with CI,N,Y,40.0,10,19.83,N,552,4.0,-999997.0
+Direct,Decreasing with CI,Y,N,33.0,10,19.83,N,552,4.0,-999997.0
+CTM,Level with CI,Y,N,50.0,30,19.83,N,552,4.0,-999997.0
+MSM,Level,N,N,53.0,20,19.83,N,552,4.0,-999997.0
+CTM,Level,Y,N,45.0,20,10.86,Y,583,3.0,-999997.0
+MSM,Decreasing with CI,Y,Y,33.0,10,10.86,Y,583,3.0,-999997.0
+CTM,Level,N,N,39.0,5,17.34,Y,583,3.0,-999997.0
+CTM,Level,Y,N,40.0,5,17.34,Y,583,3.0,-999997.0
+CTM,Level,N,N,42.0,20,74.77,Y,578,7.0,-999997.0
+CTM,Level with CI,N,N,28.0,15,74.77,Y,578,7.0,-999997.0
+MSM,Level with CI,Y,N,48.0,5,74.77,Y,578,7.0,-999997.0
+CTM,Decreasing accelerated,N,N,47.0,5,66.92,Y,578,7.0,-999997.0
+Direct,Level,Y,Y,39.0,10,80.97,Y,578,7.0,-999997.0
+MSM,Level,Y,N,51.0,30,16.96,Y,9999,,
+Direct,Level accelerated,N,N,54.0,20,13.48,Y,9999,,
+Direct,Level,N,N,63.0,20,12.05,Y,9999,,
+MSM,Decreasing with CI,Y,N,47.0,20,11.35,Y,9999,,
+CTM,Level,Y,Y,40.0,30,11.65,Y,9999,,
+CTM,Decreasing with CI,Y,Y,59.0,40,10.88,Y,9999,,
+MSM,Decreasing,Y,N,42.0,15,10.88,Y,9999,,
+Direct,Decreasing with CI,Y,Y,34.0,10,10.88,Y,9999,,
+CTM,Decreasing with CI,Y,N,44.0,20,11.35,Y,9999,,
+CTM,Level,Y,N,36.0,30,10.52,Y,9999,,
+CTM,Decreasing with CI,N,Y,36.0,20,11.18,Y,9999,,
+CTM,Decreasing,Y,N,42.0,20,9.61,Y,9999,,
+MSM,Decreasing with CI,Y,N,37.0,20,10.0,Y,9999,,
+CTM,Level with CI,Y,N,44.0,15,10.88,Y,9999,,
+Direct,Level with CI,Y,Y,42.0,20,28.16,N,536,3.0,-999997.0
+CTM,Level accelerated,Y,N,32.0,20,28.16,N,536,3.0,-999997.0
+CTM,Level accelerated,N,N,57.0,10,28.16,N,536,3.0,-999997.0
+MSM,Decreasing with CI,Y,Y,49.0,30,19.99,N,572,2.0,-999997.0
+CTM,Level,Y,Y,47.0,30,40.82,N,9999,,
+CTM,Level,N,N,46.0,30,10.0,N,528,4.0,-999997.0
+Direct,Level,Y,N,34.0,10,10.0,N,528,4.0,-999997.0
+Direct,Decreasing with CI,Y,N,43.0,10,10.0,N,528,4.0,-999997.0
+CTM,Level with CI,Y,N,52.0,30,10.0,N,528,4.0,-999997.0
+CTM,Decreasing,N,N,44.0,5,10.0,N,528,4.0,-999997.0
+MSM,Level,Y,Y,44.0,30,15.84,N,9999,,
+MSM,Level with CI,N,N,44.0,20,15.84,N,9999,,
+MSM,Decreasing accelerated,Y,N,53.0,10,37.53,N,486,-999997.0,
+Direct,Decreasing accelerated,Y,N,52.0,20,37.53,N,486,-999997.0,
+CTM,Level,Y,N,45.0,20,32.9,Y,480,4.0,12.0
+CTM,Level,N,N,37.0,30,38.96,Y,480,4.0,12.0
+Direct,Level,N,Y,44.0,20,38.96,Y,480,4.0,12.0
+Direct,Decreasing with CI,N,Y,51.0,20,53.53,N,577,3.0,-999997.0
+Direct,Decreasing with CI,N,N,32.0,5,22.52,Y,9999,,
+Direct,Level with CI,Y,Y,41.0,20,25.11,Y,9999,,
+CTM,Decreasing with CI,N,N,20.0,20,25.11,Y,9999,,
+CTM,Level,Y,N,46.0,30,25.11,Y,9999,,
+MSM,Decreasing accelerated,Y,N,57.0,15,20.0,Y,9999,,
+MSM,Level with CI,N,Y,49.0,10,25.11,Y,9999,,
+Direct,Level,Y,Y,46.0,20,23.81,Y,9999,,
+CTM,Level with CI,Y,N,47.0,30,25.11,Y,9999,,
+CTM,Decreasing with CI,Y,N,47.0,20,27.61,N,520,3.0,-999997.0
+CTM,Level,Y,N,38.0,20,26.58,N,536,3.0,-999997.0
+CTM,Level with CI,Y,N,46.0,30,67.22,N,575,4.0,-999997.0
+CTM,Decreasing,N,Y,37.0,20,22.33,N,575,4.0,-999997.0
+CTM,Level,N,N,44.0,20,22.33,N,575,4.0,-999997.0
+CTM,Decreasing,Y,Y,51.0,15,34.9,N,575,4.0,-999997.0
+Direct,Decreasing accelerated,Y,N,46.0,20,113.46,N,575,4.0,-999997.0
+CTM,Decreasing with CI,N,N,39.0,40,64.36,N,575,4.0,-999997.0
+CTM,Level with CI,N,N,47.0,20,28.89,N,575,4.0,-999997.0
+CTM,Level,N,Y,51.0,25,67.22,N,575,4.0,-999997.0
+MSM,Decreasing with CI,N,N,47.0,30,67.22,N,575,4.0,-999997.0
+MSM,Decreasing accelerated,Y,N,40.0,20,39.17,N,575,4.0,-999997.0
+Direct,Level,Y,N,52.0,30,10.76,N,575,4.0,-999997.0
+Direct,Level,N,N,26.0,30,12.63,N,530,9.0,-999997.0
+MSM,Level,Y,N,48.0,20,12.63,N,530,9.0,-999997.0
+CTM,Level,Y,N,43.0,5,45.9,N,566,6.0,-999997.0
+CTM,Level with CI,Y,N,57.0,30,45.9,N,566,6.0,-999997.0
+Direct,Decreasing accelerated,Y,N,49.0,20,5.8,Y,533,7.0,-999997.0
+MSM,Level,Y,N,52.0,20,5.8,Y,533,7.0,-999997.0
+CTM,Level,Y,Y,52.0,15,5.8,Y,533,7.0,-999997.0
+CTM,Level with CI,N,N,29.0,20,24.45,N,523,5.0,-999997.0
+MSM,Decreasing with CI,Y,Y,48.0,20,68.02,N,9999,,
+CTM,Decreasing accelerated,Y,Y,36.0,30,68.02,N,9999,,
+CTM,Decreasing with CI,N,N,39.0,20,28.78,N,492,9.0,42.0
+Direct,Level with CI,N,N,64.0,20,28.78,N,492,9.0,42.0
+MSM,Decreasing,Y,Y,52.0,30,13.51,N,553,5.0,-999997.0
+Direct,Level,Y,N,49.0,5,13.51,N,553,5.0,-999997.0
+CTM,Decreasing,N,N,47.0,15,27.88,N,561,1.0,-999997.0
+CTM,Decreasing,Y,N,54.0,15,31.55,N,561,1.0,-999997.0
+MSM,Level,Y,N,45.0,20,27.88,N,561,1.0,-999997.0
+Direct,Level with CI,N,N,49.0,5,102.48,N,579,4.0,-999997.0
+CTM,Level,Y,N,49.0,20,16.45,N,9999,,
+Direct,Level,Y,N,45.0,20,57.5,N,566,18.0,-999997.0
+CTM,Level with CI,N,N,45.0,30,57.5,N,566,18.0,-999997.0
+Direct,Decreasing with CI,N,Y,45.0,30,57.5,N,566,18.0,-999997.0
+Direct,Level with CI,Y,Y,49.0,10,18.32,N,547,10.0,-999997.0
+CTM,Level with CI,N,N,40.0,10,17.96,N,572,5.0,-999997.0
+CTM,Level,Y,N,45.0,10,13.43,N,572,5.0,-999997.0
+MSM,Level with CI,N,Y,35.0,30,13.43,N,572,5.0,-999997.0
+CTM,Level with CI,Y,N,44.0,30,111.64,N,559,5.0,-999997.0
+MSM,Level with CI,Y,N,41.0,30,26.79,N,554,0.0,-999997.0
+Direct,Decreasing with CI,Y,N,48.0,20,20.39,N,575,5.0,-999997.0
+Direct,Decreasing with CI,Y,N,47.0,30,19.9,N,575,5.0,-999997.0
+Direct,Level,Y,N,44.0,5,19.9,N,575,5.0,-999997.0
+CTM,Decreasing with CI,Y,N,49.0,20,40.48,N,536,3.0,-999997.0
+CTM,Level,N,N,34.0,20,11.46,N,562,8.0,-999997.0
+CTM,Level,N,N,30.0,20,11.46,N,562,8.0,-999997.0
+CTM,Level,N,N,47.0,20,11.46,N,562,8.0,-999997.0
+MSM,Level,Y,N,36.0,30,11.46,N,562,8.0,-999997.0
+Direct,Level with CI,Y,N,45.0,5,31.55,N,554,1.0,-999997.0
+MSM,Level,Y,N,47.0,5,50.0,N,554,1.0,-999997.0
+Direct,Decreasing with CI,Y,N,39.0,40,36.99,N,554,1.0,-999997.0
+MSM,Level with CI,Y,N,59.0,40,36.99,N,554,1.0,-999997.0
+MSM,Decreasing with CI,N,Y,49.0,20,26.99,N,554,1.0,-999997.0
+Direct,Decreasing,Y,Y,53.0,30,19.52,N,581,10.0,-999997.0
+MSM,Level accelerated,Y,N,45.0,30,19.52,N,581,10.0,-999997.0
+Direct,Decreasing with CI,Y,N,46.0,10,81.01,N,571,4.0,-999997.0
+Direct,Level,Y,Y,47.0,20,47.18,N,571,4.0,-999997.0
+CTM,Level with CI,Y,Y,46.0,20,55.84,N,571,4.0,-999997.0
+CTM,Level,N,N,56.0,30,34.23,Y,589,3.0,-999997.0
+CTM,Decreasing accelerated,Y,N,46.0,40,102.48,N,579,4.0,-999997.0
+MSM,Level,N,Y,42.0,25,102.48,N,579,4.0,-999997.0
+MSM,Decreasing,N,N,45.0,30,40.11,N,549,3.0,-999997.0
+MSM,Level,Y,N,46.0,20,51.13,N,567,11.0,-999997.0
+CTM,Level,N,Y,47.0,20,16.22,N,560,8.0,-999997.0
+CTM,Level with CI,N,Y,33.0,10,16.22,N,560,8.0,-999997.0
+CTM,Level,Y,Y,35.0,30,14.5,N,560,8.0,-999997.0
+CTM,Decreasing,Y,Y,42.0,20,23.75,N,560,8.0,-999997.0
+Direct,Level,Y,N,41.0,20,14.5,N,560,8.0,-999997.0
+MSM,Decreasing accelerated,N,N,47.0,30,30.34,Y,564,8.0,-999997.0
+CTM,Decreasing with CI,Y,N,53.0,30,33.53,Y,564,8.0,-999997.0
+Direct,Decreasing with CI,Y,N,44.0,30,30.34,Y,564,8.0,-999997.0
+Direct,Level,Y,Y,33.0,30,33.53,Y,564,8.0,-999997.0
+CTM,Level with CI,Y,Y,39.0,20,6.64,Y,575,5.0,-999997.0
+Direct,Level,Y,Y,40.0,20,6.64,Y,575,5.0,-999997.0
+MSM,Decreasing,Y,Y,48.0,20,6.64,Y,575,5.0,-999997.0
+MSM,Level with CI,Y,Y,34.0,20,36.57,N,579,5.0,-999997.0
+Direct,Level accelerated,N,N,26.0,20,135.76,N,579,5.0,-999997.0
+Direct,Level,N,Y,50.0,30,135.76,N,579,5.0,-999997.0
+MSM,Decreasing accelerated,N,N,46.0,20,30.79,N,579,5.0,-999997.0
+MSM,Decreasing,N,Y,35.0,20,30.79,N,579,5.0,-999997.0
+CTM,Decreasing,N,N,49.0,10,16.8,N,498,-999997.0,
+MSM,Decreasing with CI,N,Y,32.0,30,16.8,N,498,-999997.0,
+Direct,Level,Y,Y,53.0,20,11.46,N,562,8.0,-999997.0
+CTM,Level with CI,N,N,55.0,40,10.0,N,9999,,
+MSM,Decreasing,N,N,26.0,30,20.0,N,9999,,
+Direct,Level,N,N,45.0,15,25.0,N,9999,,
+CTM,Decreasing with CI,Y,Y,40.0,15,40.0,N,9999,,
+Direct,Level with CI,N,Y,43.0,15,45.0,N,9999,,
+CTM,Level,Y,N,42.0,30,15.0,N,9999,,
+MSM,Decreasing with CI,Y,Y,46.0,30,20.0,N,9999,,
+Direct,Decreasing with CI,Y,Y,50.0,10,21.91,Y,589,3.0,-999997.0
+CTM,Decreasing with CI,N,N,39.0,30,34.23,Y,589,3.0,-999997.0
+CTM,Level with CI,Y,Y,51.0,10,18.03,Y,589,3.0,-999997.0
+MSM,Decreasing,Y,Y,42.0,10,18.03,Y,589,3.0,-999997.0
+MSM,Level,N,N,35.0,25,16.22,N,560,8.0,-999997.0
+CTM,Level,Y,N,58.0,20,16.22,N,560,8.0,-999997.0
+CTM,Level,Y,N,53.0,10,14.5,N,560,8.0,-999997.0
+MSM,Level with CI,Y,Y,43.0,30,23.75,N,560,8.0,-999997.0
+CTM,Level,Y,N,47.0,15,14.5,N,560,8.0,-999997.0
+Direct,Decreasing with CI,N,N,57.0,20,40.11,N,549,3.0,-999997.0
+MSM,Decreasing with CI,N,Y,60.0,25,46.21,N,549,3.0,-999997.0
+CTM,Level with CI,Y,N,26.0,5,40.11,N,549,3.0,-999997.0
+Direct,Level,Y,N,43.0,20,37.54,N,549,3.0,-999997.0
+CTM,Decreasing,Y,Y,45.0,30,40.11,N,549,3.0,-999997.0
+CTM,Decreasing,Y,N,50.0,10,29.99,N,549,3.0,-999997.0
+Direct,Decreasing,Y,N,49.0,35,41.1,N,561,13.0,-999997.0
+Direct,Decreasing with CI,Y,N,58.0,20,41.1,N,561,13.0,-999997.0
+CTM,Level with CI,Y,N,27.0,20,27.59,N,567,11.0,-999997.0
+MSM,Level accelerated,Y,Y,54.0,15,37.59,N,556,3.0,-999997.0
+CTM,Level,Y,N,50.0,20,37.59,N,556,3.0,-999997.0
+CTM,Level with CI,Y,N,50.0,30,20.64,N,538,8.0,-999997.0
+MSM,Level with CI,Y,Y,49.0,10,20.64,N,538,8.0,-999997.0
+Direct,Level,N,N,45.0,20,30.0,N,547,5.0,-999997.0
+Direct,Level,N,Y,40.0,5,30.0,N,547,5.0,-999997.0
+MSM,Decreasing with CI,Y,N,48.0,20,9.16,N,540,14.0,-999997.0
+MSM,Decreasing accelerated,N,N,36.0,5,9.16,N,540,14.0,-999997.0
+CTM,Level,Y,Y,34.0,30,3.41,N,556,7.0,-999997.0
+Direct,Level,Y,N,53.0,30,6.24,Y,509,-999997.0,
+CTM,Decreasing,N,Y,41.0,20,6.24,Y,509,-999997.0,
+MSM,Level,Y,Y,44.0,10,6.24,Y,509,-999997.0,
+MSM,Level with CI,N,N,57.0,20,6.24,Y,509,-999997.0,
+MSM,Level with CI,Y,N,37.0,30,6.24,Y,509,-999997.0,
+CTM,Level accelerated,Y,Y,46.0,10,23.08,N,589,3.0,-999997.0
+CTM,Decreasing with CI,Y,N,49.0,20,83.29,N,589,3.0,-999997.0
+CTM,Level with CI,N,N,44.0,10,49.84,N,589,3.0,-999997.0
+Direct,Decreasing accelerated,N,N,49.0,10,22.29,N,541,4.0,-999997.0
+CTM,Level,Y,N,42.0,20,22.29,N,541,4.0,-999997.0
+CTM,Level with CI,Y,N,50.0,20,48.41,N,9999,,
+MSM,Decreasing,Y,Y,63.0,30,48.41,N,9999,,
+CTM,Level with CI,N,N,54.0,20,48.41,N,9999,,
+Direct,Decreasing accelerated,N,N,44.0,10,31.64,N,9999,,
+Direct,Decreasing,N,Y,35.0,20,48.41,N,9999,,
+MSM,Level,N,Y,31.0,30,13.33,N,562,8.0,-999997.0
+Direct,Level,N,N,34.0,20,10.0,N,562,8.0,-999997.0
+CTM,Decreasing with CI,N,Y,49.0,20,12.97,N,562,8.0,-999997.0
+Direct,Decreasing with CI,N,Y,42.0,20,54.18,N,9999,,
+CTM,Decreasing with CI,N,N,42.0,30,54.18,N,9999,,
+MSM,Decreasing,Y,Y,46.0,20,2.98,N,9999,,
+MSM,Level,Y,N,51.0,10,2.98,N,9999,,
+CTM,Level with CI,N,Y,46.0,10,158.34,N,585,3.0,-999997.0
+CTM,Decreasing with CI,N,N,47.0,20,158.34,N,585,3.0,-999997.0
+CTM,Decreasing accelerated,Y,N,33.0,35,85.48,N,585,3.0,-999997.0
+CTM,Level with CI,Y,Y,59.0,5,34.18,N,585,3.0,-999997.0
+Direct,Decreasing with CI,N,N,62.0,10,86.3,N,585,3.0,-999997.0
+MSM,Decreasing,Y,N,51.0,30,85.48,N,585,3.0,-999997.0
+CTM,Decreasing with CI,Y,Y,44.0,35,49.05,N,585,3.0,-999997.0
+Direct,Level,N,N,60.0,20,29.56,N,9999,,
+Direct,Level,Y,N,50.0,30,50.0,N,9999,,
+CTM,Decreasing,Y,N,58.0,30,68.5,N,9999,,
+Direct,Decreasing with CI,Y,Y,44.0,20,49.09,N,9999,,
+CTM,Decreasing,N,N,45.0,5,49.09,N,9999,,
+Direct,Decreasing,Y,Y,35.0,10,55.64,N,9999,,
+CTM,Level with CI,N,N,33.0,20,26.27,N,9999,,
+CTM,Decreasing with CI,Y,Y,48.0,20,15.0,N,9999,,
+Direct,Decreasing with CI,N,N,58.0,25,30.0,N,9999,,
+CTM,Level with CI,Y,N,50.0,10,108.52,N,552,8.0,56.0
+Direct,Level with CI,Y,Y,45.0,30,162.09,N,552,8.0,56.0
+CTM,Decreasing with CI,Y,N,37.0,30,47.62,Y,556,3.0,-999997.0
+MSM,Decreasing with CI,Y,N,43.0,25,53.28,Y,556,3.0,-999997.0
+Direct,Level with CI,Y,Y,43.0,20,42.36,Y,556,3.0,-999997.0
+CTM,Level,Y,Y,43.0,30,47.62,Y,556,3.0,-999997.0
+CTM,Level with CI,Y,Y,38.0,20,24.87,N,9999,,
+CTM,Level with CI,Y,N,46.0,30,12.42,N,9999,,
+Direct,Level with CI,Y,Y,41.0,10,12.42,N,9999,,
+MSM,Level with CI,N,N,29.0,30,12.42,N,9999,,
+CTM,Level,N,N,45.0,25,20.44,N,608,8.0,-999997.0
+CTM,Level with CI,N,Y,61.0,25,131.39,N,9999,,
+Direct,Level with CI,Y,N,38.0,30,20.0,N,9999,,
+MSM,Level,Y,Y,46.0,20,15.31,N,585,1.0,-999997.0
+CTM,Level,Y,N,48.0,15,15.31,N,585,1.0,-999997.0
+CTM,Decreasing,Y,N,47.0,30,8.35,N,535,6.0,-999997.0
+CTM,Decreasing,Y,Y,48.0,20,8.35,N,535,6.0,-999997.0
+Direct,Level,Y,N,53.0,25,14.45,N,543,2.0,-999997.0
+MSM,Level,Y,Y,39.0,30,14.45,N,543,2.0,-999997.0
+CTM,Decreasing with CI,Y,Y,44.0,20,24.1,Y,581,6.0,-999997.0
+CTM,Decreasing,N,N,40.0,30,24.1,Y,581,6.0,-999997.0
+Direct,Level,Y,N,45.0,30,36.57,N,579,5.0,-999997.0
+MSM,Level,N,Y,38.0,20,135.76,N,579,5.0,-999997.0
+Direct,Level with CI,Y,N,45.0,10,135.76,N,579,5.0,-999997.0
+CTM,Decreasing with CI,N,Y,50.0,30,24.1,Y,581,6.0,-999997.0
+Direct,Level with CI,N,N,52.0,30,24.1,Y,581,6.0,-999997.0
+CTM,Decreasing with CI,Y,N,33.0,30,24.1,N,581,6.0,-999997.0
+CTM,Level,N,Y,48.0,20,103.68,N,515,10.0,57.0
+CTM,Level with CI,N,Y,39.0,20,23.41,N,582,4.0,-999997.0
+MSM,Level accelerated,Y,N,59.0,20,6.88,N,9999,,
+CTM,Decreasing with CI,Y,N,55.0,20,6.88,N,9999,,
+CTM,Decreasing with CI,N,N,47.0,30,30.79,N,579,5.0,-999997.0
+MSM,Decreasing,N,N,52.0,25,30.79,N,579,5.0,-999997.0
+Direct,Level with CI,Y,N,46.0,20,15.3,N,582,0.0,-999997.0
+MSM,Level,Y,N,47.0,25,15.3,N,582,0.0,-999997.0
+Direct,Level,Y,N,36.0,30,8.59,N,9999,,
+CTM,Level with CI,N,N,46.0,30,23.37,N,570,11.0,-999997.0
+CTM,Decreasing,Y,N,46.0,30,23.37,N,570,11.0,-999997.0
+CTM,Level,Y,Y,40.0,20,108.79,N,564,15.0,-999997.0
+CTM,Level,Y,N,58.0,20,60.11,N,564,15.0,-999997.0
+Direct,Decreasing with CI,N,N,44.0,25,60.11,N,564,15.0,-999997.0
+CTM,Level,N,N,49.0,30,60.11,N,564,15.0,-999997.0
+CTM,Level,N,Y,45.0,20,31.52,N,589,3.0,-999997.0
+Direct,Level with CI,Y,Y,44.0,15,18.86,N,589,3.0,-999997.0
+CTM,Level accelerated,Y,Y,41.0,20,19.8,N,589,3.0,-999997.0
+Direct,Level,Y,Y,41.0,5,17.07,N,9999,,
+CTM,Level accelerated,Y,N,49.0,30,62.69,N,9999,,
+CTM,Level with CI,N,N,47.0,10,62.69,N,9999,,
+MSM,Level,N,N,48.0,5,62.69,N,9999,,

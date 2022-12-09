@@ -1,0 +1,288 @@
+---
+title: "4most Exercise 2:"
+author: "Stephen Brownsey"
+output: pdf_document
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+xfun::session_info('rmarkdown')
+```
+
+
+```{r libraries, include=FALSE}
+library(survival)
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+library(broom)
+library(Hmisc)
+```
+
+## Introduction
+These are paired annuities and as such there is only one expiry, this expiry will
+be the same for both the male and female from each group of data.
+The plots in this section will be used to visualise the data data from a couple of
+different perspectives, each of which will be coloured by sex to demonstrate
+the slight differences between genders. From the describe we can see that
+females are slightly younger on average and there are less female deaths.
+
+The next section will cover some EDA into the dataset and main summarised points:
+* Men are slightly older on average than women 
+* The death rate of males is significantly higher than women
+* As age increases the proportion of women outliving men will also increase
+
+
+```{r eda_section}
+#Load the data data
+data = readxl::read_xlsx("data/MockDataSet2.xlsx")
+head(data)
+describe(data)
+
+
+#Combine the data:
+data_fixer = function(data, col1, col2, col3, sex){
+  data %>%
+  select(col1, col2, col3) %>%
+  mutate("sex" = sex) %>%
+  rename("EntryAge" = col1,"DeathTime" = col2, "AnnuityExpired" =  col3) %>%
+  mutate("death" = if_else(DeathTime > 0, 1 ,0)) %>%
+  mutate("time" = if_else(death == 1, DeathTime , AnnuityExpired)) %>%
+  mutate("time" = floor(as.numeric(time * 365.25))) %>%
+  select(sex, EntryAge, death, time)
+}
+  
+data <- rbind(data_fixer(data,"EntryAgeM", "DeathTimeM", "AnnuityExpiredM", "Male"),
+data_fixer(data,"EntryAgeF", "DeathTimeF", "AnnuityExpiredM", "Female"))
+
+data %>%
+  group_by(sex) %>%
+  summarise(deaths = sum(death))
+
+
+data %>%
+  ggplot() +
+  geom_bar(aes(x = floor(EntryAge), colour = sex, fill = sex), position = "stack") +
+  theme_bw() +
+  labs(y = "Count",
+       x = "Age", title = "Bar Chart of Age by Gender")
+
+
+#Histogram demonstrating the distribution of the ages by gender.
+#As arguably histogram may be easier to read than bar but same idea
+data %>%
+  ggplot() +
+  geom_histogram(aes(floor(EntryAge), fill = sex), col = "black") +
+  theme_bw()  +
+  labs(y = "Count",
+       x = "Age", title = "Histogram Chart of Age by Gender")
+
+
+#Data points showing Days till last follow up against subject ID, coloured by Sex
+#Position stack allows a geom_point to act similar to a bar
+data %>%
+  filter(death == 1) %>%
+  ggplot() +
+  geom_point(aes(x = floor(EntryAge), y = death, colour = sex, fill = sex),
+             position = "stack") +
+  theme_bw() +
+  labs(y = "Count",
+       x = "Age", title = "Deaths by Age and Gender")
+
+#Density plot to show distributions of of both Male and Females, shows males taper
+# off due to increased deaths towards the end and density of females at greater
+# ages increases
+data %>%
+  ggplot() +
+  geom_density(aes(time, fill = sex), alpha = 0.5, col = "black") +
+  theme_bw() +
+  ggtitle("Density showing Time till Last Touch Point Distribution by Gender") + 
+  labs(y = "Density", x = "Days from Diagnosis to Last Touch Point",
+       title = "Days to Last Tough Point Density Graph")
+```
+
+## Question 2b):
+The Kaplan-Meier Estimator is a non-parametric statistic used to estimate the survival function from lifetime data. The estimator, which allows for ties, can be written as: 
+
+$$\hat{s}(t) = \prod_{i=y_i \leq t}\left(1 -\frac{d_i}{n_i}\right)^{\delta(i)}$$
+Where $n_i$ denotes the number of subjects at beginning of time point $I_i$, $d_i$ denotes the number of deaths that occur in $I_i$, $T_i$ denotes the time of death for observation i, $C_i$ denotes the censoring and $\delta_i$ is the indicator function that both $T_i$ and $C_i$ occur $\delta_i =1(T_i , C_i)$
+
+The plot, as seen below, is a series of decreasing horizontal steps which, with a sufficiently large sample size approaches the true survival rate of the population.
+```{r}
+km_fit_female = survfit(Surv(time, death) ~ 1, data = data %>% filter(sex == "Female"), conf.type = "none")
+plot(km_fit_female, main="Survival functon of Females", 
+     xlab = "Days from diagnosis to last follow-up", ylab = "Survival Proportion")
+
+km_fit_male = survfit(Surv(time, death) ~ 1, data = data %>% filter(sex == "Male"))
+plot(km_fit_male, main="Survival functon of Males", 
+     xlab = "Days from diagnosis to last follow-up", ylab = "Survival Proportion")
+
+```
+
+Let's create a nicer image to allow comparison between Age and Gender on the same graph:
+This looks at the different age bands as per the banding defined but this can
+be updated as and how desired to get views for more specific bands if required.
+
+
+```{r}
+#Age banding 
+data = data %>%
+  mutate(age_band = if_else(EntryAge < 50, "Less than 50",
+                    if_else((EntryAge >= 50 & EntryAge < 60), "Between 50 and 60",
+                    if_else((EntryAge >= 60 & EntryAge < 65), "Between 60 and 65",
+                    if_else((EntryAge >= 65 & EntryAge < 70), "Between 65 and 70",
+                    if_else((EntryAge >= 70 & EntryAge < 75), "Between 70 and 75",
+                    if_else((EntryAge >= 75), "Greater than 75",
+                            "Invalid Age")))))))
+
+write_csv(data, "data/km_data.csv")
+
+# Loop through and create the graph data for each combination of age and sex
+# Extract the time and surv properties of the model and use these for the line graph
+for (i in sort(unique(data$age_band))){
+  for (j in sort(unique(data$sex))){
+    data2 = data %>%
+      filter(age_band == i) %>%
+      filter(sex == j)
+    
+    fit = survfit(Surv(time, death) ~ 1, data = data2, conf.type = "none")
+    
+    if(!exists("graph_data")){
+      graph_data = tibble(fit$time, fit$surv) %>%
+  rename("time"="fit$time", "alive" = "fit$surv") %>%
+  mutate(legend = paste(j, " " , i) )
+      
+    }
+    else{
+      
+      graph_data1 = tibble(fit$time, fit$surv) %>%
+  rename("time"="fit$time", "alive" = "fit$surv") %>%
+  mutate(legend = paste(j, " " , i) )
+      
+      graph_data = rbind(graph_data, graph_data1)
+      
+    }
+    
+  }
+  
+}
+
+#Plotting the graph
+graph_data %>%
+  ggplot(aes(x = time, y = alive, col = legend)) +
+  geom_line() +
+  theme_bw() +
+  labs()
+# Note from this graph, there is no real steep drop off observed 
+
+```
+
+
+It is possible to test whether the two groupings come from the same population of data and this can help distinguish at a statistically significant level that there is a difference.
+
+The hypothesis test undertaken will test for a difference between two survival curves using the G-rho family of tests. The idea being that if the null hypothesis is true then there is no difference between the two survival curves and therefore the two datasets contain survival data which originates from the same underlying population. On the contrary, if the alternative hypothesis is true, then there is statistically significant evidence to suggest that since the two datasets have different survival curves then they come from different underlying populations. The test can be formulated as followed: 
+
+Null Hypothesis: $H0:$ There is no difference between the two survival curves.
+Alternative Hypothesis: $H1:$ There is a difference between the two survival curves.
+Conclusion:  Since T < 0.05, there is sufficient evidence to reject the null hypothesis and accept the alternative hypothesis - there is a difference between the survival curves generated between male and females. We could band this down further to prove it was for each grouping of data but not really any point as they will all be significant, although less so as it will account for some of the age bias as males are slightly older than females in the population.
+
+```{r}
+survdiff(Surv(time, death) ~ sex, data = data)
+survdiff(Surv(time, death) ~ sex, data = data %>%
+           filter(age_band == "Greater than 75"))
+```
+
+## Question 2c): Gompertz solution
+
+Wasn't sure exactly what do do with this question as CDF is ascending but the km curve will be descending.
+Wasn't sure what M/B would refer to exactly so I implemented the CDF from Wikipedia as it was slightly simpler and enabled just two parameters to be defined $\eta$ and b referring to the shape and scale parameters respectively.
+
+
+This formula for the Gompertz CDF can be given by $1- e^{(-\eta(e^{bx-1}))}$
+
+I did two lots of graphs one using purely the deaths which followed a somewhat straight line.
+But would go up to a CDF of 1 and one which had a denomiator of the people left in the study, both of these were straighter in respect to time than the Gompertz CDF function which would have a sharp drop-off.
+
+
+```{r}
+#gompertz function
+calc_gompertz <- function(x, eta, b){
+  (1 - (exp(-eta*(exp(b*x) - 1))))
+}
+
+#Just doing it for males and females 
+fit_f = survfit(Surv(time, death) ~ 1, data = data %>% filter(sex == "Female"), conf.type = "none")
+fit_m = survfit(Surv(time, death) ~ 1, data = data %>% filter(sex == "Male"), conf.type = "none")
+
+#Create the df required for the graphing
+create_deaths_df <- function(fit, legend){
+  totals <- array()
+  j = 0
+  for (i in fit$n.event){
+    j= i +j
+    totals = append(totals, j)
+  }
+  totals = totals[!is.na(totals)]#First element was na - removing
+  total = max(totals)
+  
+  df = tibble(fit$n.event, fit$time, fit$n.risk,totals) %>%
+    rename(n_event = "fit$n.event", time =  "fit$time", risk = "fit$n.risk")
+  
+  
+  df %>%
+    mutate(legend = legend) %>%
+    mutate(in_study = risk - totals) %>%
+    mutate(cdf = totals/in_study) %>%
+    mutate(cdf_deaths = totals/total) %>%
+    #Had a little play with the values to see which looked somewhat respectable
+    mutate(gompertz = calc_gompertz(time, 0.01, 0.005)) %>%
+    mutate(gompertz_total = calc_gompertz(time, 0.003, 0.0025))
+    
+}
+
+gompertz_df_f = create_deaths_df(fit_f, "Female" )
+gompertz_df_m = create_deaths_df(fit_m, "Male")
+
+#Some plots with gompertz added 
+gompertz_df_f %>%
+  ggplot() +
+  geom_line(aes(x = time, y = cdf_deaths, col = legend)) +
+  geom_line(aes(x= time, y= gompertz)) +
+  theme_bw() +
+  labs("Female CDF of deaths by time")
+
+gompertz_df_m %>%
+  ggplot() +
+  geom_line(aes(x = time, y = cdf_deaths, col = legend)) +
+  geom_line(aes(x= time, y= gompertz)) +
+  theme_bw() +
+  labs(title = "Male CDF of deaths by time")
+
+
+gompertz_df_m %>%
+  ggplot() +
+  geom_line(aes(x = time, y = cdf, col = legend)) +
+  geom_line(aes(x= time, y= gompertz_total)) +
+  theme_bw() +
+  labs(title = "Male CDF of deaths by time using Total in play as denominator")
+```
+
+
+
+
+Thoughts
+
+```{r}
+
+data <- data %>%
+  mutate(age = floor(EntryAge + (time/365.25)))
+km_fit_female = survfit(Surv(age, death) ~ 1, data = data %>% filter(sex == "Female"), conf.type = "none")
+plot(km_fit_female, main="Survival functon of Females", 
+     xlab = "Age of Death", ylab = "Survival Proportion")
+
+km_fit_male = survfit(Surv(age, death) ~ 1, data = data %>% filter(sex == "Male"))
+plot(km_fit_male, main="Survival functon of Males", 
+     xlab = "Age of Death", ylab = "Survival Proportion")
+
+```

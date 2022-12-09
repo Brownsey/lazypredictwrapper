@@ -1,0 +1,20 @@
+,name,coefficients
+9,categorical_low__Product_Decreasing,7
+16,categorical_low__Smoker_Y,10
+5,numeric__ND (Months since last CCJ),10
+13,categorical_low__Product_Level accelerated,13
+18,categorical_low__Joint?_Y,17
+10,categorical_low__Product_Decreasing accelerated,18
+14,categorical_low__Product_Level with CI,23
+11,categorical_low__Product_Decreasing with CI,24
+8,categorical_low__Channel_MSM,27
+4,numeric__EF (No. of people not same surname at current address),32
+15,categorical_low__Smoker_N,38
+7,categorical_low__Channel_Direct,49
+17,categorical_low__Joint?_N,54
+6,categorical_low__Channel_CTM,61
+12,categorical_low__Product_Level,64
+1,numeric__Term,175
+0,numeric__Person1 Age,401
+3,numeric__JF (Score),810
+2,numeric__TotalPremium,1167
