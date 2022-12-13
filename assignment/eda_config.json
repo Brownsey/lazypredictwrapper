@@ -1,0 +1,10 @@
+{
+    "y_var":"Sale",
+    "ID_col":"Unnamed: 0",
+    "sweetviz_name": "None",
+    "get_missing_column_values":"True",
+    "get_pandas_dtypes":"False",
+    "get_sweetviz":"True",
+    "get_eda":"True"
+}
+
