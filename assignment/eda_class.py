@@ -3,7 +3,8 @@ import pandas as pd
 import os
 import sweetviz as sv
 
-
+# Print statement is for when running everything together it prints all the EDA to the window
+# Return statement is for when running individuals since df returns are nicer to look at than print statements
 class HEDA:
 
     def __init__(self, df: pd.DataFrame, y_var: str = None, ID_col = None, config = None, sweetviz_name = "sweetviz_report.html"):
@@ -26,7 +27,6 @@ class HEDA:
             self.y_var = y_var                         # Input y var colname
             self.ID_col = ID_col                       # ID column for dropping for sweetviz
             self.sweetviz_name = sweetviz_name         # Sweetviz name if required
-                              
 
     def get_missing_column_values(self):
 
@@ -47,6 +47,7 @@ class HEDA:
                     .loc[count.ne(0)]).reset_index().rename(columns={"index":"column"}).round(2)
         
         print(df.sort_values("missing_percentage", ascending=False) )
+        return df.sort_values("missing_percentage", ascending=False) 
 
     def get_sweetviz(self) -> None:
         """
@@ -59,6 +60,8 @@ class HEDA:
             name (str, optional): name of the report to be made. Defaults to "sweetviz_report.html".
         """
         df = self.df
+        if self.ID_col != "None":
+            df = df.drop(columns = self.ID_col, errors = "ignore")                 
         df_types = pd.DataFrame(df.apply(pd.api.types.infer_dtype, axis=0)).reset_index().rename(columns={'index': 'column', 0: 'type'})
         df_types = df_types[df_types.type.str.contains("mixed")]
         #This df types logic will ensure the sweetviz analysis runs as expected
@@ -109,7 +112,9 @@ class HEDA:
         Returns:
             df: uses self.df argument and applies infer_dtype to this
         """
-        print(pd.DataFrame(self.df.apply(pd.api.types.infer_dtype, axis=0)).reset_index().rename(columns={'index': 'column', 0: 'type'}) )
+        df = pd.DataFrame(self.df.apply(pd.api.types.infer_dtype, axis=0)).reset_index().rename(columns={'index': 'column', 0: 'type'}) 
+        print(df)
+        return df
 
     def run_eda(self):
         config = self.config
