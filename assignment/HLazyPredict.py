@@ -82,7 +82,7 @@ class HLazyPredict:
             self.__provided_models = self.__vlp.provide_models(self.x_train, self.x_test, self.y_train, self.y_test)
             return self.__provided_models
 
-    def get_pipelie_object(self, which_model: str) -> pipeline:
+    def get_pipeline_object(self, which_model: str) -> pipeline:
         """returns the pipeline object you just selcted, also saves it in self.__pipeline"""
 
         if self.has_modelled and which_model in self.__provided_models:
