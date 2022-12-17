@@ -1,0 +1,9 @@
+{
+    "row_aligner":"True",
+    "no_yes_columns":["Smoker", "Joint?"],
+    "column_dropper": "True",
+    "columns_to_drop":["Unnamed: 0"],
+    "date_formatter": "False",
+    "date_columns":["test"]
+}
+
