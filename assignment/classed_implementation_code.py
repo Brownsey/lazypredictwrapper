@@ -1,15 +1,15 @@
 from eda_class import HEDA
 from HDataLoader import HDataLoader
+from preprocess_class import HPreProcess
 import os
 import pandas as pd
 
-data_path_str = "eda_config.json"
+data_path_str = "assignment/eda_config.json"
 hdl = HDataLoader()
 data_path = os.path.abspath(data_path_str)
-eda_config = hdl.load_a_json(location=data_path_str)
+eda_config = hdl.load_a_json(location=data_path)
 
-data = pd.read_excel("data/MockDataSet1.xlsx").drop(columns= "Unnamed: 0", errors= "ignore")
-#Checking Quotes
+data = pd.read_excel("assignment/data/MockDataSet1.xlsx").drop(columns= "Unnamed: 0", errors= "ignore")
 
 """
 
@@ -23,6 +23,7 @@ print(data_df.head())
 
 """
 #Running the eda without a config file
+
 eda = HEDA(data, y_var= "Sale", ID_col="Unnamed: 0")
 
 eda.get_missing_column_values()
@@ -31,3 +32,15 @@ eda.get_sweetviz()
 print("configged eda version")
 eda = HEDA(data, config=eda_config)
 eda.run_eda()
+
+
+##### Pre-processing example code:
+hdl = HDataLoader()
+data_path_str = "assignment/preprocess_config.json"
+data_path = os.path.abspath(data_path_str)
+preprocess_config = hdl.load_a_json(location=data_path)
+pre_processed_data = HPreProcess(data, config = preprocess_config)
+data = pre_processed_data.run_preprocess()
+data.Smoker.value_counts()
+
+
