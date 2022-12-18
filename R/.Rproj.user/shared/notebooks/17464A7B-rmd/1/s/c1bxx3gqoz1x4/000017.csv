@@ -1,8 +1,0 @@
-"0",""
-"0",""
-"0","data %>%"
-"0","  ggplot() +"
-"0","  geom_bar(aes(x = floor(EntryAge), colour = sex, fill = sex), position = ""stack"") +"
-"0","  theme_bw() +"
-"0","  labs(y = ""Count"","
-"0","       x = ""Age"", title = ""Bar Chart of Age by Gender"")"

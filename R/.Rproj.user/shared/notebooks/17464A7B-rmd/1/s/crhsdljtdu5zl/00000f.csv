@@ -1,3 +1,0 @@
-"0","km_fit_female = survfit(Surv(time, death) ~ 1, data = data %>% filter(sex == ""Female""), conf.type = ""none"")"
-"0","plot(km_fit_female, main=""Survival functon of Females"", "
-"0","     xlab = ""Days from diagnosis to last follow-up"", ylab = ""Survival Proportion"")"
