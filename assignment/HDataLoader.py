@@ -15,6 +15,7 @@ class HDataLoader:
                 data = json.load(file)
             return data
         else:
+            print(location)
             raise ValueError(f"file at {location} not found, try another path")
 
     def load_a_csv(self, location: os.path) -> dict:
@@ -26,7 +27,7 @@ class HDataLoader:
         else:
             raise ValueError(f"file at {location} not found, try another path")
 
-    def pickle_model(params, file: str) -> None:
+    def pickle_model(self, params, file: str) -> None:
         #Save the object as a pickled file
         f = open(file, "wb")
         pickle.dump(params,f)
