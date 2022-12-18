@@ -1,10 +1,10 @@
-from eda_class import HEDA
-from HDataLoader import HDataLoader
-from preprocess_class import HPreProcess
+from classes.eda_class import HEDA
+from classes.HDataLoader import HDataLoader
+from classes.preprocess_class import HPreProcess
 import os
 import pandas as pd
 
-data_path_str = "eda_config.json"
+data_path_str = "data/eda_config.json"
 hdl = HDataLoader()
 data_path = os.path.abspath(data_path_str)
 eda_config = hdl.load_a_json(location=data_path)
@@ -36,7 +36,7 @@ eda.run_eda()
 
 ##### Pre-processing example code:
 hdl = HDataLoader()
-data_path_str = "preprocess_config.json"
+data_path_str = "data/preprocess_config.json"
 data_path = os.path.abspath(data_path_str)
 preprocess_config = hdl.load_a_json(location=data_path)
 pre_processed_data = HPreProcess(data, config = preprocess_config)
