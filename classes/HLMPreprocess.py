@@ -1,16 +1,15 @@
 from lazypredict.Supervised import LazyClassifier, LazyRegressor
 from sklearn.model_selection import train_test_split
 from sklearn import pipeline
-from scipy import stats
 from sklearn.calibration import CalibratedClassifierCV
 import pandas as pd
+import math
 import numpy as np
 
 
 class HLazyPredict:
 
-    def __init__(self, df: pd.DataFrame, y_var: str, random_state: int = 666,
-    modelling_type:str = "classifier", test_size: float = 0.2):
+    def __init__(self, df: pd.DataFrame, y_var: str, random_state: int = 666, test_size: float = 0.2):
         self.df = df                                    # input df
         self.y_var = y_var                              # input y var colname
         self.random_state = random_state
@@ -25,11 +24,6 @@ class HLazyPredict:
         self.__pipeline = None                          # winning pipeline object selected from lazy predict
         self.model_type = None                          # string containing which model was selected
         self.__marginal_df = pd.DataFrame()             # used as a nasty hack for calculating marginal probabilities
-        self.modelling_type = modelling_type
-
-
-
-
 
     def __split_df_into_x_y(self) -> (pd.DataFrame, pd.Series):
         """takes a df and breaks it out into two parts, x and y"""
@@ -50,7 +44,7 @@ class HLazyPredict:
     def very_lazy_classifier(self) -> (pd.DataFrame, pd.DataFrame):
         """runs the lazy classifier, also stores model files into self.provided_models"""
 
-        self.__vlp = LazyClassifier(verbose=0, predictions=True)
+        self.__vlp = LazyClassifier(predictions=True)
         self.__models, self.__predictions = self.__vlp.fit(self.x_train, self.x_test, self.y_train, self.y_test)
         self.has_modelled = True
         self.__get_provided_models()
@@ -88,7 +82,7 @@ class HLazyPredict:
             self.__provided_models = self.__vlp.provide_models(self.x_train, self.x_test, self.y_train, self.y_test)
             return self.__provided_models
 
-    def get_pipeline_object(self, which_model: str) -> pipeline:
+    def get_pipelie_object(self, which_model: str) -> pipeline:
         """returns the pipeline object you just selcted, also saves it in self.__pipeline"""
 
         if self.has_modelled and which_model in self.__provided_models:
@@ -189,65 +183,6 @@ class HLazyPredict:
         self.__marginal_df = marginal_df
 
         return marginal_df
-
-    
-    def get_row_wise_mode_counts(self, top_x):
-    #TODO: Add code to only select top X predictions
-    #TODO: Think about best way to select top X - should it be off a threshold accuracy?
-        predictions = self.__predictions
-        p = self.__predictions.values.T
-        m = stats.mode(p)
-        predictions['mode'] = m[0][0]
-        predictions['modal_count'] = m[1][0]
-        return predictions
-
-
-    def get_top_model_predictions(self):
-        #Pretty hacky code but just gets the predictions from the best model essentially
-        predictions = self.__predictions
-        models = self.models
-        return predictions[models.reset_index()["Model"].head(1).to_string().split(" ")[-1]]
-
-
-    def generate_coeffs_df(self, model):
-        which_model = self.get_pipeline_object(model)
-
-        if (hasattr(which_model.named_steps['classifier'],  "feature_importances_")):
-            print("Using feature_importances_")
-            coeffs = pd.DataFrame(which_model.named_steps['classifier'].feature_importances_.T, columns = ["coefficients"])
-        elif(hasattr(which_model.named_steps['classifier'],  "coef_")):
-            print("Using coef_")
-            coeffs = pd.DataFrame(which_model.named_steps['classifier'].coef_.T, columns = ["coefficients"])
-        else:
-            print("No implemented method for this model")
-            return
-
-        # take feature names from df
-        feature_names = pd.DataFrame(which_model[:-1].get_feature_names_out())
-        feature_names = feature_names.rename({0: "name"}, axis=1)
-
-        # concat together
-        coeffs_df = pd.concat([feature_names, coeffs], axis=1)
-        coeffs_df = coeffs_df.sort_values(by='coefficients', axis=0, ascending=True)
-        return coeffs_df
-
-    def run_modelling(self):
-        """main function for testing"""
-        if self.modelling_type == "classifier":
-            self.very_lazy_classifier()
-        elif self.modelling_type == "regressor":
-            self.very_lazy_regressor()
-        else:
-            raise ValueError("modelling type not supported, please input either classifier or regressor")
-        
-        models = self.get_models()
-        predictions = self.get_predictions()
-        #coeffs_df = self.generate_coeffs_df(model="XGBClassifier")
-
-        return models, predictions#, coeffs_df
-
-        
-
 
 
 

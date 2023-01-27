@@ -1,0 +1,12 @@
+{
+    "drop_duplicates":"True",
+    "row_aligner":"False",
+    "no_yes_columns":["N/A"],
+    "column_dropper": "True",
+    "columns_to_drop":["customerID"],
+    "date_formatter": "False",
+    "date_columns":["test"],
+    "binary_aligner": "True",
+    "binary_aligner_columns":["Churn"]
+}
+
