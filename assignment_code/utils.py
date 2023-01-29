@@ -145,8 +145,6 @@ def split_data(data, y_var, test_size = 0.25):
     return train_test_split(data.drop(y_var, axis = 1), data[y_var], test_size= test_size, random_state= 666, stratify=y_var)
 
 
-
-
 ### Modelling section
 def get_scale_pos_weight(y):
     return round( (y.value_counts()[0]/y.value_counts()[1]),3)

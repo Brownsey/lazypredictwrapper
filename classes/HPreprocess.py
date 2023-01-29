@@ -20,7 +20,8 @@ class HPreProcess:
         self.str = False
         
 
-        #Overrites if config is passed in and contains them
+        #Overrites if config is passed in and contains them and won't break if invalid config put in
+        #TODO: could probably be cleaned up
         if config != None:
             if "drop_duplicates" in config:
                 if config["drop_duplicates"] != "None":

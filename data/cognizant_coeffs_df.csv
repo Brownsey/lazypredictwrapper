@@ -1,0 +1,45 @@
+,name,coefficients
+1,numeric__tenure,-1.3496845666482586
+37,categorical_low__Contract_Two year,-0.7023696518279624
+14,categorical_low__InternetService_DSL,-0.3578545633628887
+38,categorical_low__PaperlessBilling_No,-0.2008870918285755
+19,categorical_low__OnlineSecurity_Yes,-0.14349577163405025
+28,categorical_low__TechSupport_Yes,-0.13146118678499824
+11,categorical_low__MultipleLines_No,-0.1233860500135702
+41,categorical_low__PaymentMethod_Credit card (automatic),-0.12093900098227174
+10,categorical_low__Dependents_Yes,-0.09057899687580019
+21,categorical_low__OnlineBackup_No internet service,-0.08890792807428967
+24,categorical_low__DeviceProtection_No internet service,-0.08890792807428967
+27,categorical_low__TechSupport_No internet service,-0.08890792807428967
+30,categorical_low__StreamingTV_No internet service,-0.08890792807428967
+33,categorical_low__StreamingMovies_No internet service,-0.08890792807428967
+16,categorical_low__InternetService_No,-0.08890792807428967
+18,categorical_low__OnlineSecurity_No internet service,-0.08890792807428967
+2,numeric__PhoneService,-0.07803284374316656
+3,numeric__MonthlyCharges,-0.07603540618087326
+43,categorical_low__PaymentMethod_Mailed check,-0.07446283091835328
+40,categorical_low__PaymentMethod_Bank transfer (automatic),-0.06719510781507751
+6,categorical_low__gender_Male,-0.048855147289046955
+32,categorical_low__StreamingMovies_No,-0.04852678808127833
+22,categorical_low__OnlineBackup_Yes,-0.03179732187571786
+29,categorical_low__StreamingTV_No,-0.02213623711106436
+7,categorical_low__Partner_No,-0.02056825055838609
+12,categorical_low__MultipleLines_No phone service,0.02372869040687285
+8,categorical_low__Partner_Yes,0.02720996570794814
+36,categorical_low__Contract_One year,0.03282425838632584
+25,categorical_low__DeviceProtection_Yes,0.04492655172683665
+23,categorical_low__DeviceProtection_No,0.05062309149701993
+5,categorical_low__gender_Female,0.055496862438606194
+0,numeric__SeniorCitizen,0.08721977160962711
+9,categorical_low__Dependents_No,0.09722071202535258
+13,categorical_low__MultipleLines_Yes,0.10629907475629022
+31,categorical_low__StreamingTV_Yes,0.11768588033494429
+20,categorical_low__OnlineBackup_No,0.12734696509958982
+34,categorical_low__StreamingMovies_Yes,0.1440764313051503
+39,categorical_low__PaperlessBilling_Yes,0.20752880697815498
+26,categorical_low__TechSupport_No,0.2270108300088558
+17,categorical_low__OnlineSecurity_No,0.23904541485792005
+42,categorical_low__PaymentMethod_Electronic check,0.26923865486527
+15,categorical_low__InternetService_Fiber optic,0.45340420658675684
+4,numeric__TotalCharges,0.6464134900808819
+35,categorical_low__Contract_Month-to-month,0.676187108591197

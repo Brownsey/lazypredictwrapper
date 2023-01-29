@@ -1,4 +1,4 @@
-from classes.eda_class import HEDA
+from classes.HEDA import HEDA
 from classes.HDataLoader import HDataLoader
 from classes.HPreProcess import HPreProcess
 import os

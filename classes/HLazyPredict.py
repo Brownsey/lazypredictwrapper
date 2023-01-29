@@ -10,7 +10,7 @@ import numpy as np
 class HLazyPredict:
 
     def __init__(self, df: pd.DataFrame, y_var: str, random_state: int = 666,
-    modelling_type:str = "classifier", test_size: float = 0.2):
+    modelling_type:str = "classifier", test_size: float = 0.2, margin = 0.05):
         self.df = df                                    # input df
         self.y_var = y_var                              # input y var colname
         self.random_state = random_state
@@ -26,6 +26,7 @@ class HLazyPredict:
         self.model_type = None                          # string containing which model was selected
         self.__marginal_df = pd.DataFrame()             # used as a nasty hack for calculating marginal probabilities
         self.modelling_type = modelling_type
+        self.margin = margin
 
     def __split_df_into_x_y(self) -> (pd.DataFrame, pd.Series):
         """takes a df and breaks it out into two parts, x and y"""
@@ -214,7 +215,7 @@ class HLazyPredict:
         return self.__predictions[model] 
 
 
-    def generate_coeffs_df(self, model):
+    def generate_coeffs_df(self, model, position = 1):
         
         """
         #To have a play with this, you can use the following code:
@@ -239,16 +240,22 @@ class HLazyPredict:
         which_model = self.get_pipeline_object(model)
 
         if (hasattr(which_model.named_steps['classifier'],  "feature_importances_")):
-            print("Using feature_importances_")
+            print("Analysing: " + model +" Using feature_importances_" + " at list postion " + str(position -1))
             coeffs = pd.DataFrame(which_model.named_steps['classifier'].feature_importances_.T, columns = ["coefficients"])
         elif(hasattr(which_model.named_steps['classifier'],  "coef_")):
-            print("Using coef_")
+            print("Analysing: " + model +" Using coef_" + " at list postion" + str(position -1))
             coeffs = pd.DataFrame(which_model.named_steps['classifier'].coef_.T, columns = ["coefficients"])
         elif(hasattr(which_model.named_steps['classifier'], "centroids_")):
-            print("Using centroids_")
+            print("Analysing: " + model + " Using centroids_" + " at list postion " + str(position -1))
             print("This method returns the centroids of the clusters, not the coefficients")
             print("To understand feature importances force this to run on a model with coef_ or feature_importances_")
             return pd.DataFrame(which_model.named_steps['classifier'].centroids_) # This doesnt
+        elif(hasattr(which_model.named_steps['classifier'], "feature_log_prob_")):
+            #This one uses the feature log probabilities for both the positive and negative classes
+            #Not currently implemented if > 2 classes
+            print("Analysing: " + model + " Using feature_log_prob_" + " at list postion " + str(position -1))
+            coeffs = pd.DataFrame(which_model.named_steps['classifier'].feature_log_prob_[0: ].T, columns = ["negative_coefficients", "coefficients"])
+        
         else:
             print("No implemented method for this model")
             return
@@ -262,9 +269,10 @@ class HLazyPredict:
         coeffs_df = coeffs_df.sort_values(by='coefficients', axis=0, ascending=True)
         return coeffs_df
 
-    def get_top_x_models(self, accuracy_metric = "Balanced Accuracy", margin = 0.05 ):
+    def get_top_x_models(self, accuracy_metric = "Balanced Accuracy"):
         #Subsets the models df down to just be the top X models that are within a margin of the top model for a given accuracy metric
         models = self.__models
+        margin = self.margin
         top_accuracy = float(models.head(1)[accuracy_metric])
         models = models[models["Balanced Accuracy"] > top_accuracy - margin]
         self.__top_x_models = models
@@ -295,9 +303,8 @@ class HLazyPredict:
 
         coeff_list = list()
         for i in range(1, num_top_x + 1):
-            coeffs_df = self.generate_coeffs_df(model= self.__get_top_model(position = i))
+            coeffs_df = self.generate_coeffs_df(model= self.__get_top_model(position = i), position = i)
             coeff_list.append(coeffs_df)
-        
         
         #pipeline_coeffs = self.get_pipeline_coeffs() # This sometimes fails as the coeffs are not defined for all models
 

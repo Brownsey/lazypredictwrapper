@@ -2,12 +2,14 @@
 import pandas as pd
 import os
 import sweetviz as sv
+import pandas_profiling as pp
 
 # Print statement is for when running everything together it prints all the EDA to the window
 # Return statement is for when running individuals since df returns are nicer to look at than print statements
 class HEDA:
 
-    def __init__(self, df: pd.DataFrame, y_var: str = None, ID_col = None, config = None, sweetviz_name = "sweetviz_report.html"):
+    def __init__(self, df: pd.DataFrame, y_var: str = None, ID_col = None, config = None,
+     sweetviz_name = "sweetviz_report.html"):
         self.df = df                                  # input df
         self.config = config                          # config file for running EDA automatically
         
@@ -86,6 +88,17 @@ class HEDA:
             my_report = sv.analyze(df)
             my_report.show_html(path + self.sweetviz_name)
 
+
+    def get_pandas_profiling(self) -> None:
+        profile = pp.ProfileReport(self.df, title = "Exploratory Data Analysis")
+        cwd = os.getcwd()
+        path = cwd + "/data/reports/"
+        isExist = os.path.exists(path)
+        if not isExist:
+            os.makedirs(path)
+        profile.to_file(output_file = path + "pandas_profiling.html")
+
+
     def get_eda(self):
         print("---------------------------------------------------------------------------------")
         print("Total Columns:" + str(len(self.df.columns)))
@@ -133,6 +146,9 @@ class HEDA:
         if "get_sweetviz" in config:
             if config["get_sweetviz"] == "True":
                 self.get_sweetviz()
+        if "get_pandas_profiling" in config:
+            if config["get_pandas_profiling"] == "True":
+                self.get_pandas_profiling()
         if "get_eda" in config:
             if config["get_eda"] == "True":
                 self.get_eda()
