@@ -188,12 +188,12 @@ class HLazyPredict:
         return marginal_df
 
     
-    def get_row_wise_mode_counts(self, top_x):
+    def get_row_wise_mode_counts(self):
     #TODO: Add code to only select top X predictions
     #TODO: Think about best way to select top X - should it be off a threshold accuracy?
     # or within X % of the top accuracy?
-    # Essemtially would act as a bagging approach for the top X models chosen
-    #Current downsides is it uses all models - some of which are very bad and the combination is not better than the best model
+    # Essentially would act as a bagging approach for the top X models chosen
+    # Current downsides is it uses all models - some of which are very bad and the combination is not better than the best model
         predictions = self.__predictions
         p = self.__predictions.values.T
         m = stats.mode(p)
@@ -287,9 +287,18 @@ class HLazyPredict:
         #get predictions of just the top model
         model_name = self.__get_top_model()
         print("best model is: " + model_name)
+        self.get_top_x_models()
+        num_top_x = self.num_top_x
+
         top_predictions = self.get_model_predictions(model = model_name)
         #TODO: Update the model part to get coefficients for top X models rather than just top 1
-        coeffs_df = self.generate_coeffs_df(model= model_name)
+
+        coeff_list = list()
+        for i in range(1, num_top_x + 1):
+            coeffs_df = self.generate_coeffs_df(model= self.__get_top_model(position = i))
+            coeff_list.append(coeffs_df)
+        
+        
         #pipeline_coeffs = self.get_pipeline_coeffs() # This sometimes fails as the coeffs are not defined for all models
 
-        return models, predictions, top_predictions, coeffs_df
+        return models, predictions, top_predictions, coeff_list
