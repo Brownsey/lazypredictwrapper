@@ -7,6 +7,9 @@
     "date_formatter": "False",
     "date_columns":["test"],
     "binary_aligner": "True",
-    "binary_aligner_columns":["Churn"]
+    "binary_aligner_columns":["Churn", "PhoneService"],
+    "change_type": "True",
+    "numeric": ["TotalCharges"],
+    "object": ["N/A"],
+    "str": ["N/A"]
 }
-

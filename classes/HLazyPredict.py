@@ -27,10 +27,6 @@ class HLazyPredict:
         self.__marginal_df = pd.DataFrame()             # used as a nasty hack for calculating marginal probabilities
         self.modelling_type = modelling_type
 
-
-
-
-
     def __split_df_into_x_y(self) -> (pd.DataFrame, pd.Series):
         """takes a df and breaks it out into two parts, x and y"""
 
@@ -51,7 +47,8 @@ class HLazyPredict:
         """runs the lazy classifier, also stores model files into self.provided_models"""
 
         self.__vlp = LazyClassifier(verbose=0, predictions=True)
-        self.__models, self.__predictions = self.__vlp.fit(self.x_train, self.x_test, self.y_train, self.y_test)
+        models, self.__predictions = self.__vlp.fit(self.x_train, self.x_test, self.y_train, self.y_test)
+        self.__models = models.reset_index()
         self.has_modelled = True
         self.__get_provided_models()
         return self.__models, self.__predictions
@@ -194,6 +191,9 @@ class HLazyPredict:
     def get_row_wise_mode_counts(self, top_x):
     #TODO: Add code to only select top X predictions
     #TODO: Think about best way to select top X - should it be off a threshold accuracy?
+    # or within X % of the top accuracy?
+    # Essemtially would act as a bagging approach for the top X models chosen
+    #Current downsides is it uses all models - some of which are very bad and the combination is not better than the best model
         predictions = self.__predictions
         p = self.__predictions.values.T
         m = stats.mode(p)
@@ -202,14 +202,40 @@ class HLazyPredict:
         return predictions
 
 
-    def get_top_model_predictions(self):
-        #Pretty hacky code but just gets the predictions from the best model essentially
-        predictions = self.__predictions
-        models = self.models
-        return predictions[models.reset_index()["Model"].head(1).to_string().split(" ")[-1]]
+
+    def __get_top_model(self, position  = 1):
+        #Return model name at position in the list of models
+        models = self.__models
+        # This is needed because the index is included in the model name like '0    NearestCentroid'
+        return models["Model"].head(position).to_string().split(" ")[-1]
+
+    def get_model_predictions(self, model):
+        #Pretty hacky code but just gets the predictions from the best model essentially 
+        return self.__predictions[model] 
 
 
     def generate_coeffs_df(self, model):
+        
+        """
+        #To have a play with this, you can use the following code:
+        # This would use the cognizant data
+        X = modelling_data.drop(columns = "Churn")
+        y = modelling_data.Churn
+
+
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size= .25,random_state = 666)
+
+        clf = LazyClassifier(verbose=0,ignore_warnings=True, custom_metric=None, predictions=True)
+        models, predictions = clf.fit(X_train, X_test, y_train, y_test)
+        #models.to_csv("data/models.csv")
+        print(models)
+
+        provided_models = clf.provide_models(X_train, X_test, y_train, y_test)
+        which_model = provided_models["Perceptron"] # Shows pipeline
+        which_model.named_steps['classifier']
+        dir(which_model.named_steps['classifier']) #Shows methods associated with each pipelined model
+        """
+
         which_model = self.get_pipeline_object(model)
 
         if (hasattr(which_model.named_steps['classifier'],  "feature_importances_")):
@@ -218,6 +244,11 @@ class HLazyPredict:
         elif(hasattr(which_model.named_steps['classifier'],  "coef_")):
             print("Using coef_")
             coeffs = pd.DataFrame(which_model.named_steps['classifier'].coef_.T, columns = ["coefficients"])
+        elif(hasattr(which_model.named_steps['classifier'], "centroids_")):
+            print("Using centroids_")
+            print("This method returns the centroids of the clusters, not the coefficients")
+            print("To understand feature importances force this to run on a model with coef_ or feature_importances_")
+            return pd.DataFrame(which_model.named_steps['classifier'].centroids_) # This doesnt
         else:
             print("No implemented method for this model")
             return
@@ -231,6 +262,15 @@ class HLazyPredict:
         coeffs_df = coeffs_df.sort_values(by='coefficients', axis=0, ascending=True)
         return coeffs_df
 
+    def get_top_x_models(self, accuracy_metric = "Balanced Accuracy", margin = 0.05 ):
+        #Subsets the models df down to just be the top X models that are within a margin of the top model for a given accuracy metric
+        models = self.__models
+        top_accuracy = float(models.head(1)[accuracy_metric])
+        models = models[models["Balanced Accuracy"] > top_accuracy - margin]
+        self.__top_x_models = models
+        self.num_top_x = len(models.index)
+
+
     def run_modelling(self):
         """main function for testing"""
         if self.modelling_type == "classifier":
@@ -240,14 +280,16 @@ class HLazyPredict:
         else:
             raise ValueError("modelling type not supported, please input either classifier or regressor")
         
+        #TODO: Update config to decide which functions get run and 
+        
         models = self.get_models()
         predictions = self.get_predictions()
-        #coeffs_df = self.generate_coeffs_df(model="XGBClassifier")
+        #get predictions of just the top model
+        model_name = self.__get_top_model()
+        print("best model is: " + model_name)
+        top_predictions = self.get_model_predictions(model = model_name)
+        #TODO: Update the model part to get coefficients for top X models rather than just top 1
+        coeffs_df = self.generate_coeffs_df(model= model_name)
+        #pipeline_coeffs = self.get_pipeline_coeffs() # This sometimes fails as the coeffs are not defined for all models
 
-        return models, predictions#, coeffs_df
-
-        
-
-
-
-
+        return models, predictions, top_predictions, coeffs_df

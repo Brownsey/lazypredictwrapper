@@ -22,12 +22,38 @@ modelling_data = pd.read_csv("data/modelling_data_clean.csv")
 X = modelling_data.drop(columns = "Sale")
 y = modelling_data.Sale
 
+##Testing rq
+X = modelling_data.drop(columns = "Churn")
+y = modelling_data.Churn
+
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size= .25,random_state = 666)
 
 clf = LazyClassifier(verbose=0,ignore_warnings=True, custom_metric=None, predictions=True)
 models, predictions = clf.fit(X_train, X_test, y_train, y_test)
-models.to_csv("data/models.csv")
+#models.to_csv("data/models.csv")
 print(models)
+
+
+
+provided_models = clf.provide_models(X_train, X_test, y_train, y_test)
+which_model = provided_models["Perceptron"] # Shows pipeline
+which_model.named_steps['classifier']
+
+
+
+
+
+# take feature names from df
+feature_names = pd.DataFrame(which_model[:-1].get_feature_names_out())
+feature_names = feature_names.rename({0: "name"}, axis=1)
+
+# concat together
+coeffs_df = pd.concat([feature_names, coeffs], axis=1)
+coeffs_df = coeffs_df.sort_values(by='coefficients', axis=0, ascending=True)
+return coeffs_df
+
+
 
 #This doesn't work well if there is inbalanced datasets as less good models tend to predict solely majority class
 modal_predictions = utils.get_row_wise_mode_counts(predictions)

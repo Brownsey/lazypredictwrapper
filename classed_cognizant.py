@@ -32,8 +32,7 @@ data = preprocess.run_preprocess()
 
 hlp = HLazyPredict(data, y_var= "Churn")
 
-hlp.run_modelling()
-
+models, predictions, top_predictions, coeffs_df = hlp.run_modelling()
 
 
 ###archaic shit
@@ -50,3 +49,34 @@ clf = LazyClassifier(verbose=0,ignore_warnings=True, custom_metric=None, predict
 models, predictions = clf.fit(X_train, X_test, y_train, y_test)
 
 
+
+modelling_data1 = modelling_data[['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+         'Churn']]   ##Works
+
+
+['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod',
+       'MonthlyCharges', 'TotalCharges', 'Churn']
+
+
+
+modelling_data1 = modelling_data[['gender', 'SeniorCitizen', 'Partner', 'Dependents', 'tenure',
+       'PhoneService', 'MultipleLines', 'InternetService', 'OnlineSecurity',
+       'OnlineBackup', 'DeviceProtection', 'TechSupport', 'StreamingTV',
+       'StreamingMovies', 'Contract', 'PaperlessBilling', 'PaymentMethod', "MonthlyCharges",
+         'Churn']]
+
+
+X = modelling_data1.drop(columns = "Churn")
+y = modelling_data1.Churn
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size= .25,random_state = 666)
+
+clf = LazyClassifier(verbose=0,ignore_warnings=True, custom_metric=None, predictions=True)
+models, predictions = clf.fit(X_train, X_test, y_train, y_test)
+models

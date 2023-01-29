@@ -14,6 +14,11 @@ class HPreProcess:
         self.binary_aligner_columns = binary_aligner_columns
         self.drop_duplicates = False
         self.binary_aligner = False
+        self.change_type = False
+        self.numeric = False
+        self.object = False
+        self.str = False
+        
 
         #Overrites if config is passed in and contains them
         if config != None:
@@ -32,6 +37,17 @@ class HPreProcess:
             if "binary_aligner" in config:
                 if config["binary_aligner_columns"] != "None":
                     self.binary_aligner_columns = config["binary_aligner_columns"]
+            if "change_type" in config:
+                if config["change_type"] == "True":
+                    self.change_type = True
+                    if config["numeric"][0] != "N/A":
+                        self.numeric = config["numeric"]
+                    if config["object"][0] != "N/A":
+                        self.object = config["object"]
+                    if config["str"][0] != "N/A":
+                        self.str = config["str"]
+                else:
+                    self.change_type = False # not required but heyho
 
     def column_dropper(self):
         print("dropping columns" + str(self.columns_to_drop))
@@ -71,6 +87,19 @@ class HPreProcess:
             if self.config["no_yes_columns"] != "None":
                 self.run_no_yes_aligner()
 
+    def update_types(self):
+        #Update data types
+        if self.numeric != False:
+            print("Updating float columns" + str(self.numeric))
+            self.data[self.numeric] = self.data[self.numeric].apply(pd.to_numeric, errors='coerce')
+        if self.object != False:
+            print("Updating object columns" + str(self.object))
+            self.data[self.object] = self.data[self.object].astype(object)
+        if self.str != False:  
+            print("Updating str columns" + str(self.str))
+            self.data[self.str] = self.data[self.str].astype(str)
+        return self.data
+        
     def __date_feature_engineerer(self, column):
         """
         Function to do some date feature engineerig (untested)
@@ -119,6 +148,9 @@ class HPreProcess:
             if config["row_aligner"] == "True":
                 self.run_row_aligner()
 
+        if self.change_type == True:
+            self.update_types()
+
         if "binary_aligner" in config:  
             if config["binary_aligner"] == "True":
                 if self.binary_aligner_columns != None:
@@ -128,5 +160,6 @@ class HPreProcess:
             if config["date_formatter"] == "True":
                 if self.data_formatter_columns != None:
                     self.run_date_feature_engineerer()
+        
         
         return self.data
