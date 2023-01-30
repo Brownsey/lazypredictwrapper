@@ -2,9 +2,13 @@ from lazypredict.Supervised import LazyClassifier, LazyRegressor
 from sklearn.model_selection import train_test_split
 from sklearn import pipeline
 from scipy import stats
-from sklearn.calibration import CalibratedClassifierCV
 import pandas as pd
 import numpy as np
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+import os
+import pickle
+
 
 
 class HLazyPredict:
@@ -115,80 +119,7 @@ class HLazyPredict:
 
             return coeffs_df
 
-    def get_marginal_probabilities(self):
-        """extensible function for getting probabilities from various pipelines
-            LogisticRegression is provided here for POC"""
-
-        self.__generate_marginal_df()
-        coeffs = self.get_pipeline_coeffs()
-        coeffs['p'] = 0.0000
-
-        # todo: break this section out into a separate function
-        # gets correct probability prediction function based on model type
-        if self.model_type == "LogisticRegression":
-            self.__marginal_df = self.__get_logistic_probabilities(self.__marginal_df)
-
-        # example of extending this function
-        # elif self.model_type == "LinearSVC":
-        #     self.__marginal_df = self.__get_linearsvc_probabilities()
-
-        else:
-            raise ValueError("model type not currently supported for marginal probabilities, consider extending this function")
-
-        for c in range(0, self.x.columns.size):
-            big_prob = self.__marginal_df.at[(c*2)+1, "prob"]
-            little_prob = self.__marginal_df.at[c*2, "prob"]
-            print(f"{self.x.columns[c]}, {big_prob} - {little_prob} = {big_prob - little_prob}")
-
-            coeffs.at[c, "p"] = big_prob - little_prob 
-
-        coeffs = coeffs.sort_values(["p"], ascending=True)
-
-        return coeffs
-
-    def __get_linearsvc_probabilities(self):
-        """gets probabilities from linearSVC models using platt scaling"""
-        # todo rework this with more time
-        # if self.model_type == "LinearSVC":
-        #     clf = CalibratedClassifierCV(self.__pipeline)
-        #     clf.fit(self.x_train, self.y_train)
-        #     y_proba = clf.predict_proba(self.x_test)
-        #     print(y_proba)
-        #     return y_proba
-        # else:
-        #     raise TypeError("model type is not LinearSVC")
-        pass
-
-    def __get_logistic_probabilities(self, df: pd.DataFrame):
-        """returns probabilities for marginal df"""
-        if self.model_type == "LogisticRegression":
-
-            df['prob'] = self.__pipeline.predict_proba(df)[:, 1]
-
-            return df
-
-    def __generate_marginal_df(self):
-        """makes a dataframe of 1 and 2 observations for each column"""
-        number_of_columns = self.x.columns.size
-        # make a df full of zeroes
-        marginal_df = pd.DataFrame(np.zeros((number_of_columns*2, number_of_columns)))
-
-        # start on row 0
-        r = 0
-
-        # nasty nested for loop
-        for c in range(0, number_of_columns):
-            for v in (30, 31):
-                marginal_df.iloc[r, c] = v
-                r += 1
-            marginal_df = marginal_df.rename({c: self.x.columns[c]}, axis=1)
-
-        # store your dirty deed
-        self.__marginal_df = marginal_df
-
-        return marginal_df
-
-    
+   
     def get_row_wise_mode_counts(self):
     #TODO: Add code to only select top X predictions
     #TODO: Think about best way to select top X - should it be off a threshold accuracy?
@@ -269,6 +200,31 @@ class HLazyPredict:
         coeffs_df = coeffs_df.sort_values(by='coefficients', axis=0, ascending=True)
         return coeffs_df
 
+
+    #Currently only works for binary classification
+    def generate_proba_predictions(self, model, data = None, position = 1, threshold = 0.5):
+            
+            #TODO: Expand to more than binary classification
+
+            which_model = self.get_pipeline_object(model)
+            if data is None:
+                data = self.X_test
+
+            if (hasattr(which_model.named_steps['classifier'],  "predict_proba")):
+                print("Proba analysing: " + model +" predict_proba" + " at list postion " + str(position -1))
+                return (which_model.predict_proba(data)[:,1] > threshold).astype(int)
+            else:
+                print("No implemented method for " + model)
+                return
+
+
+    def save_pipeline_object(self, model, file = "data/best_model_pipeline.pkl") -> None:
+        #Save the pipeline object for a given model
+        params = self.get_pipeline_object(model)
+        f = open(file,"wb")
+        pickle.dump(params,f)
+        f.close()
+
     def get_top_x_models(self, accuracy_metric = "Balanced Accuracy"):
         #Subsets the models df down to just be the top X models that are within a margin of the top model for a given accuracy metric
         models = self.__models
@@ -277,6 +233,7 @@ class HLazyPredict:
         models = models[models["Balanced Accuracy"] > top_accuracy - margin]
         self.__top_x_models = models
         self.num_top_x = len(models.index)
+
 
 
     def run_modelling(self):
@@ -299,6 +256,7 @@ class HLazyPredict:
         num_top_x = self.num_top_x
 
         top_predictions = self.get_model_predictions(model = model_name)
+        self.top_predictions = top_predictions
         #TODO: Update the model part to get coefficients for top X models rather than just top 1
 
         coeff_list = list()
@@ -306,6 +264,55 @@ class HLazyPredict:
             coeffs_df = self.generate_coeffs_df(model= self.__get_top_model(position = i), position = i)
             coeff_list.append(coeffs_df)
         
+        # save the best model as a pickle file that can be imported later for deployment/usage
+        self.save_pipeline_object(model_name)
+
+
+
+
+
         #pipeline_coeffs = self.get_pipeline_coeffs() # This sometimes fails as the coeffs are not defined for all models
 
         return models, predictions, top_predictions, coeff_list
+
+
+
+ # =========================== Visualisations/Model Performance Code ===========================
+    def plot_confusion_matrix(self):
+        cwd = os.getcwd()
+        path = cwd + "/data/reports/" + "confusion_matrix.png"
+
+        y = self.y_test
+        #Must be run after modelling
+        preds = self.top_predictions
+        # calculate confusion matrix
+        matrix = confusion_matrix(y, preds)
+
+        # plot confusion matrix
+        _, ax = plt.subplots()
+        ax.matshow(matrix, cmap=plt.cm.Blues, alpha=0.3)
+        for i in range(matrix.shape[0]):
+            for j in range(matrix.shape[1]):
+                ax.text(x=j, y=i, s=matrix[i, j], va="center", ha="center")
+
+        # axis labels
+        plt.xlabel("Predicted label")
+        plt.ylabel("True label")
+
+        # save the plot
+        plt.savefig(path)
+        "Print saved the confusion matrix to: " + path
+        plt.close()
+
+
+    def calculate_FPR_TPR(self):
+        y = self.y_test
+        preds = self.top_predictions
+        FPR = sum((preds == 1) & (y == 0)) / sum(y == 0)
+        TPR = sum((preds == 1) & (y == 1)) / sum(y == 1)
+        return FPR, TPR
+
+    def __calculate_gmean(self):
+
+        FPR, TPR = self.calculate_FPR_TPR()
+        return np.sqrt(TPR * (1 - FPR))

@@ -31,27 +31,27 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size= .25,random_
 
 clf = LazyClassifier(verbose=0,ignore_warnings=True, custom_metric=None, predictions=True)
 models, predictions = clf.fit(X_train, X_test, y_train, y_test)
-#models.to_csv("data/models.csv")
-print(models)
-
 
 
 provided_models = clf.provide_models(X_train, X_test, y_train, y_test)
 which_model = provided_models["Perceptron"] # Shows pipeline
 which_model.named_steps['classifier']
+dir(which_model.named_steps['classifier'])
+
+(provided_models["XGBClassifier"].predict_proba(X_test)[:,1] > 0.5).astype(int) # proba part
+
+
+clf.fit_proba(X_train, X_test, y_train, y_test)
+#models.to_csv("data/models.csv")
+print(models)
 
 
 
+#If you wanted to implement any _proba methodology would be done as follows
+clf_predict_proba = (clf.predict_proba(X_test)[:,1] >= 0.5).astype(int)
+pd.DataFrame(clf_predict_proba).to_csv("data/coeffs/clf_predict_proba.csv", index = False)
+utils.plot_confusion_matrix(y_test, clf_predict_proba)
 
-
-# take feature names from df
-feature_names = pd.DataFrame(which_model[:-1].get_feature_names_out())
-feature_names = feature_names.rename({0: "name"}, axis=1)
-
-# concat together
-coeffs_df = pd.concat([feature_names, coeffs], axis=1)
-coeffs_df = coeffs_df.sort_values(by='coefficients', axis=0, ascending=True)
-return coeffs_df
 
 
 

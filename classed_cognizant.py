@@ -2,6 +2,7 @@ from classes.HEDA import HEDA
 from classes.HDataLoader import HDataLoader
 from classes.HPreProcess import HPreProcess
 from classes.HLazyPredict import HLazyPredict
+from utils.utils import *
 import os
 import pandas as pd
 
@@ -34,6 +35,8 @@ hlp = HLazyPredict(data, y_var= "Churn", margin = 0.1)
 
 models, predictions, top_predictions, coeffs_df = hlp.run_modelling()
 
+hlp.plot_confusion_matrix()
+
 models
 coeffs_df[4]
 
@@ -41,3 +44,9 @@ coeffs_df[4]
 models.to_csv("data/cognizant_models.csv")
 top_predictions.to_csv("data/cognizant_top_predictions.csv")
 coeffs_df[4].to_csv("data/cognizant_coeffs_df.csv")
+
+
+#Model deployment idea - need to ensure that the model that is saved has the predict_proba method
+test_model = import_pickled_model("data/best_model_pipeline.pkl")
+x_test = data.sample(n=1).drop(columns = "Churn")
+(test_model.predict_proba(X_test)[:,1] > 0.5).astype(int)[0]
