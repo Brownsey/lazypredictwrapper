@@ -14,7 +14,7 @@ import pickle
 class HLazyPredict:
 
     def __init__(self, df: pd.DataFrame, y_var: str, random_state: int = 666,
-    modelling_type:str = "classifier", test_size: float = 0.2, margin = 0.05):
+    modelling_type:str = "classifier", test_size: float = 0.2, margin = 0.05, threshold = 0.5):
         self.df = df                                    # input df
         self.y_var = y_var                              # input y var colname
         self.random_state = random_state
@@ -28,9 +28,9 @@ class HLazyPredict:
         self.__predictions = pd.DataFrame()             # predictions of for each row, by model attempted by vlp
         self.__pipeline = None                          # winning pipeline object selected from lazy predict
         self.model_type = None                          # string containing which model was selected
-        self.__marginal_df = pd.DataFrame()             # used as a nasty hack for calculating marginal probabilities
-        self.modelling_type = modelling_type
-        self.margin = margin
+        self.modelling_type = modelling_type            # string containing whether we are doing classification or regression
+        self.margin = margin                            # margin for determining number of models wwe are interested in
+        self.threshold = threshold                      # threshold for predict_proba predictions
 
     def __split_df_into_x_y(self) -> (pd.DataFrame, pd.Series):
         """takes a df and breaks it out into two parts, x and y"""
@@ -231,7 +231,7 @@ class HLazyPredict:
         margin = self.margin
         top_accuracy = float(models.head(1)[accuracy_metric])
         models = models[models["Balanced Accuracy"] > top_accuracy - margin]
-        self.__top_x_models = models
+        self.__top_x_models = models #This would be used to get the row_wise_counts eventually if that method was implemented
         self.num_top_x = len(models.index)
 
 
@@ -267,12 +267,6 @@ class HLazyPredict:
         # save the best model as a pickle file that can be imported later for deployment/usage
         self.save_pipeline_object(model_name)
 
-
-
-
-
-        #pipeline_coeffs = self.get_pipeline_coeffs() # This sometimes fails as the coeffs are not defined for all models
-
         return models, predictions, top_predictions, coeff_list
 
 
@@ -305,7 +299,7 @@ class HLazyPredict:
         plt.close()
 
 
-    def calculate_FPR_TPR(self):
+    def __calculate_FPR_TPR(self):
         y = self.y_test
         preds = self.top_predictions
         FPR = sum((preds == 1) & (y == 0)) / sum(y == 0)

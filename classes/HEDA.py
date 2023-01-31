@@ -90,6 +90,9 @@ class HEDA:
 
 
     def get_pandas_profiling(self) -> None:
+        """
+        Creates an html file using the pandas profiling library
+        """
         profile = pp.ProfileReport(self.df, title = "Exploratory Data Analysis")
         cwd = os.getcwd()
         path = cwd + "/data/reports/"
@@ -100,6 +103,9 @@ class HEDA:
 
 
     def get_eda(self):
+        """
+        Prints out some useful eda information to terminal
+        """ 
         print("---------------------------------------------------------------------------------")
         print("Total Columns:" + str(len(self.df.columns)))
         print("Number of Categorical Features: ", len([x for x in self.df.select_dtypes(include=['object'])]))
@@ -113,6 +119,9 @@ class HEDA:
         print(self.df.describe())
 
     def print_value_counts(self):
+        """
+        Prints out the value counts for each column in the dataframe
+        """
         for i in self.df.columns:
             print(pd.DataFrame(self.df[i].value_counts(dropna = False)))
 
@@ -130,6 +139,9 @@ class HEDA:
         return df
 
     def run_eda(self):
+        """
+        A runnable eda function that will run all the eda functions based on an input config
+        """
         config = self.config
         if self.config == None:
             print("Config not set! Please set config and try again")
@@ -157,5 +169,5 @@ class HEDA:
 
    # TODO: Implement some column checking code
    # So idea is to use like check_int on say a year column which would check but if it was "correct"
-   # But not sure how this would be automated for example inside of the autoclass side of things.
+   # This would end up being a sub-class to contain just column checking info and then get imported into this HEDA class
 

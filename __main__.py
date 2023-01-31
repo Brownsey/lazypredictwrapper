@@ -21,8 +21,8 @@ def main():
 
     #Eda section
     print("Running the EDA class")
-    #eda = HEDA(data, config=eda_config)
-    #eda.run_eda()
+    eda = HEDA(data, config=eda_config)
+    eda.run_eda()
 
     ##### Pre-processing section
     preprocess = HPreProcess(data, config = preprocess_config)
@@ -33,7 +33,7 @@ def main():
 
     hlp = HLazyPredict(data, y_var= "Churn", margin = 0.1)
 
-    models, predictions, top_predictions, coeffs_df = hlp.run_modelling()
+    models, _, top_predictions, coeffs_df = hlp.run_modelling()
 
     models
     coeffs_df[4]

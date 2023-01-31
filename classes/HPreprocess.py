@@ -21,7 +21,7 @@ class HPreProcess:
         
 
         #Overrites if config is passed in and contains them and won't break if invalid config put in
-        #TODO: could probably be cleaned up
+        #TODO: could probably be cleaned up a bit
         if config != None:
             if "drop_duplicates" in config:
                 if config["drop_duplicates"] != "None":
@@ -130,6 +130,11 @@ class HPreProcess:
         for i in range(0, len(columns)):
             self.__date_feature_engineerer(column = columns[i])
         return self.data
+
+    #TODO: Add code to handle N/As with the following options:
+    """
+    Mode, Mean, Median, ML model to predict the value
+    """
 
     def run_preprocess(self):
         config = self.config
