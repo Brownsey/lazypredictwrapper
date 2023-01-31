@@ -99,8 +99,10 @@ class HLazyPredict:
             return self.__pipeline
 
     def get_pipeline_coeffs(self) -> pd.DataFrame:
-        """where appropriate, pull coeffs from a pipeline"""
-
+        """
+        where appropriate, pull coeffs from a pipeline
+        Currently not used in favour of generate_coefficients_df
+        """
         if self.__pipeline:
 
             # pull coeff information from pipeline
@@ -121,11 +123,14 @@ class HLazyPredict:
 
    
     def get_row_wise_mode_counts(self):
-    #TODO: Add code to only select top X predictions
-    #TODO: Think about best way to select top X - should it be off a threshold accuracy?
-    # or within X % of the top accuracy?
-    # Essentially would act as a bagging approach for the top X models chosen
-    # Current downsides is it uses all models - some of which are very bad and the combination is not better than the best model
+        """
+        TODO: Add code to only select top X predictions
+        TODO: Think about best way to select top X - should it be off a threshold accuracy?
+        or within X % of the top accuracy?
+        Essentially would act as a bagging approach for the top X models chosen
+        Current downsides is it uses all models - some of which are very bad and the combination is not better than the best model
+        """
+  
         predictions = self.__predictions
         p = self.__predictions.values.T
         m = stats.mode(p)
@@ -136,13 +141,13 @@ class HLazyPredict:
 
 
     def __get_top_model(self, position  = 1):
-        #Return model name at position in the list of models
+        """Return model name at position in the list of models"""
         models = self.__models
         # This is needed because the index is included in the model name like '0    NearestCentroid'
         return models["Model"].head(position).to_string().split(" ")[-1]
 
     def get_model_predictions(self, model):
-        #Pretty hacky code but just gets the predictions from the best model essentially 
+        """Return the predictions for a given model"""
         return self.__predictions[model] 
 
 
@@ -203,30 +208,44 @@ class HLazyPredict:
 
     #Currently only works for binary classification
     def generate_proba_predictions(self, model, data = None, position = 1, threshold = 0.5):
-            
-            #TODO: Expand to more than binary classification
+        """
+        Generates predictions based on the _predict_proba method of the pipeline object
+        It's worth noting that a lot of the models do not have this method
+        In this case the .predict method should be run as that's more widely available
 
-            which_model = self.get_pipeline_object(model)
-            if data is None:
-                data = self.X_test
+        Args:
+            model (str): model name
+            data (df, optional): Optional dataframe for use in predicting (for example once deployed can pass in one row). Defaults to None.
+            position (int, optional): position, used for easy reading in terminal. Defaults to 1.
+            threshold (float, optional): thresholding value. Defaults to 0.5.
 
-            if (hasattr(which_model.named_steps['classifier'],  "predict_proba")):
-                print("Proba analysing: " + model +" predict_proba" + " at list postion " + str(position -1))
-                return (which_model.predict_proba(data)[:,1] > threshold).astype(int)
-            else:
-                print("No implemented method for " + model)
-                return
+        Returns:
+            array: Returns an array of all the predictions
+        """
+        
+        #TODO: Expand to more than binary classification
+
+        which_model = self.get_pipeline_object(model)
+        if data is None:
+            data = self.X_test
+
+        if (hasattr(which_model.named_steps['classifier'],  "predict_proba")):
+            print("Proba analysing: " + model +" predict_proba" + " at list postion " + str(position -1))
+            return (which_model.predict_proba(data)[:,1] > threshold).astype(int)
+        else:
+            print("No implemented method for " + model)
+            return
 
 
     def save_pipeline_object(self, model, file = "data/best_model_pipeline.pkl") -> None:
-        #Save the pipeline object for a given model
+        """Save the pipeline object for a given model"""
         params = self.get_pipeline_object(model)
         f = open(file,"wb")
         pickle.dump(params,f)
         f.close()
 
     def get_top_x_models(self, accuracy_metric = "Balanced Accuracy"):
-        #Subsets the models df down to just be the top X models that are within a margin of the top model for a given accuracy metric
+        """Subsets the models df down to just be the top X models that are within a margin of the top model for a given accuracy metric"""
         models = self.__models
         margin = self.margin
         top_accuracy = float(models.head(1)[accuracy_metric])
@@ -237,7 +256,10 @@ class HLazyPredict:
 
 
     def run_modelling(self):
-        """main function for testing"""
+        """
+        main function for testing, eventually this will be run off a modelling.config file but is not quite complete yet
+        Runs the lazy classifier and uses the pipeline object to get the required information for each model
+        """
         if self.modelling_type == "classifier":
             self.very_lazy_classifier()
         elif self.modelling_type == "regressor":
@@ -257,7 +279,6 @@ class HLazyPredict:
 
         top_predictions = self.get_model_predictions(model = model_name)
         self.top_predictions = top_predictions
-        #TODO: Update the model part to get coefficients for top X models rather than just top 1
 
         coeff_list = list()
         for i in range(1, num_top_x + 1):
@@ -272,7 +293,11 @@ class HLazyPredict:
 
 
  # =========================== Visualisations/Model Performance Code ===========================
+ # Will probably look to subclass this once it's a big bigger
     def plot_confusion_matrix(self):
+        """
+        Plots a confusion matrix for the top model
+        """
         cwd = os.getcwd()
         path = cwd + "/data/reports/" + "confusion_matrix.png"
 
@@ -300,6 +325,9 @@ class HLazyPredict:
 
 
     def __calculate_FPR_TPR(self):
+        """
+        Calculates the False Positive Rate and True Positive Rate for the top model
+        """
         y = self.y_test
         preds = self.top_predictions
         FPR = sum((preds == 1) & (y == 0)) / sum(y == 0)
@@ -307,6 +335,10 @@ class HLazyPredict:
         return FPR, TPR
 
     def __calculate_gmean(self):
+        """
+        Calculates the gmean for the top model, good if imbalanced classes
+        Can use to help choose the thresholding for the model
+        """
 
         FPR, TPR = self.calculate_FPR_TPR()
         return np.sqrt(TPR * (1 - FPR))

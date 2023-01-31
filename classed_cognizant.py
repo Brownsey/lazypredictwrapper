@@ -5,7 +5,9 @@ from classes.HLazyPredict import HLazyPredict
 from utils.utils import *
 import os
 import pandas as pd
+import time
 
+start = time.time()
 #Required Paths
 eda_config_location = "data/cognizant_config.json"
 data_path_str = "data/AIA_Churn_Modelling_Case_Study.csv"
@@ -21,8 +23,8 @@ preprocess_config = hdl.load_a_json(location= os.path.abspath(pre_process_config
 
 #Eda section
 print("Running the EDA class")
-#eda = HEDA(data, config=eda_config)
-#eda.run_eda()
+eda = HEDA(data, config=eda_config)
+eda.run_eda()
 
 ##### Pre-processing section
 preprocess = HPreProcess(data, config = preprocess_config)
@@ -37,12 +39,12 @@ models, predictions, top_predictions, coeffs_df = hlp.run_modelling()
 hlp.plot_confusion_matrix()
 
 models
-coeffs_df[4]
+coeffs_df[9]
 
 #Data saving section
 models.to_csv("data/cognizant_models.csv")
 top_predictions.to_csv("data/cognizant_top_predictions.csv")
-coeffs_df[4].to_csv("data/cognizant_coeffs_df.csv")
+coeffs_df[9].to_csv("data/cognizant_coeffs_df.csv")
 
 
 #Model deployment idea
@@ -62,10 +64,19 @@ elif (hasattr(test_model,  "predict")):
        prediction = (test_model.predict(x_test)).astype(int)[0]
 else:
        prediction = "No Prediction method implemented for this model"
-print("The prediction is" + str(prediction))
+print("The prediction is: " + str(prediction))
+end = time.time()
+
+print("The time taken to run the script is " + str(round((end - start), 1)) + " seconds")
 
 #This can then be deployed via a fastapi or flask app and deployed on cloudrun and then accessed via the requests library as an endpoint
 #Cloud run - Good scalability based on demand so in GCP a good option
 #Other options - IN GCP would be building the entire pipeline in the Vertex AI platform
        
+
+
+#Extra time: I think there could have been some interesting insight which could have been gained from looking at tenure
+#and the churn rate and how this changes over time
+#Modelling time till churn may be a good way to take the modelling in the future
+#Then also looking at lifetime value of a customer and assessing which discounts should be offered to try and keep them
        

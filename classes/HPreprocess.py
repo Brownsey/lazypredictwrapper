@@ -51,11 +51,13 @@ class HPreProcess:
                     self.change_type = False # not required but heyho
 
     def column_dropper(self):
+        """Function to drop columns from the dataset"""
         print("dropping columns" + str(self.columns_to_drop))
         self.data = self.data.drop(columns = self.columns_to_drop, errors = "ignore")
         return self.data
     
     def __no_yes_aligner(self, row):
+        """Function to align the no_yes columns to a binary format"""
         if(row == "No"):
             return "N"
         elif(row == "Yes"):
@@ -64,6 +66,7 @@ class HPreProcess:
             return row
 
     def __binary_aligner(self, row):
+        """More generic version of no_yes_aligner"""
         txt = row.lower()
         if(txt == "n" or txt == "no"):
             return 0
@@ -71,6 +74,8 @@ class HPreProcess:
             return 1
         else:
             return 2 # This is an invalid value and can be used to check for errors
+
+    #The running functions then run the aligners
 
     def run_binary_aligner(self):
         print("Running binary_aligner")
@@ -89,7 +94,7 @@ class HPreProcess:
                 self.run_no_yes_aligner()
 
     def update_types(self):
-        #Update data types
+        """This function will update the types of the columns to the correct types"""
         if self.numeric != False:
             print("Updating float columns" + str(self.numeric))
             self.data[self.numeric] = self.data[self.numeric].apply(pd.to_numeric, errors='coerce')
@@ -104,7 +109,7 @@ class HPreProcess:
     def __date_feature_engineerer(self, column):
         """
         Function to do some date feature engineerig (untested)
-        TODO: Test it actually works lol
+        TODO: Test it.
 
         Args:
             column (str): Column to apply to feature engineering to
@@ -137,6 +142,7 @@ class HPreProcess:
     """
 
     def run_preprocess(self):
+        """This runs the preporcessing code based on an input config file"""
         config = self.config
         if self.config == None:
             print("Config not set! Please set config and try again")
